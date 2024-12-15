@@ -17,11 +17,18 @@
         </div>
     </div>
 
+    <!-- Includi jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <!-- Includi game.js se contiene la funzione generatePDF -->
     <script src="game.js"></script>
+
     <script>
+        // Funzione per generare il PDF e scaricarlo
         document.getElementById("download-pdf").addEventListener("click", function() {
-            const doc = generatePDF(); // Genera il PDF
-            doc.save('quiz_results.pdf'); // Salva il PDF quando l'utente clicca
+            const { jsPDF } = window.jspdf; // Prende jsPDF dalla libreria inclusa
+            const doc = generatePDF(); // Chiama la funzione generatePDF che hai già definito
+            doc.save('quiz_results.pdf'); // Salva il file PDF
         });
     </script>
 </body>

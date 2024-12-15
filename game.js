@@ -160,7 +160,7 @@ function generatePDF() {
         // Verifica se abbiamo spazio per aggiungere la domanda corrente, altrimenti aggiungi una nuova pagina
         if (yOffset + (questionData.choices.length + 1) * lineHeight > maxY) {
             doc.addPage();
-            yOffset = 10; // Reset yOffset per la nuova pagina
+            yOffset = 20; // Reset yOffset per la nuova pagina
         }
 
         // Aggiungi la domanda

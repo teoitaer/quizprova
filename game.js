@@ -202,6 +202,11 @@ function generatePDF() {
 
      // Restituisce il documento PDF
    // return doc;
+
+// Reindirizza l'utente alla pagina end.html dopo aver salvato il PDF
+    setTimeout(() => {
+        window.location.assign('/quizprova/end.html');
+    }, 1000); // Imposta un timeout di 1 secondo per garantire che il PDF venga scaricato correttamente prima del redirect
 }
 
 

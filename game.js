@@ -175,5 +175,33 @@ function loadQuestion(question, choices, selectedAnswer) {
 // Modifica il caricamento della domanda e del tracciamento della risposta
 // Aggiungi il codice di tracciamento al momento in cui l'utente seleziona una risposta
 
+ function generatePDF() {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+
+  // Impostazioni di base
+  let yOffset = 10; // Distanza dall'alto del documento
+
+  questionsArray.forEach((questionData, index) => {
+    doc.text(`Q${index + 1}: ${questionData.question}`, 10, yOffset);
+    yOffset += 10; // Spazio per la domanda
+
+    questionData.choices.forEach((choice, i) => {
+      const choiceLetter = String.fromCharCode(65 + i); // A, B, C, D...
+      const isSelected = questionData.selectedAnswer === choice ? "(Selected)" : "";
+      const isCorrect = questionData.correctAnswer === choice ? "(Correct)" : "";
+      doc.text(`${choiceLetter}. ${choice} ${isSelected} ${isCorrect}`, 10, yOffset);
+      yOffset += 10; // Spazio tra le risposte
+    });
+
+    yOffset += 10; // Spazio extra tra le domande
+  });
+
+  // Salva il PDF
+  doc.save('quiz_results.pdf');
+}
+
+// Chiama la funzione al termine del quiz
+document.getElementById('save-pdf').addEventListener('click', generatePDF);
 
 };

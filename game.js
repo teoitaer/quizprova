@@ -11,69 +11,52 @@ let questionCounter = 0;
 let availableQuesions = [];
 
 let questions = [];
+let quizResults = [];  // Array per salvare le risposte
 
-
- // legge il valore inserito nella combobox numsel di index.html
+// legge il valore inserito nella combobox numsel di index.html
 var a = localStorage.getItem("terValue");
-    //alert(a);
-
- // legge il valore inserito nella combobox numsel di index.html
 var x = localStorage.getItem("selValue");
-   // alert(x);
-
-// legge il valore inserito nella combobox subjectsel di index.html
 var y = localStorage.getItem("secValue");
-   // alert(y);
-
-
 
 // carica il database per la materia selezionata
 var z;
-if(y=="AL ENG"){
-    z='alen.json';
-} else if (y=="AGK ENG"){
-    z='agken.json';
-} else if (y=="OPS ENG"){
-    z='opsen.json';
-} else if (y=="HPL ENG"){
-    z='hplen.json';
-} else if (y=="NAV ENG"){
-    z='naven.json';
-} else if (y=="MET ENG"){
-    z='meten.json';
-} else if (y=="FPP ENG"){
-    z='fppen.json';
-} else if (y=="POF ENG"){
-    z='pofen.json';
-} else if (y=="COM ENG"){
-    z='comen.json';
-} 
+if (y == "AL ENG") {
+    z = 'alen.json';
+} else if (y == "AGK ENG") {
+    z = 'agken.json';
+} else if (y == "OPS ENG") {
+    z = 'opsen.json';
+} else if (y == "HPL ENG") {
+    z = 'hplen.json';
+} else if (y == "NAV ENG") {
+    z = 'naven.json';
+} else if (y == "MET ENG") {
+    z = 'meten.json';
+} else if (y == "FPP ENG") {
+    z = 'fppen.json';
+} else if (y == "POF ENG") {
+    z = 'pofen.json';
+} else if (y == "COM ENG") {
+    z = 'comen.json';
+}
 
-
-
- fetch(z)
-    .then(res => { return res.json();})
+fetch(z)
+    .then(res => { return res.json(); })
     .then(loadedQuestions => {
         questions = loadedQuestions;
-       
         startGame();
     })
-     .catch(err => {
-         console.error(err);
+    .catch(err => {
+        console.error(err);
     });
 
-
-
-
-//CONSTANTS
+// CONSTANTS
 const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = x;
-
 
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    
     availableQuesions = [...questions];
     getNewQuestion();
 };
@@ -81,44 +64,27 @@ startGame = () => {
 getNewQuestion = () => {
 
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-         localStorage.setItem('mostRecentScore', scoreText.innerText);
-
-        //go to the end page
+        localStorage.setItem('mostRecentScore', scoreText.innerText);
+        generatePDF();  // Chiama la funzione per generare il PDF
         return window.location.assign('end.html');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-    //Update the progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    
-    
-// nuovo
+    var b;
+    if (a == "NO") {
+        b = 0;
+    } else if (a == "YES") {
+        b = Math.floor(Math.random() * availableQuesions.length);
+    }
 
-    // la variabile b prende il valore dalla chackbox random in index.html. 
-    // il codice imposta le domande in ordine sequenziale o random
-var b;
-
-    if (a=="NO"){
-    b= 0;
-} else if (a=="YES") {
-    b = Math.floor(Math.random() * availableQuesions.length);
-}
-
-// alert(b);
-     
-const questionIndex = b
-
-    // fine nuovo 
+    const questionIndex = b;
 
     currentQuestion = availableQuesions[questionIndex];
-// riempie il campo id
     questionid.innerText = currentQuestion.questionid;
-
-// riempie il campo domanda
     question.innerText = currentQuestion.question;
 
-// riempie i campi delle risposte
     choices.forEach((choice) => {
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
@@ -143,6 +109,19 @@ choices.forEach((choice) => {
             incrementScore(CORRECT_BONUS);
         }
 
+        // Aggiungi la risposta selezionata ai risultati
+        quizResults.push({
+            question: currentQuestion.question,
+            choices: [
+                currentQuestion.choice1,
+                currentQuestion.choice2,
+                currentQuestion.choice3,
+                currentQuestion.choice4
+            ],
+            selectedAnswer: selectedAnswer,
+            correctAnswer: currentQuestion.answer
+        });
+
         selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
@@ -154,10 +133,30 @@ choices.forEach((choice) => {
 
 incrementScore = (num) => {
     score += num;
-
-      scoreText.innerText = (score/x) * 100;
-    
-
-
-
+    scoreText.innerText = (score / x) * 100;
 };
+
+// Funzione per generare il PDF
+function generatePDF() {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    let yOffset = 10; // Distanza dall'alto del documento
+
+    quizResults.forEach((questionData, index) => {
+        doc.text(`Q${index + 1}: ${questionData.question}`, 10, yOffset);
+        yOffset += 10;
+
+        questionData.choices.forEach((choice, i) => {
+            const choiceLetter = String.fromCharCode(65 + i); // A, B, C, D...
+            const isSelected = questionData.selectedAnswer == (i + 1) ? "(Selected)" : "";
+            const isCorrect = questionData.correctAnswer == (i + 1) ? "(Correct)" : "";
+            doc.text(`${choiceLetter}. ${choice} ${isSelected} ${isCorrect}`, 10, yOffset);
+            yOffset += 10;
+        });
+
+        yOffset += 10; // Spazio extra tra le domande
+    });
+
+    doc.save('quiz_results.pdf');
+}
+

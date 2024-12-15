@@ -198,10 +198,10 @@ function generatePDF() {
     });
 
     // salva automaticamente il PDF
-   // doc.save('quiz_results.pdf');
+    doc.save('quiz_results.pdf');
 
      // Restituisce il documento PDF
-    return doc;
+   // return doc;
 }
 
 

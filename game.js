@@ -145,12 +145,16 @@ incrementScore = (num) => {
 function generatePDF() {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
-    const pageWidth = doc.internal.pageSize.width; // Larghezza della pagina
-    const margin = 10; // Margine per il testo
-    const textWidth = pageWidth - 2 * margin; // Larghezza disponibile per il testo
-    let yOffset = 10; // Distanza iniziale dall'alto della pagina
+    
+    // Impostare margini più stretti
+    const margin = 5; // Margine più stretto
+    const textWidth = doc.internal.pageSize.width - 2 * margin; // Larghezza disponibile per il testo
+    const lineHeight = 8; // Altezza di una riga di testo più piccola
     const maxY = 280; // Altezza massima prima di andare a capo (per evitare sovrapposizioni)
-    const lineHeight = 10; // Altezza di una riga di testo
+    let yOffset = 10; // Distanza iniziale dall'alto della pagina
+    
+    // Imposta il carattere più piccolo
+    doc.setFontSize(8); // Dimensione del carattere più piccola
 
     quizResults.forEach((questionData, index) => {
         // Verifica se abbiamo spazio per aggiungere la domanda corrente, altrimenti aggiungi una nuova pagina

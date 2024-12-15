@@ -136,9 +136,18 @@ incrementScore = (num) => {
     scoreText.innerText = (score / x) * 100;
 };
 
+
+
+
+
+
+
 function generatePDF() {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
+    const pageWidth = doc.internal.pageSize.width; // Larghezza della pagina
+    const margin = 10; // Margine per il testo
+    const textWidth = pageWidth - 2 * margin; // Larghezza disponibile per il testo
     let yOffset = 10; // Distanza iniziale dall'alto della pagina
     const maxY = 280; // Altezza massima prima di andare a capo (per evitare sovrapposizioni)
 
@@ -149,15 +158,22 @@ function generatePDF() {
             yOffset = 10; // Reset yOffset per la nuova pagina
         }
 
-        doc.text(`Q${index + 1}: ${questionData.question}`, 10, yOffset);
-        yOffset += 10;
+        // Aggiungi la domanda
+        let questionText = `Q${index + 1}: ${questionData.question}`;
+        let questionLines = doc.splitTextToSize(questionText, textWidth);
+        doc.text(questionLines, margin, yOffset);
+        yOffset += questionLines.length * 10; // Aumenta l'offset in base al numero di righe
 
+        // Aggiungi le risposte
         questionData.choices.forEach((choice, i) => {
             const choiceLetter = String.fromCharCode(65 + i); // A, B, C, D...
             const isSelected = questionData.selectedAnswer == (i + 1) ? "(Selected)" : "";
             const isCorrect = questionData.correctAnswer == (i + 1) ? "(Correct)" : "";
-            doc.text(`${choiceLetter}. ${choice} ${isSelected} ${isCorrect}`, 10, yOffset);
-            yOffset += 10;
+
+            let choiceText = `${choiceLetter}. ${choice} ${isSelected} ${isCorrect}`;
+            let choiceLines = doc.splitTextToSize(choiceText, textWidth);
+            doc.text(choiceLines, margin, yOffset);
+            yOffset += choiceLines.length * 10; // Aumenta l'offset in base al numero di righe
         });
 
         yOffset += 10; // Spazio extra tra le domande

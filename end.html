@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Quiz End</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz End Page</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="game.css">
 </head>
 <body>
-    <h1>Quiz Finished!</h1>
-    <button id="download-pdf">Download Results PDF</button>
+    <div class="container">
+        <div id="end-screen" class="justify-center flex-column">
+            <h1>Quiz Finished!</h1>
+            <p>Click the button below to download your quiz results as a PDF.</p>
+            <button id="download-pdf" class="download-btn">Download PDF</button>
+        </div>
+    </div>
 
     <script src="game.js"></script>
+    <script>
+        document.getElementById("download-pdf").addEventListener("click", function() {
+            const doc = generatePDF(); // Genera il PDF
+            doc.save('quiz_results.pdf'); // Salva il PDF quando l'utente clicca
+        });
+    </script>
 </body>
 </html>

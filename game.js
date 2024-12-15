@@ -150,10 +150,11 @@ function generatePDF() {
     const textWidth = pageWidth - 2 * margin; // Larghezza disponibile per il testo
     let yOffset = 10; // Distanza iniziale dall'alto della pagina
     const maxY = 280; // Altezza massima prima di andare a capo (per evitare sovrapposizioni)
+    const lineHeight = 10; // Altezza di una riga di testo
 
     quizResults.forEach((questionData, index) => {
         // Verifica se abbiamo spazio per aggiungere la domanda corrente, altrimenti aggiungi una nuova pagina
-        if (yOffset > maxY) {
+        if (yOffset + (questionData.choices.length + 1) * lineHeight > maxY) {
             doc.addPage();
             yOffset = 10; // Reset yOffset per la nuova pagina
         }
@@ -162,7 +163,7 @@ function generatePDF() {
         let questionText = `Q${index + 1}: ${questionData.question}`;
         let questionLines = doc.splitTextToSize(questionText, textWidth);
         doc.text(questionLines, margin, yOffset);
-        yOffset += questionLines.length * 10; // Aumenta l'offset in base al numero di righe
+        yOffset += questionLines.length * lineHeight; // Aumenta l'offset in base al numero di righe
 
         // Aggiungi le risposte
         questionData.choices.forEach((choice, i) => {
@@ -173,7 +174,7 @@ function generatePDF() {
             let choiceText = `${choiceLetter}. ${choice} ${isSelected} ${isCorrect}`;
             let choiceLines = doc.splitTextToSize(choiceText, textWidth);
             doc.text(choiceLines, margin, yOffset);
-            yOffset += choiceLines.length * 10; // Aumenta l'offset in base al numero di righe
+            yOffset += choiceLines.length * lineHeight; // Aumenta l'offset in base al numero di righe
         });
 
         yOffset += 10; // Spazio extra tra le domande
@@ -181,5 +182,4 @@ function generatePDF() {
 
     doc.save('quiz_results.pdf');
 }
-
 

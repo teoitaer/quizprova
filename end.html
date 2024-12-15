@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Completed!</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
-    <script src="end.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz End Page</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="game.css">
 </head>
 <body>
-    <h1>Quiz Completed!</h1>
-    <p>Your score is: <span id="finalScore"></span></p>
-    <button id="download-pdf">Download PDF</button>
+    <div class="container">
+        <div id="end-screen" class="justify-center flex-column">
+            <h1>Quiz Finished!!!</h1>
+            <p>Click the button below to download your quiz results as a PDF.</p>
+            <button id="download-pdf" class="download-btn">Download PDF</button>
+        </div>
+    </div>
+
+    <!-- Includi jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <!-- Includi game.js se contiene la funzione generatePDF -->
+    <script src="game.js"></script>
 
     <script>
-        // Mostra il punteggio finale
-        const finalScore = localStorage.getItem('mostRecentScore');
-        document.getElementById('finalScore').innerText = finalScore;
-
-        // Quando viene cliccato il pulsante, scarica il PDF
-        document.getElementById('download-pdf').addEventListener('click', function() {
-            const quizResults = JSON.parse(localStorage.getItem('quizResults')); // Recupera i risultati salvati
-            generatePDF(quizResults); // Chiama la funzione per generare il PDF
+        // Funzione per generare il PDF e scaricarlo
+        document.getElementById("download-pdf").addEventListener("click", function() {
+            const { jsPDF } = window.jspdf; // Prende jsPDF dalla libreria inclusa
+            const doc = generatePDF(); // Chiama la funzione generatePDF che hai già definito
+            doc.save('quiz_results.pdf'); // Salva il file PDF
         });
     </script>
 </body>

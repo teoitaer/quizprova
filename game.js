@@ -156,8 +156,24 @@ incrementScore = (num) => {
     score += num;
 
       scoreText.innerText = (score/x) * 100;
-    
 
+// codice nuovo per pdf
+
+ 
+let questionsArray = [];
+
+function loadQuestion(question, choices, selectedAnswer) {
+  // Aggiungi la domanda corrente e le risposte all'array
+  questionsArray.push({
+    question: question,
+    choices: choices,
+    selectedAnswer: selectedAnswer,
+    correctAnswer: correctAnswer // Se disponibile
+  });
+}
+
+// Modifica il caricamento della domanda e del tracciamento della risposta
+// Aggiungi il codice di tracciamento al momento in cui l'utente seleziona una risposta
 
 
 };

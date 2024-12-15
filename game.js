@@ -69,8 +69,8 @@ getNewQuestion = () => {
         return window.location.assign('/quizprova/end.html');
     }
     questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+    progressText.innerText = Question ${questionCounter}/${MAX_QUESTIONS};
+    progressBarFull.style.width = ${(questionCounter / MAX_QUESTIONS) * 100}%;
 
     var b;
     if (a == "NO") {
@@ -164,7 +164,7 @@ function generatePDF() {
         }
 
         // Aggiungi la domanda
-        let questionText = `Q${index + 1}: ${questionData.question}`;
+        let questionText = Q${index + 1}: ${questionData.question};
         let questionLines = doc.splitTextToSize(questionText, textWidth);
         doc.text(questionLines, margin, yOffset);
         yOffset += questionLines.length * lineHeight; // Aumenta l'offset in base al numero di righe
@@ -175,7 +175,7 @@ function generatePDF() {
             const isSelected = questionData.selectedAnswer == (i + 1) ? "(Selected)" : "";
             const isCorrect = questionData.correctAnswer == (i + 1) ? "(Correct)" : "";
 
-            let choiceText = `${choiceLetter}. ${choice} ${isSelected} ${isCorrect}`;
+            let choiceText = ${choiceLetter}. ${choice} ${isSelected} ${isCorrect};
 
             // Impostiamo il colore in base alla risposta
             if (questionData.selectedAnswer == (i + 1) && questionData.correctAnswer == (i + 1)) {
@@ -203,6 +203,4 @@ function generatePDF() {
      // Restituisce il documento PDF
    // return doc;
 }
-
-
 

@@ -66,7 +66,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', scoreText.innerText);
         generatePDF();  // Chiama la funzione per generare il PDF
-        return window.location.assign('end.html');
+        return window.location.assign('quizprova/end.html');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;

@@ -197,6 +197,10 @@ function generatePDF() {
         yOffset += 10; // Spazio extra tra le domande
     });
 
-    doc.save('quiz_results.pdf');
+    // salva automaticamente il PDF
+   // doc.save('quiz_results.pdf');
+
+     // Restituisce il documento PDF
+    return doc;
 }
 

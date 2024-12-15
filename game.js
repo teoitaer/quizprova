@@ -136,13 +136,19 @@ incrementScore = (num) => {
     scoreText.innerText = (score / x) * 100;
 };
 
-// Funzione per generare il PDF
 function generatePDF() {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
-    let yOffset = 10; // Distanza dall'alto del documento
+    let yOffset = 10; // Distanza iniziale dall'alto della pagina
+    const maxY = 280; // Altezza massima prima di andare a capo (per evitare sovrapposizioni)
 
     quizResults.forEach((questionData, index) => {
+        // Verifica se abbiamo spazio per aggiungere la domanda corrente, altrimenti aggiungi una nuova pagina
+        if (yOffset > maxY) {
+            doc.addPage();
+            yOffset = 10; // Reset yOffset per la nuova pagina
+        }
+
         doc.text(`Q${index + 1}: ${questionData.question}`, 10, yOffset);
         yOffset += 10;
 
@@ -159,4 +165,5 @@ function generatePDF() {
 
     doc.save('quiz_results.pdf');
 }
+
 

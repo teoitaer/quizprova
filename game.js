@@ -147,11 +147,11 @@ function generatePDF() {
     const doc = new jsPDF();
     
     // Impostare margini più stretti
-    const margin = 5; // Margine più stretto
+    const margin = 20; // Margine più stretto
     const textWidth = doc.internal.pageSize.width - 2 * margin; // Larghezza disponibile per il testo
     const lineHeight = 8; // Altezza di una riga di testo più piccola
     const maxY = 280; // Altezza massima prima di andare a capo (per evitare sovrapposizioni)
-    let yOffset = 10; // Distanza iniziale dall'alto della pagina
+    let yOffset = 20; // Distanza iniziale dall'alto della pagina
     
     // Imposta il carattere più piccolo
     doc.setFontSize(8); // Dimensione del carattere più piccola

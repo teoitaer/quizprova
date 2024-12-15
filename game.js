@@ -63,15 +63,13 @@ startGame = () => {
 
 getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-    localStorage.setItem('mostRecentScore', scoreText.innerText);
-    // Vai alla pagina finale
+    saveResults();  // Salva i risultati quando il quiz finisce
     return window.location.assign('end.html');
   }
   questionCounter++;
   progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
   progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-  // Determina se la domanda deve essere in ordine sequenziale o casuale
   let questionIndex;
   if (a == "NO") {
     questionIndex = 0;
@@ -81,7 +79,7 @@ getNewQuestion = () => {
 
   currentQuestion = availableQuesions[questionIndex];
   
-  // Traccia la domanda corrente nel PDF
+  // Traccia la domanda corrente
   questionsArray.push({
     question: currentQuestion.question,
     choices: [
@@ -120,8 +118,13 @@ choices.forEach((choice) => {
       incrementScore(CORRECT_BONUS);
     }
 
-    // Aggiungi la risposta selezionata all'array
-    questionsArray[questionCounter - 1].selectedAnswer = selectedAnswer;
+    // Registra la risposta selezionata
+    loadQuestion(currentQuestion.question, [
+      currentQuestion.choice1,
+      currentQuestion.choice2,
+      currentQuestion.choice3,
+      currentQuestion.choice4
+    ], selectedAnswer, currentQuestion.answer);
 
     selectedChoice.parentElement.classList.add(classToApply);
 
@@ -136,6 +139,23 @@ incrementScore = (num) => {
   score += num;
   scoreText.innerText = (score / x) * 100;
 };
+
+// Funzione per registrare la risposta
+function loadQuestion(question, choices, selectedAnswer, correctAnswer) {
+  quizResults.push({
+    question: question,
+    choices: choices,
+    selectedAnswer: selectedAnswer,
+    correctAnswer: correctAnswer
+  });
+}
+
+// Funzione per salvare i risultati
+function saveResults() {
+  // Salva i risultati nel localStorage
+  localStorage.setItem("quizResults", JSON.stringify(quizResults));
+  localStorage.setItem("finalScore", score);
+}
 
 // Funzione per generare il PDF
 function generatePDF() {

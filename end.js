@@ -35,64 +35,50 @@ saveHighScore = (e) => {
 
 
 
-function generatePDF() {
+function generatePDF(quizResults) {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
 
-    // Impostare margini più stretti
-    const margin = 20; // Margine più stretto
-    const textWidth = doc.internal.pageSize.width - 2 * margin; // Larghezza disponibile per il testo
-    const lineHeight = 8; // Altezza di una riga di testo più piccola
-    const maxY = 280; // Altezza massima prima di andare a capo (per evitare sovrapposizioni)
-    let yOffset = 20; // Distanza iniziale dall'alto della pagina
+    const margin = 20;
+    const textWidth = doc.internal.pageSize.width - 2 * margin;
+    const lineHeight = 8;
+    const maxY = 280;
+    let yOffset = 20;
 
-    // Imposta il carattere più piccolo
-    doc.setFontSize(8); // Dimensione del carattere più piccola
+    doc.setFontSize(8);
 
     quizResults.forEach((questionData, index) => {
-        // Verifica se abbiamo spazio per aggiungere la domanda corrente, altrimenti aggiungi una nuova pagina
         if (yOffset + (questionData.choices.length + 1) * lineHeight > maxY) {
             doc.addPage();
-            yOffset = 20; // Reset yOffset per la nuova pagina
+            yOffset = 20;
         }
 
-        // Aggiungi la domanda
         let questionText = `Q${index + 1}: ${questionData.question}`;
         let questionLines = doc.splitTextToSize(questionText, textWidth);
         doc.text(questionLines, margin, yOffset);
-        yOffset += questionLines.length * lineHeight; // Aumenta l'offset in base al numero di righe
+        yOffset += questionLines.length * lineHeight;
 
-        // Aggiungi le risposte
         questionData.choices.forEach((choice, i) => {
-            const choiceLetter = String.fromCharCode(65 + i); // A, B, C, D...
+            const choiceLetter = String.fromCharCode(65 + i);
             const isSelected = questionData.selectedAnswer == (i + 1) ? "(Selected)" : "";
             const isCorrect = questionData.correctAnswer == (i + 1) ? "(Correct)" : "";
 
             let choiceText = `${choiceLetter}. ${choice} ${isSelected} ${isCorrect}`;
 
-            // Impostiamo il colore in base alla risposta
             if (questionData.selectedAnswer == (i + 1) && questionData.correctAnswer == (i + 1)) {
-                // Risposta corretta -> verde
-                doc.setTextColor(0, 128, 0); // Verde
+                doc.setTextColor(0, 128, 0); // Verde per risposte corrette
             } else if (questionData.selectedAnswer == (i + 1) && questionData.correctAnswer != (i + 1)) {
-                // Risposta sbagliata -> rosso
-                doc.setTextColor(255, 0, 0); // Rosso
+                doc.setTextColor(255, 0, 0); // Rosso per risposte sbagliate
             } else {
-                // Risposta non selezionata o non evidenziata -> nero
-                doc.setTextColor(0, 0, 0); // Nero
+                doc.setTextColor(0, 0, 0); // Nero per altre risposte
             }
 
             let choiceLines = doc.splitTextToSize(choiceText, textWidth);
             doc.text(choiceLines, margin, yOffset);
-            yOffset += choiceLines.length * lineHeight; // Aumenta l'offset in base al numero di righe
+            yOffset += choiceLines.length * lineHeight;
         });
 
-        yOffset += 10; // Spazio extra tra le domande
+        yOffset += 10;
     });
 
-    // salva automaticamente il PDF
-   // doc.save('quiz_results.pdf');
-
-     // Restituisce il documento PDF
-    return doc;
-}
+    doc.save('quiz_results.pdf');

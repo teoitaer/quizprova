@@ -1,0 +1,2076 @@
+
+[
+ {
+"questionid": "5293",
+"question": "The thickness of the wing is defined as the distance between the lower and the upper side of the wing at the...",
+"choice1": "Most inner part of the wing.",
+"choice2": "Thinnest part of the wing.",
+"choice3": "Thickest part of the wing.",
+"choice4": "Most outer part of the wing.",
+"answer": 3
+},
+
+{
+"questionid": "5294",
+"question": "How is referred to a tubular steel construction with a non self-supporting skin?",
+"choice1": "Semi-monocoque construction.",
+"choice2": "Grid construction",
+"choice3": "Honeycomb structure",
+"choice4": "Monocoque construction",
+"answer": 2
+},
+
+{
+"questionid": "5295",
+"question": "Primary fuselage structures of wood or metal planes are usually made up by what components?",
+"choice1": "Girders, rips and stringers",
+"choice2": "Frames and stringer",
+"choice3": "Rips, frames and covers",
+"choice4": "Covers, stringers and forming parts",
+"answer": 2
+},
+
+{
+"questionid": "5297",
+"question": "A construction made of frames and stringer with a supporting skin is called...",
+"choice1": "Honeycomb structure",
+"choice2": "Grid construction.",
+"choice3": "Wood- or mixed construction.",
+"choice4": "Semi-monocoque construction.",
+"answer": 4
+},
+
+{
+"questionid": "5299",
+"question": "What are the major components of an aircraft's tail?",
+"choice1": "Ailerons and elevator",
+"choice2": "Horizontal tail and vertical tail",
+"choice3": "Rudder and ailerons",
+"choice4": "Steering wheel and pedals",
+"answer": 2
+},
+
+{
+"questionid": "5300",
+"question": "The sandwich structure consists of two...",
+"choice1": "Thin layers and a light core material",
+"choice2": "Thin layers and a heavy core material",
+"choice3": "Thick layers and a heavy core material.",
+"choice4": "Thick layers and a light core material.",
+"answer": 1
+},
+
+{
+"questionid": "5301",
+"question": "Which constructional elements give the wing its profile shape?",
+"choice1": "Rips",
+"choice2": "Planking",
+"choice3": "Spar",
+"choice4": "Tip",
+"answer": 1
+},
+
+{
+"questionid": "5302",
+"question": "The load factor n describes the relationship between...",
+"choice1": "Thrust and drag.",
+"choice2": "Drag and lift.",
+"choice3": "Lift and weight.",
+"choice4": "Weight and thrust.",
+"answer": 3
+},
+
+{
+"questionid": "5303",
+"question": "Which are the advantages of sandwich structures?",
+"choice1": "High temperature durability and low weight",
+"choice2": "Low weight, high stiffness, high stability, and high strength",
+"choice3": "Good formability and high temperature durability",
+"choice4": "High strength and good formability",
+"answer": 2
+},
+
+{
+"questionid": "5304",
+"question": "Which of the stated materials shows the highest strength?",
+"choice1": "Carbon fiber re-inforced plastic",
+"choice2": "Aluminium",
+"choice3": "Wood",
+"choice4": "Magnesium",
+"answer": 1
+},
+
+{
+"questionid": "5305",
+"question": "What needs to be considered if permissible limitations were exceeded?",
+"choice1": "The helicopter must be inspected by the pilot in command and if no defect is found, no appropriate entry in the aircraft technical log is necessary",
+"choice2": "The helicopter must be inspected by at least two pilots licensed on the type, one of whom must be the pilot in command",
+"choice3": "The helicopter must be inspected by a qualified engineer before the next flight",
+"choice4": "The helicopter must be subjected to a duplicate inspected by two engineers",
+"answer": 3
+},
+
+{
+"questionid": "5306",
+"question": "Reasons for dents in the helicopter structure are...",
+"choice1": "Material defects or old colour.",
+"choice2": "Intense erosion or high wear.",
+"choice3": "Hard landing or excessive stress.",
+"choice4": "Excessive engine rpm and cylinder defects.",
+"answer": 3
+},
+
+{
+"questionid": "5307",
+"question": "What kind of hydraulic oil is used in aeroplane systems today?",
+"choice1": "Mineral oil",
+"choice2": "Vegetable oi",
+"choice3": "Bio-oil",
+"choice4": "Synthetic oil",
+"answer": 4
+},
+
+{
+"questionid": "5309",
+"question": "The fuselage structure may be damaged by...",
+"choice1": "Exceeding the manoeuvering speed in heavy gusts.",
+"choice2": "Neutralizing stick forces according to actual flight state",
+"choice3": "Stall after exceeding the maximum angle of attack.",
+"choice4": "Airspeed decreasing below a certain value.",
+"answer": 1
+},
+
+{
+"questionid": "5311",
+"question": "How is the nose or tail wheel usually controlled on small aircraft and motor gliders?",
+"choice1": "By the steering wheel",
+"choice2": "By the control column",
+"choice3": "By weight movement",
+"choice4": "By the pedals",
+"answer": 4
+},
+
+{
+"questionid": "5312",
+"question": "Where is the brake system installed to slow the aircraft on ground?",
+"choice1": "On the tail wheel",
+"choice2": "On the nose and main gear",
+"choice3": "Only on the nose gear",
+"choice4": "Only on the main gear",
+"answer": 4
+},
+
+{
+"questionid": "5313",
+"question": "What kind of control surface is connected with the nose wheel?",
+"choice1": "Elevator",
+"choice2": "Trim rudder",
+"choice3": "Aileron",
+"choice4": "Rudder",
+"answer": 4
+},
+
+{
+"questionid": "5315",
+"question": "About how many axes does an aircraft move and how are these axes called?",
+"choice1": "4; optical axis, imaginary axis, sagged axis, axis of evil",
+"choice2": "4; vertical axis, lateral axis, longitudinal axis, axis of speed",
+"choice3": "3; x-axis, y-axis, z-axis",
+"choice4": "3; vertical axis, lateral axis, longitudinal axis",
+"answer": 4
+},
+
+{
+"questionid": "5316",
+"question": "A movement around the longitudinal axis is primarily initiated by the...",
+"choice1": "Rudder",
+"choice2": "Ailerons",
+"choice3": "Elevator",
+"choice4": "Trim tab",
+"answer": 2
+},
+
+{
+"questionid": "5317",
+"question": "How are the flight controls on a small single-engine piston aircraft normally controlled and actuated?",
+"choice1": "Power-assisted through hydraulic pumps or electric motors",
+"choice2": "Hydraulically through hydraulic pumps and actuators",
+"choice3": "Manually through rods and control cables",
+"choice4": "Electrically through fly-by-wire",
+"answer": 3
+},
+
+{
+"questionid": "5318",
+"question": "What are the primary and the secondary effects of a rudder input to the left?",
+"choice1": "Primary: yaw to the left Secondary: roll to the right",
+"choice2": "Primary: yaw to the left Secondary: roll to the left",
+"choice3": "Primary: yaw to the right Secondary: roll to the left",
+"choice4": "Primary: yaw to the right Secondary: roll to the right",
+"answer": 2
+},
+
+{
+"questionid": "5319",
+"question": "What is the effect of pulling the control yoke or stick backwards?",
+"choice1": "The aircraft's tail will produce an increased downward force, causing the aircraft's nose to drop",
+"choice2": "The aircraft's tail will produce an decreased upward force, causing the aircraft's nose to drop",
+"choice3": "The aircraft's tail will produce an increased downward force, causing the aircraft's nose to rise",
+"choice4": "The aircraft's tail will produce an increased upward force, causing the aircraft's nose to rise",
+"answer": 3
+},
+
+{
+"questionid": "5320",
+"question": "What happens to a helicopter during cruise when the stick is moved forward without other corrections?",
+"choice1": "The speed increases and the sink rate increases",
+"choice2": "The speed decreases and the sink rate increases",
+"choice3": "The speed increases and the sink rate decreases",
+"choice4": "The speed decreases and the sink rate decreases",
+"answer": 1
+},
+
+{
+"questionid": "5321",
+"question": "Which of the following options states all primary flight controls of an aircraft?",
+"choice1": "All movable parts on the aircraft which aid in controlling the aircraft",
+"choice2": "Flaps, slats, speedbrakes",
+"choice3": "Elevator, rudder, aileron",
+"choice4": "Elevator, rudder, aileron, trim tabs, high-lift wing devices, power controls",
+"answer": 3
+},
+
+{
+"questionid": "5322",
+"question": "What is the purpose of the secondary flight controls?",
+"choice1": "To constitute a backup system for the primary flight controls",
+"choice2": "To improve the performance characteristics of an aircraft and relieve the pilot of excessive control forces",
+"choice3": "To improve the turn characteristics of an aircraft in the low speed regime during approach and landing",
+"choice4": "To enable the pilot to control the aircraft's movements about its three axes",
+"answer": 2
+},
+
+{
+"questionid": "5323",
+"question": "What is the purpose of a ground adjustable trim tab?",
+"choice1": "It is set on the ground to correct an out-of-trim condition arising from the mass and balance situation of an aircraft",
+"choice2": "It is preset on the ground and further adjusted in flight to reduce the need to constantly re-trim the aircraft",
+"choice3": "It is used to optimize the handling characteristics of an aircraft during ground operations",
+"choice4": "It is a non-movable metal tab on a flight control which is adjusted on the ground to optimize the inflight characteristics of an aircraft",
+"answer": 4
+},
+
+{
+"questionid": "5324",
+"question": "The trim wheel or lever in the cockpit is moved aft by the pilot. What effect does this action have on the trim tab and on the elevator?",
+"choice1": "The trim tab moves up, the elevator moves up",
+"choice2": "The trim tab moves up, the elevator moves down",
+"choice3": "The trim tab moves down, the elevator moves up",
+"choice4": "The trim tab moves down, the elevator moves down",
+"answer": 3
+},
+
+{
+"questionid": "5325",
+"question": "When trimming an aircraft nose up, in which direction does the trim tab move?",
+"choice1": "Depends on CG position",
+"choice2": "It moves up",
+"choice3": "In direction of rudder deflection",
+"choice4": "It moves down",
+"answer": 4
+},
+
+{
+"questionid": "5326",
+"question": "How does a balance tab move in relation to the flight control surface that it is coupled with?",
+"choice1": "In the opposite direction",
+"choice2": "At an angle of 90¬∞",
+"choice3": "At an angle of 45¬∞",
+"choice4": "In the same direction",
+"answer": 1
+},
+
+{
+"questionid": "5327",
+"question": "The trim is used to...",
+"choice1": "Increase adverse yaw.",
+"choice2": "Move the centre of gravity.",
+"choice3": "Adapt the control force.",
+"choice4": "Lock control elements.",
+"answer": 3
+},
+
+{
+"questionid": "5328",
+"question": "Which of the following are an aircraft's secondary flight controls?",
+"choice1": "Elevator, rudder, aileron",
+"choice2": "All movable parts on the aircraft which aid in controlling the aircraft",
+"choice3": "Elevator, rudder, aileron, trim tabs, high-lift wing devices, power controls",
+"choice4": "Wing flaps, leading edge devices, spoilers or speedbrakes, trim systems",
+"answer": 4
+},
+
+{
+"questionid": "5329",
+"question": "What has to be considered during refueling?",
+"choice1": "Check the fuel content of the tank with a torch and remove fire protection",
+"choice2": "No open fires, obey smoking ban and apply ground cables",
+"choice3": "Refuel through a soaked rag and keep a fire extinguisher available",
+"choice4": "Apply ground wires, turn on the main switch and magneto ignition",
+"answer": 2
+},
+
+{
+"questionid": "5330",
+"question": "The primer is...",
+"choice1": "An auxiliary pump in the fuel system to facilitate engine starting",
+"choice2": "A mechanical switch in the cockpit to engage the turbocharger.",
+"choice3": "A valve in the fuel control system for automatic mixture regulation.",
+"choice4": "A nozzle in the Venturi tube of a carburettor for atomising the fuel",
+"answer": 1
+},
+
+{
+"questionid": "5331",
+"question": "What is the purpose of the tank ventilation?",
+"choice1": "To prevent underpressure caused by fuel consumption",
+"choice2": "To prevent water disposal during parking",
+"choice3": "To distribute the fuel from one tank segment to the other during flight",
+"choice4": "To prevent fuel spillage during refueling on the filler plug",
+"answer": 1
+},
+
+{
+"questionid": "5332",
+"question": "An aeroplane's current supply is carried out by the: 1. Battery 2. Generator 3. Relay 4. Circuit breaker",
+"choice1": "1 and 4",
+"choice2": "3 and 4",
+"choice3": "2 and 3",
+"choice4": "1 and 2",
+"answer": 4
+},
+
+{
+"questionid": "5333",
+"question": "What is the unit for voltage?",
+"choice1": "Ampere",
+"choice2": "Watt",
+"choice3": "Ohm",
+"choice4": "Volt",
+"answer": 4
+},
+
+{
+"questionid": "5334",
+"question": "What is the unit for electrical power?",
+"choice1": "Ampere",
+"choice2": "Ohm",
+"choice3": "Watt",
+"choice4": "Volt",
+"answer": 3
+},
+
+{
+"questionid": "5335",
+"question": "What is the reason for static dischargers on aircraft?",
+"choice1": "To ensure grounding during refueling",
+"choice2": "To discharge static charging during flight",
+"choice3": "To eliminate electrical interferences during intensive radio traffic",
+"choice4": "To improve the quality of radio transmission in high altitudes",
+"answer": 2
+},
+
+{
+"questionid": "5336",
+"question": "What must be considered if the alternator fails in a helicopter?",
+"choice1": "All instruments and warning systems will fail",
+"choice2": "No change as long as the battery provides enough power",
+"choice3": "The engine runs roughly and is prone to knocking",
+"choice4": "Only high power consumers will failing",
+"answer": 2
+},
+
+{
+"questionid": "5337",
+"question": "When using direct current, electrically driven flight instruments are marked with...",
+"choice1": "EL",
+"choice2": "DC",
+"choice3": "AL",
+"choice4": "CO",
+"answer": 2
+},
+
+{
+"questionid": "5338",
+"question": "What devices can be affected by a failure of the electrical system in a helicopter?",
+"choice1": "Fuel quantity indication, radio equipment and altimeter",
+"choice2": "Radio equipment, navigation equipment and magnetic compass",
+"choice3": "Airspeed indicator, altimeter and artificial horizon",
+"choice4": "Radio equipment, navigation equipment and gyros",
+"answer": 4
+},
+
+{
+"questionid": "5339",
+"question": "Which cylinder arragement is commonly used on small aircrafts and motor gliders?",
+"choice1": "Horizontally opposed engine",
+"choice2": "Radial engine",
+"choice3": "In-line engine",
+"choice4": "V-type engine",
+"answer": 1
+},
+
+{
+"questionid": "5342",
+"question": "What is likely to be the cause if the engine runs unusually rough while checking the magnetos?",
+"choice1": "Starter is faulty",
+"choice2": "Sparking plug is defective",
+"choice3": "Short circuit on the ground cable",
+"choice4": "Ignition switch is faulty",
+"answer": 2
+},
+
+{
+"questionid": "5343",
+"question": "The highest absorbtion of humidity in fuel can be observed in which situation?",
+"choice1": "During parking on wet gras areas",
+"choice2": "During parking on cold aprons",
+"choice3": "Almost empty tanks",
+"choice4": "Almost full tanks",
+"answer": 3
+},
+
+{
+"questionid": "5344",
+"question": "Where does the condensation water converge in the tank?",
+"choice1": "It floats on the fuel",
+"choice2": "It floats on the fuel",
+"choice3": "At the lowest position",
+"choice4": "It is mixed with the fuel",
+"answer": 3
+},
+
+{
+"questionid": "5345",
+"question": "What does the octane rating or fuel grade describe?",
+"choice1": "Anti-knock rating",
+"choice2": "Flame front speed",
+"choice3": "Ignition timing",
+"choice4": "Combustion temperature",
+"answer": 1
+},
+
+{
+"questionid": "5346",
+"question": "Which colour does Avgas 100 LL have?",
+"choice1": "Red",
+"choice2": "Green",
+"choice3": "Yellow",
+"choice4": "Blue",
+"answer": 4
+},
+
+{
+"questionid": "5347",
+"question": "What is the direct influence by switching on the carburettor heating on fixed propeller engines during engine run-up?",
+"choice1": "RPM decreases",
+"choice2": "Angle of attack decreases",
+"choice3": "Angle of attack increases",
+"choice4": "RPM increaes",
+"answer": 1
+},
+
+{
+"questionid": "5348",
+"question": "What is the major task of a carburettor?",
+"choice1": "To pump fuel from the tanks into the cylinder",
+"choice2": "To control the aircraft's speed through the throttle valve",
+"choice3": "To provide additional fuel to cool the engine",
+"choice4": "To produce an ignitable air/fuel mixture",
+"answer": 4
+},
+
+{
+"questionid": "5349",
+"question": "In which phase of flight must the carburettor heating be switched off although carburettor icing might be expected?",
+"choice1": "During climb",
+"choice2": "During cruise",
+"choice3": "During taxi",
+"choice4": "During take-off",
+"answer": 4
+},
+
+{
+"questionid": "5350",
+"question": "In which outside air temperature is icing most likely?",
+"choice1": "Between -5¬∞ C and +20¬∞ C",
+"choice2": "Between -10¬∞ C and +10¬∞ C",
+"choice3": "Between -20¬∞ C and +5¬∞ C",
+"choice4": "Between -15¬∞ C and 0¬∞ C",
+"answer": 1
+},
+
+{
+"questionid": "5351",
+"question": "What is the task of cooling fins on air-cooled engine cylinders?",
+"choice1": "Quick heat transfer to the surrounding air flow by expanding the surface",
+"choice2": "Cooling of the cylinder surrounding airflow and forwarding to hotter engine parts",
+"choice3": "Leading the airflow to parts designated to be cooled",
+"choice4": "Increasing the airflow thus improving cooling of cylinder parts",
+"answer": 1
+},
+
+{
+"questionid": "5352",
+"question": "Cylinder head temperature indication relates to...",
+"choice1": "All Cylinders.",
+"choice2": "A random cylinder",
+"choice3": "The critical cylinder",
+"choice4": "The average of all cylinders.",
+"answer": 3
+},
+
+{
+"questionid": "5353",
+"question": "What happens during oil filter clocking?",
+"choice1": "A bypass valve opens thus enabling the circulation to continue, debris will be filtered by an alternate filter",
+"choice2": "The oil circulation will end after 15 minutes so that a proper engine run will not be guaranteed",
+"choice3": "A bypass valve opens thus enabling the circulation to continue, debris will not be filtered",
+"choice4": "The oil circulation will end after 30 minutes so that a proper engine run will not be guaranteed",
+"answer": 3
+},
+
+{
+"questionid": "5354",
+"question": "How should an Otto engine be shut down?",
+"choice1": "By completely leaning the mixture",
+"choice2": "By moving the propeller to the feathered position",
+"choice3": "By closing the throttle lever completely",
+"choice4": "By shutting down the generator",
+"answer": 1
+},
+
+{
+"questionid": "5355",
+"question": "Piston engines of helicopters have...",
+"choice1": "One magneto ignition system",
+"choice2": "One electrical ignition system.",
+"choice3": "Two coupled ignition systems.",
+"choice4": "Two independent ignition systems",
+"answer": 4
+},
+
+{
+"questionid": "5356",
+"question": "How do you call fuel mixtures with a high amount of fuel?",
+"choice1": "Lean",
+"choice2": "Full",
+"choice3": "Empty",
+"choice4": "Rich",
+"answer": 4
+},
+
+{
+"questionid": "5358",
+"question": "How should a power increase be executed on a constant-speed propeller, provided that no other procedure is described in the flight manual?",
+"choice1": "1) Decrease manifold pressure 2) Increase RPM",
+"choice2": "1) Decrease RPM 2) Increase manifold pressure",
+"choice3": "1) Increase manifold pressure 2) Increase RPM",
+"choice4": "1) Increase RPM 2) Increase manifold pressure",
+"answer": 4
+},
+
+{
+"questionid": "5359",
+"question": "How should a power decrease be executed on a constant-speed propeller, provided that no other procedure is described in the flight manual?",
+"choice1": "1) Decrease RPM 2) Decrease manifold pressure",
+"choice2": "1) Decrease manifold pressure 2) Increase RPM",
+"choice3": "1) Decrease RPM 2) Increase manifold pressure",
+"choice4": "1) Decrease manifold pressure 2) Decrease RPM",
+"answer": 4
+},
+
+{
+"questionid": "5360",
+"question": "With increasing altitude and unchanged mixture setting, the air/fuel mixture...",
+"choice1": "Becomes more lean",
+"choice2": "Stays constant",
+"choice3": "Becomes liquid",
+"choice4": "Becomes richer.",
+"answer": 4
+},
+
+{
+"questionid": "5361",
+"question": "With increasing altitude, the power of a carburettor engine...",
+"choice1": "Remains constant.",
+"choice2": "First decreases, from 5000 ft on increases",
+"choice3": "Increases",
+"choice4": "Decreases",
+"answer": 4
+},
+
+{
+"questionid": "5362",
+"question": "During ignition check the ignition is switched to OFF for a short moment and subsequently back to BOTH. What happens to the RPM if the ignition system is properly grounded?",
+"choice1": "The RPM increases once switched to OFF and resumes a value below the previous one when switched back to BOTH",
+"choice2": "The RPM decreases once switched to OFF and resumes the previous value when switched back to BOTH",
+"choice3": "The RPM increases once switched to OFF and resumes the previous value when switched back to BOTH",
+"choice4": "The RPM decreases once switched to OFF and resumes a value below the previous one when switched back to BOTH",
+"answer": 2
+},
+
+{
+"questionid": "5363",
+"question": "Which gauges involve a measurement of temperature?",
+"choice1": "Engine lubricant, exhaust gas, outside air, cabin air, directional gyro",
+"choice2": "Engine lubricant, cylinder head, exhaust gas, suction, outside air, cabin air",
+"choice3": "Engine lubricant, engine cooling fluid, cylinder head, exhaust gas, outside air, cabin air",
+"choice4": "Engine oil, cylinder head, exhaust gas, altimeter, airspeed indicator, vertical speed indicator",
+"answer": 3
+},
+
+{
+"questionid": "5364",
+"question": "Fuel quantity in small aircraft is most commonly measured through a level sensor. The European Certification Specifications CS 23 require that...",
+"choice1": "At least one fuel quantity indicator must be available to indicate the total amount of fuel abord an aircraft. This Indicator must be calibrated adequately to indicate the correct amount of fuel during all phases of flight.",
+"choice2": "If the fuel indicator fails, the pilot must land at the next available airport.",
+"choice3": "If no fuel quantity indicator is available to the pilot in flight, the pilot must check the fuel quantity before commencing the flight and recalculate the remaining fuel on board in regular intervals during the flight.",
+"choice4": "A fuel quantity indicator must be available for each tank and the indicator must be calibrated to read zero during level flight when the quantity of fuel remaining in the tank is equal to the unusable fuel supply.",
+"answer": 4
+},
+
+{
+"questionid": "5365",
+"question": "Which of the instruments listed below obtain their readings through pressure measurement?",
+"choice1": "Oil pressure gauge, fuel pressure gauge, manifold pressure gauge, altimeter, vertical speed indicator, airspeed indicator, suction gauge",
+"choice2": "Oil pressure gauge, fuel pressure gauge, fuel quantity gauge, manifold pressure gauge, differential pressure gauge, altimeter",
+"choice3": "Airspeed indicator, vertical speed indicator, altimeter, directional gyro, turn and bank coordinator, oil pressure gauge, fuel pressure gauge",
+"choice4": "Airspeed indicator, vertical speed indicator, altimeter, magnetic compass, oil pressure gauge, fuel pressure gauge",
+"answer": 1
+},
+
+{
+"questionid": "5366",
+"question": "The Pitot / static system is required to...",
+"choice1": "Prevent potential static buildup on the aircraft.",
+"choice2": "Correct the reading of the airspeed indicator to zero when the aircraft is static on the ground.",
+"choice3": "Measure total and static air pressure.",
+"choice4": "Prevent icing of the Pitot tube.",
+"answer": 3
+},
+
+{
+"questionid": "5367",
+"question": "Which pressure is sensed by the Pitot tube?",
+"choice1": "Cabin air pressure",
+"choice2": "Total air pressure",
+"choice3": "Dynamic air pressure",
+"choice4": "Static air pressure",
+"answer": 2
+},
+
+{
+"questionid": "5368",
+"question": "QFE is the...",
+"choice1": "Barometric pressure at a reference datum, typically the runway threshold of an airfield.",
+"choice2": "Barometric pressure adjusted to sea level, using the international standard atmosphere (ISA).",
+"choice3": "Magnetic bearing to a station",
+"choice4": "Altitude above the reference pressure level 1013.25 hPa",
+"answer": 1
+},
+
+{
+"questionid": "5369",
+"question": "QNE is the...",
+"choice1": "Barometric pressure at a reference datum, typically the runway threshold of an airfield",
+"choice2": "Magnetic bearing to a station.",
+"choice3": "Barometric pressure adjusted to sea level, using the international standard atmosphere (ISA).",
+"choice4": "Altitude above the reference pressure level 1013.25 hPa.",
+"answer": 4
+},
+
+{
+"questionid": "5370",
+"question": "Which is the purpose of the altimeter subscale?",
+"choice1": "To set the reference level for the altitude decoder of the transponder",
+"choice2": "To adjust the altimeter reading for non-standard temperature",
+"choice3": "To reference the altimeter reading to a predetermined level such as mean sea level, aerodrome level or pressure level 1013.25 hPa",
+"choice4": "To correct the altimeter reading for system errors",
+"answer": 3
+},
+
+{
+"questionid": "5371",
+"question": "In which way may an altimeter subscale which is set to an incorrect QNH lead to an incorrect altimeter reading?",
+"choice1": "If the subscale is set to a lower than actual pressure, the indication is too high. This may lead to much closer proximity to the ground than intended",
+"choice2": "If the subscale is set to a higher than actual pressure, the indication is too high. This may lead to much closer proximity to the ground than intended",
+"choice3": "If the subscale is set to a lower than actual pressure, the indication is too low. This may lead to much closer proximity to the ground than intended",
+"choice4": "If the subscale is set to a higher than actual pressure, the indication is too low. This may lead to much greater heights above the ground than intended",
+"answer": 2
+},
+
+{
+"questionid": "5372",
+"question": "Lower-than-standard temperature may lead to...",
+"choice1": "A blockage of the Pitot tube by ice, freezing the altimeter indication to its present value",
+"choice2": "An altitude indication which is too low",
+"choice3": "An altitude indication which is too high.",
+"choice4": "A correct altitude indication as long as the altimeter subscale is set to correct for non-standard temperature.",
+"answer": 3
+},
+
+{
+"questionid": "5373",
+"question": "A flight level is a...",
+"choice1": "Pressure altitude.",
+"choice2": "Density altitude",
+"choice3": "Altitude above ground",
+"choice4": "True altitude.",
+"answer": 1
+},
+
+{
+"questionid": "5374",
+"question": "A true altitude is...",
+"choice1": "A height above ground level corrected for non-standard pressure.",
+"choice2": "A height above ground level corrected for non-standard temperature.",
+"choice3": "A pressure altitude corrected for non-standard temperature.",
+"choice4": "An altitude above mean sea level corrected for non-standard temperature",
+"answer": 4
+},
+
+{
+"questionid": "5375",
+"question": "During a flight in colder-than-ISA air the indicated altitude is...",
+"choice1": "Higher than the true altitude.",
+"choice2": "Lower than the true altitude.",
+"choice3": "Eqal to the true altitude.",
+"choice4": "Equal to the standard altitude.",
+"answer": 1
+},
+
+{
+"questionid": "5376",
+"question": "During a flight in an air mass with a temperature equal to ISA and the QNH set correctly, the indicated altitude is...",
+"choice1": "Lower than the true altitude",
+"choice2": "Equal to the true altitude",
+"choice3": "Equal to the standard atmosphere.",
+"choice4": "Higher than the true altitude.",
+"answer": 2
+},
+
+{
+"questionid": "5377",
+"question": "Which instrument can be affected by the hysteresis error?",
+"choice1": "Vertical speed indicator",
+"choice2": "Altimeter",
+"choice3": "Direct reading compass",
+"choice4": "Tachometer",
+"answer": 2
+},
+
+{
+"questionid": "5378",
+"question": "The measurement of altitude is based on the change of the...",
+"choice1": "Dynamic pressure.",
+"choice2": "Differential pressure.",
+"choice3": "Static pressure.",
+"choice4": "Total pressure.",
+"answer": 3
+},
+
+{
+"questionid": "5379",
+"question": "Which of the following options states the working principle of a vertical speed indicator?",
+"choice1": "Measuring the present static air pressure and comparing it to the static air pressure inside a reservoir",
+"choice2": "Total air pressure is measured and compared to static pressure",
+"choice3": "Measuring the vertical acceleration through the displacement of a gimbal-mounted mass",
+"choice4": "Static air pressure is measured and compared against a vacuum",
+"answer": 1
+},
+
+{
+"questionid": "5380",
+"question": "The vertical speed indicator measures the difference of pressure between...",
+"choice1": "The present total pressure and the total pressure of a previous moment.",
+"choice2": "The present dynamic pressure and the dynamic pressure of a previous moment",
+"choice3": "The present dynamic pressure and the static pressure of a previous moment.",
+"choice4": "The present static pressure and the static pressure of a previous moment",
+"answer": 4
+},
+
+{
+"questionid": "5381",
+"question": "Calibrated airspeed (CAS) equals...",
+"choice1": "Equivalent airspeed (EAS) corrected for altitude.",
+"choice2": "Indicated airspeed (IAS) corrected for instrument and position error",
+"choice3": "Ground speed (GS) corrected for instrument and position error",
+"choice4": "True airspeed (TAS) corrected for wind.",
+"answer": 2
+},
+
+{
+"questionid": "5382",
+"question": "At higher altitudes, true airspeed (TAS) tends to be higher than calibrated airspeed (CAS). A rough estimate of the TAS can be obtained by...",
+"choice1": "Subtracting 2 % of the CAS for every 1000 ft altitude.",
+"choice2": "Adding 10 % of the CAS for every 1000 ft altitude.",
+"choice3": "Subtracting 10 % of the CAS for every 1000 m altitude.",
+"choice4": "Adding 2 % of the CAS for every 1000 ft altitude.",
+"answer": 4
+},
+
+{
+"questionid": "5383",
+"question": "An aircraft cruises on a heading of 180¬∞ with a true airspeed of 100 kt. The wind comes from 180¬∞ with 30 kt. Neglecting instrument and position errors, which will be the approximate reading of the airspeed indicator?",
+"choice1": "100 kt",
+"choice2": "130 kt",
+"choice3": "30 kt",
+"choice4": "70 kt",
+"answer": 1
+},
+
+{
+"questionid": "5384",
+"question": "Which of the following factors could cause an erroneous airspeed indication?",
+"choice1": "A circuit breaker was pulled",
+"choice2": "The earth wire is still attached",
+"choice3": "The boost pressure line is defective",
+"choice4": "The aircraft is covered with adhesive foils",
+"answer": 4
+},
+
+{
+"questionid": "5385",
+"question": "Which of the following states the working principle of an airspeed indicator?",
+"choice1": "Total air pressure is measured and compared against static air pressure.",
+"choice2": "Total air pressure is measured by the static ports and converted into a speed indication by the airspeed indicator",
+"choice3": "Dynamic air pressure is measured by the Pitot tube and converted into a speed indication by the airspeed indicator",
+"choice4": "Static air pressure is measured and compared against a vacuum",
+"answer": 1
+},
+
+{
+"questionid": "5386",
+"question": "What values are usually marked with a red line on instrument displays?",
+"choice1": "Operational limits",
+"choice2": "Caution areas",
+"choice3": "Recommended areas",
+"choice4": "Operational areas",
+"answer": 1
+},
+
+{
+"questionid": "5387",
+"question": "What is necessary for the determination of speed (IAS) by the airspeed indicator?",
+"choice1": "The difference between the total pressure and the dynamic pressure",
+"choice2": "The difference between the standard pressure and the total pressure",
+"choice3": "The difference betweeen the total pressure and the static presssure",
+"choice4": "The difference between the dynamic pressure and the static pressure",
+"answer": 3
+},
+
+{
+"questionid": "5388",
+"question": "What is the meaning of the white arc on the airspeed indicator?",
+"choice1": "Speed range in bumpy air",
+"choice2": "Speed range in smooth air",
+"choice3": "Speed range for extended flaps",
+"choice4": "Speed range not to exceed",
+"answer": 3
+},
+
+{
+"questionid": "5389",
+"question": "What is the meaning of the red range on the airspeed indicator?",
+"choice1": "Speed which must not be exceeded within bumpy air",
+"choice2": "Speed which must not be exceeded with flaps extended",
+"choice3": "Speed which must not be exceeded regardless of circumstances",
+"choice4": "Speed which must not be exceeded in turns with more than 45¬∞ bank",
+"answer": 3
+},
+
+{
+"questionid": "5390",
+"question": "The compass error caused by the aircraft's magnetic field is called...",
+"choice1": "Variation",
+"choice2": "Declination",
+"choice3": "Inclination",
+"choice4": "Deviation",
+"answer": 4
+},
+
+{
+"questionid": "5391",
+"question": "The indication of a magnetic compass deviates from magnetic north direction due to what errors?",
+"choice1": "Deviation, turning and acceleration errors",
+"choice2": "Gravity and magnetism",
+"choice3": "Inclination and declination of the earth's magnetic field",
+"choice4": "Variation, turning and acceleration errors",
+"answer": 1
+},
+
+{
+"questionid": "5392",
+"question": "Which of the mentioned cockpit instruments is connected to the pitot tube?",
+"choice1": "Vertical speed indicato",
+"choice2": "Direct-reading compass",
+"choice3": "Altimeter",
+"choice4": "Airspeed indicator",
+"answer": 4
+},
+
+{
+"questionid": "5393",
+"question": "Which cockpit instruments are connected to the static port?",
+"choice1": "Altimeter, vertical speed indicator, airspeed indicator",
+"choice2": "Airspeed indicator, direct-reading compass, slip indicato",
+"choice3": "Altimeter, slip indicator, navigational computer",
+"choice4": "Airspeed indicator, altimeter, direct-reading compass",
+"answer": 1
+},
+
+{
+"questionid": "5394",
+"question": "An aircraft in the northern hemisphere intends to turn on the shortest way from a heading of 270¬∞ to a heading of 360¬∞. At approximately which indication of the magnetic compass should the turn be terminated?",
+"choice1": "330¬∞",
+"choice2": "360¬∞",
+"choice3": "270¬∞",
+"choice4": "030¬∞",
+"answer": 1
+},
+
+{
+"questionid": "5395",
+"question": "An aircraft in the northern hemisphere intends to turn on the shortest way from a heading of 360¬∞ to a heading of 270¬∞. At approximately which indication of the magnetic compass should the turn be terminated?",
+"choice1": "300¬∞",
+"choice2": "360¬∞",
+"choice3": "240¬∞",
+"choice4": "270¬∞",
+"answer": 4
+},
+
+{
+"questionid": "5396",
+"question": "The term static pressure is defined as pressure...",
+"choice1": "Inside the airplane cabin.",
+"choice2": "Of undisturbed airflow.",
+"choice3": "Resulting from orderly flow of air particles.",
+"choice4": "Sensed by the pitot tube.",
+"answer": 2
+},
+
+{
+"questionid": "5397",
+"question": "An aircraft in the northern hemisphere intends to turn on the shortest way from a heading of 030¬∞ to a heading of 180¬∞. At approximately which indicated magnetic heading should the turn be terminated?",
+"choice1": "360¬∞",
+"choice2": "150¬∞.",
+"choice3": "210¬∞.",
+"choice4": "180¬∞.",
+"answer": 3
+},
+
+{
+"questionid": "5398",
+"question": "What does the dynamic pressure depend directly on?",
+"choice1": "Air pressure and air temperature",
+"choice2": "Air density and airflow speed squared",
+"choice3": "Air density and lift coefficient",
+"choice4": "Lift- and drag coefficient",
+"answer": 2
+},
+
+{
+"questionid": "5399",
+"question": "What is a cause for the dip error on the direct-reading compass?",
+"choice1": "Deviation in the cockpit",
+"choice2": "Acceleration of the airplane",
+"choice3": "Inclination of earth's magnetic field lines",
+"choice4": "Temperature variations",
+"answer": 3
+},
+
+{
+"questionid": "5400",
+"question": "What behaviour is shown by a rotating gyro in space?",
+"choice1": "It moves in accordance with the body surrounding it",
+"choice2": "It tends to maintain its position in space",
+"choice3": "It swings from east to west like a pendulum",
+"choice4": "It moves in circles with a stadily decreasing radius",
+"answer": 2
+},
+
+{
+"questionid": "5401",
+"question": "A gyro which is rotating in space responds to forces being applied to it by an evasive movement...",
+"choice1": "At an angle of 45¬∞ to the force being applied.",
+"choice2": "In a northern direction.",
+"choice3": "At an angle of 90¬∞ to the force being applied.",
+"choice4": "At an angle of 180¬∞ to the force being applied",
+"answer": 3
+},
+
+{
+"questionid": "5402",
+"question": "The bank angle of a 2-minutes circle depends on the...",
+"choice1": "CAS",
+"choice2": "IAS",
+"choice3": "Ground speed",
+"choice4": "TAS",
+"answer": 4
+},
+
+{
+"questionid": "5403",
+"question": "A turn and bank (or turn and slip) coordinator provides information regarding...",
+"choice1": "The coordination of the turn and slip angle.",
+"choice2": "The rate of turn and coordination, i.e. slip or skid, of the turn.",
+"choice3": "The pitch and bank angle of the aircraft.",
+"choice4": "The rate of turn and bank angle of the aircraft",
+"answer": 2
+},
+
+{
+"questionid": "5404",
+"question": "The airspeed indicator is unservicable. The airplane may only be operated...",
+"choice1": "When the airspeed indicator is fully functional again.",
+"choice2": "When a GPS with speed indication is used during flight.",
+"choice3": "If no maintenance organisation is around",
+"choice4": "If only airfield patterns are flown.",
+"answer": 1
+},
+
+{
+"questionid": "5405",
+"question": "Which light colour advises the pilot to the condition corrective action may be required in the future?",
+"choice1": "Amber (orange)",
+"choice2": "Red",
+"choice3": "Blue",
+"choice4": "Green",
+"answer": 1
+},
+
+{
+"questionid": "5406",
+"question": "The Caution Area is marked on an airspeed indicator by what color?",
+"choice1": "Green",
+"choice2": "Red",
+"choice3": "Yellow",
+"choice4": "White",
+"answer": 3
+},
+
+{
+"questionid": "5407",
+"question": "An attitude director indicator (ADI) combines the information provided by...",
+"choice1": "The attitude indicator and the flight director.",
+"choice2": "The directional gyro and the rate gyro.",
+"choice3": "The attitude indicator and the relative bearing indicator.",
+"choice4": "The attitude indicator and the radio magnetic indicator",
+"answer": 1
+},
+
+{
+"questionid": "5408",
+"question": "What does the abbreviation HSI stand for?",
+"choice1": "Horizontal Situation Indicator",
+"choice2": "Hybernating System Indication",
+"choice3": "Horizontal Slip Indicator",
+"choice4": "Horrifying Steep Inclination",
+"answer": 1
+},
+
+{
+"questionid": "5409",
+"question": "A horizontal situation indicator (HSI) combines the information provided by...",
+"choice1": "The directional gyro and the flight director.",
+"choice2": "The rate gyro and the slip indicator",
+"choice3": "The directional gyro and the VHF navigation receiver.",
+"choice4": "The attitude indicator and the flight director.",
+"answer": 3
+},
+
+{
+"questionid": "5410",
+"question": "What difference in altitude is shown by an altimeter, if the reference pressure scale setting is changed from 1000 hPa to 1010 hPa?",
+"choice1": "80 m less than before",
+"choice2": "Values depending on QNH",
+"choice3": "Zero",
+"choice4": "80 m more than before",
+"answer": 4
+},
+
+{
+"questionid": "5411",
+"question": "When is it necessary to adjust the pressure in the reference scale of an alitimeter?",
+"choice1": "Before every flight and during cross country flights",
+"choice2": "Every day before the first flight",
+"choice3": "Once a month before flight operation",
+"choice4": "After maintance has been finished",
+"answer": 1
+},
+
+{
+"questionid": "5412",
+"question": "The altimeter's reference scale is set to airfield pressure (QFE). What indication is shown during the flight?",
+"choice1": "Pressure altitude",
+"choice2": "Height above airfield",
+"choice3": "Airfield elevation",
+"choice4": "Altitude above MSL",
+"answer": 2
+},
+
+{
+"questionid": "5413",
+"question": "A vertical speed indicator connected to a too big equalizing tank results in...",
+"choice1": "No indication",
+"choice2": "Mechanical overload",
+"choice3": "Indication too low",
+"choice4": "Indication too high",
+"answer": 4
+},
+
+{
+"questionid": "5414",
+"question": "A vertical speed indicator measures the difference between...",
+"choice1": "Instantaneous total pressure and previous total pressure.",
+"choice2": "Total pressure and static pressure.",
+"choice3": "Instantaneous static pressure and previous static pressure.",
+"choice4": "Dynamic pressure and total pressure",
+"answer": 3
+},
+
+{
+"questionid": "5415",
+"question": "The term inclination is defined as...",
+"choice1": "Deviation induced by electrical fields.",
+"choice2": "Angle between airplane's longitudinal axis and true north",
+"choice3": "Angle between earth's magnetic field lines and horizontal plane",
+"choice4": "Angle between magnetic and true north",
+"answer": 3
+},
+
+{
+"questionid": "5416",
+"question": "What does the slip indicator show?",
+"choice1": "Apparent vertical",
+"choice2": "Rate of turn",
+"choice3": "Vertical to horizon",
+"choice4": "Airplane's bank",
+"answer": 1
+},
+
+{
+"questionid": "5417",
+"question": "The slip indicator's ball (apparent vertical) has moved to the right during a right turn. By what actions may the ball led back to middle position?",
+"choice1": "Reduce bank, increase rate of turn",
+"choice2": "Increase bank, increase rate of turn",
+"choice3": "Reduce speed, increase bank",
+"choice4": "Reduce rate of turn, reduce bank",
+"answer": 1
+},
+
+{
+"questionid": "5418",
+"question": "What is the purpose of winglets?",
+"choice1": "Increase gliging performance at high speed.",
+"choice2": "Increase of lift and turning manoeuvering capabilities",
+"choice3": "To increase efficiency of aspect ratio",
+"choice4": "Reduction of induced drag",
+"answer": 4
+},
+
+{
+"questionid": "5419",
+"question": "What engines are commonly used with Touring Motor Gliders (TMG)?",
+"choice1": "4 Cylinder; 4 stroke",
+"choice2": "4 Cylinder 2 stroke",
+"choice3": "2 Cylinder Diesel",
+"choice4": "2 plate Wankel",
+"answer": 1
+},
+
+{
+"questionid": "5420",
+"question": "What is the purpose of engine oil in piston engine?",
+"choice1": "Cooling, lubrication of the engine and disposal of fine abrasion",
+"choice2": "Cooling of the engine and lubrication of propeller shaft.",
+"choice3": "For nose reduction and bearing of the propeller shaft",
+"choice4": "Cooling, lubrication and increasing engine performance.",
+"answer": 1
+},
+
+{
+"questionid": "5587",
+"question": "The thickness of the wing is defined as the distance between the lower and the upper side of the wing at the...",
+"choice1": "most inner part of the wing.",
+"choice2": "thickest part of the wing.",
+"choice3": "most outer part of the wing.",
+"choice4": "thinnest part of the wing.",
+"answer": 2
+},
+
+{
+"questionid": "5588",
+"question": "The wingtip might be prevented from stalling before the root by:",
+"choice1": "Wash-In",
+"choice2": "Giving the tip a sharper leading edge than the root",
+"choice3": "Having the wing swept back",
+"choice4": "Wash-out",
+"answer": 4
+},
+
+{
+"questionid": "5589",
+"question": "How is referred to a tubular steel construction with a non self-supporting skin?",
+"choice1": "Grid construction",
+"choice2": "Monocoque construction",
+"choice3": "Honeycomb structure",
+"choice4": "Semi-monocoque construction.",
+"answer": 1
+},
+
+{
+"questionid": "5590",
+"question": "A construction made of frames and stringer with a supporting skin is called...",
+"choice1": "Honeycomb structure.",
+"choice2": "Wood- or mixed construction.",
+"choice3": "Semi-monocoque construction.",
+"choice4": "Grid construction.",
+"answer": 3
+},
+
+{
+"questionid": "5593",
+"question": "What are the major components of an aircraft's tail?",
+"choice1": "Horizontal tail and vertical tail",
+"choice2": "Steering wheel and pedals",
+"choice3": "Ailerons and elevator",
+"choice4": "Rudder and ailerons",
+"answer": 1
+},
+
+{
+"questionid": "5594",
+"question": "Which of the following expressions is correct:",
+"choice1": "m = F x a",
+"choice2": "a = m / F",
+"choice3": "F = m x a",
+"choice4": "a = F x m",
+"answer": 3
+},
+
+{
+"questionid": "5595",
+"question": "Which of the following will result in the maximum distance covered over the ground when gliding",
+"choice1": "Decreased weight",
+"choice2": "Increased weight",
+"choice3": "Headwind",
+"choice4": "Tailwind",
+"answer": 4
+},
+
+{
+"questionid": "5596",
+"question": "Primary fuselage structures of wood or metal planes are usually made up by what components?",
+"choice1": "Rips, frames and covers",
+"choice2": "Covers, stringers and forming parts",
+"choice3": "Frames and stringer",
+"choice4": "Girders, rips and stringers",
+"answer": 3
+},
+
+{
+"questionid": "5597",
+"question": "Which of the following is the correct designation of Stall speed in landing configuration?",
+"choice1": "Vs1",
+"choice2": "Vs0",
+"choice3": "Vfe",
+"choice4": "Vsl",
+"answer": 2
+},
+
+{
+"questionid": "5598",
+"question": "The sandwich structure consists of two...",
+"choice1": "thin layers and a heavy core material.",
+"choice2": "thick layers and a light core material.",
+"choice3": "thin layers and a light core material.",
+"choice4": "thick layers and a heavy core material.",
+"answer": 3
+},
+
+{
+"questionid": "5599",
+"question": "Which constructional elements give the wing its profile shape?",
+"choice1": "Ribs",
+"choice2": "Planking",
+"choice3": "Spar",
+"choice4": "Tip",
+"answer": 1
+},
+
+{
+"questionid": "5600",
+"question": "The load factor n describes the relationship between...",
+"choice1": "drag and lift.",
+"choice2": "lift and weight.",
+"choice3": "thrust and drag.",
+"choice4": "weight and thrust.",
+"answer": 2
+},
+
+{
+"questionid": "5601",
+"question": "Which are the advantages of sandwich structures?",
+"choice1": "High strength and good formability",
+"choice2": "Good formability and high temperature durability",
+"choice3": "High temperature durability and low weight",
+"choice4": "Low weight, high stiffness, high stability, and high strength",
+"answer": 4
+},
+
+{
+"questionid": "5602",
+"question": "Which of the stated materials shows the highest strength?",
+"choice1": "Wood",
+"choice2": "Aluminium",
+"choice3": "Carbon fiber re-inforced plastic",
+"choice4": "Magnesium",
+"answer": 3
+},
+
+{
+"questionid": "5603",
+"question": "A propeller rotating anti-clockwise when viewed from the front, during take-off ground roll will:",
+"choice1": "Produce an increased load on the left wheel due to gyroscopic effect",
+"choice2": "Produce an increased load on the right wheel due to gyroscopic effect",
+"choice3": "Produce an increased load on the left wheel due to torque reaction",
+"choice4": "Produce an increased load on the right wheel due to torque reaction",
+"answer": 3
+},
+
+{
+"questionid": "5604",
+"question": "Exceeding the maximum allowed aircraft mass is...",
+"choice1": "only relevant if the excess is more than 10 %.",
+"choice2": "exceptionally permissible, in order to avoid delays.",
+"choice3": "it can be compensated by the pilot's control inputs.",
+"choice4": "not permissible illegal and essentially dangerous.",
+"answer": 4
+},
+
+{
+"questionid": "5605",
+"question": "What kind of hydraulic oil is used in aeroplane systems today?",
+"choice1": "Vegetable oil",
+"choice2": "Bio-oil",
+"choice3": "Mineral oil",
+"choice4": "Synthetic oil",
+"answer": 4
+},
+
+{
+"questionid": "5606",
+"question": "The center of gravity, C.G.,  has to be located...",
+"choice1": "in front of the front C.G. limit.",
+"choice2": "between the front and the rear C.G. limit.",
+"choice3": "behind the rear C.G. limit.",
+"choice4": "right or left of the lateral C. G. limit.",
+"answer": 2
+},
+
+{
+"questionid": "5608",
+"question": "The result of a rear C.G. position is...",
+"choice1": "a decrease of stability",
+"choice2": "a decrease of range.",
+"choice3": "an increased stall speed.",
+"choice4": "an increased fuel consumption.",
+"answer": 1
+},
+
+{
+"questionid": "5609",
+"question": "Compared with a low aspect ratio wing, a high aspect ratio wing produces (i) __________ lift and stalls at (ii) __________ AoA",
+"choice1": "(i) more (ii) higher",
+"choice2": "(i) less (ii) higher",
+"choice3": "(i) more (ii) lower",
+"choice4": "(i) less (ii) lower",
+"answer": 3
+},
+
+{
+"questionid": "5611",
+"question": "How is the nose or tail wheel usually controlled on small aircraft and motor gliders?",
+"choice1": "By the steering wheel",
+"choice2": "By the control column",
+"choice3": "By the pedals",
+"choice4": "By weight movement",
+"answer": 3
+},
+
+{
+"questionid": "5612",
+"question": "Where is the brake system installed to slow the aircraft on ground?",
+"choice1": "On the nose and main gear",
+"choice2": "On the tail wheel",
+"choice3": "Only on the nose gear",
+"choice4": "Only on the main gear",
+"answer": 4
+},
+
+{
+"questionid": "5613",
+"question": "What kind of control surface is connected with the nose wheel?",
+"choice1": "Trim rudder",
+"choice2": "Elevator",
+"choice3": "Rudder",
+"choice4": "Aileron",
+"answer": 3
+},
+
+{
+"questionid": "5614",
+"question": "An aircraft must be loaded, operated and flown with C.G. always within the approved limits, during all phases of flight and ground manouvers. This is done to ensure...",
+"choice1": "that the aircraft does not tip over on its tail while it is being loaded",
+"choice2": "that the aircraft maintains both, stability and controllability",
+"choice3": "that the aircraft does not exceed the maximum permissible airspeed during a descent.",
+"choice4": "that the aircraft does not stall.",
+"answer": 2
+},
+
+{
+"questionid": "5616",
+"question": "About how many axes does an aircraft move and how are these axes called?",
+"choice1": "3; vertical axis, lateral axis, longitudinal axis",
+"choice2": "4; optical axis, imaginary axis, sagged axis, axis of evil",
+"choice3": "4; vertical axis, lateral axis, longitudinal axis, axis of speed",
+"choice4": "3; x-axis, y-axis, z-axis",
+"answer": 1
+},
+
+{
+"questionid": "5617",
+"question": "The result of a front C.G. position is:1.Increase in stability.2.Increase in fuel consumption.3.Increase in stall speed.4.Increase in range.",
+"choice1": "2, 4",
+"choice2": "1, 2",
+"choice3": "1, 2, 3",
+"choice4": "2, 3, 4",
+"answer": 3
+},
+
+{
+"questionid": "5618",
+"question": "A movement around the longitudinal axis is primarily initiated by the...",
+"choice1": "elevator.",
+"choice2": "trim tab.",
+"choice3": "ailerons.",
+"choice4": "rudder.",
+"answer": 3
+},
+
+{
+"questionid": "5619",
+"question": "How are the flight controls on a small single-engine piston aircraft normally controlled and actuated?",
+"choice1": "Hydraulically through hydraulic pumps and actuators",
+"choice2": "Electrically through fly-by-wire",
+"choice3": "Manually through rods and control cables",
+"choice4": "Power-assisted through hydraulic pumps or electric motors",
+"answer": 3
+},
+
+{
+"questionid": "5620",
+"question": "What are the primary and the secondary effects of a rudder input to the left?",
+"choice1": "Primary: yaw to the right - Secondary: roll to the right",
+"choice2": "Primary: yaw to the left - Secondary: roll to the right",
+"choice3": "Primary: yaw to the right - Secondary: roll to the left",
+"choice4": "Primary: yaw to the left - Secondary: roll to the left",
+"answer": 4
+},
+
+{
+"questionid": "5621",
+"question": "What is the effect of pulling the control yoke or stick backwards?",
+"choice1": "The aircraft's tail will produce an increased downward force, causing the aircraft's nose to rise",
+"choice2": "The aircraft's tail will produce an increased downward force, causing the aircraft's nose to drop",
+"choice3": "The aircraft's tail will produce an increased upward force, causing the aircraft's nose to rise",
+"choice4": "The aircraft's tail will produce an decreased upward force, causing the aircraft's nose to drop",
+"answer": 1
+},
+
+{
+"questionid": "5622",
+"question": "Which of the following options states all primary flight controls of an aircraft?",
+"choice1": "All movable parts on the aircraft which aid in controlling the aircraft",
+"choice2": "Flaps, slats, speedbrakes",
+"choice3": "Elevator, rudder, aileron",
+"choice4": "Elevator, rudder, aileron, trim tabs, high-lift wing devices, power controls",
+"answer": 3
+},
+
+{
+"questionid": "5623",
+"question": "What is the purpose of the secondary flight controls?",
+"choice1": "To improve the performance characteristics of an aircraft and relieve the pilot of excessive control forces",
+"choice2": "To constitute a backup system for the primary flight controls",
+"choice3": "To improve the turn characteristics of an aircraft in the low speed regime during approach and landing",
+"choice4": "To enable the pilot to control the aircraft's movements about its three axes",
+"answer": 1
+},
+
+{
+"questionid": "5624",
+"question": "What is the purpose of a ground adjustable trim tab?",
+"choice1": "It is set on the ground to correct an out-of-trim condition arising from the mass and balance situation of an aircraft",
+"choice2": "It is a non-movable metal tab on a flight control which is adjusted on the ground to optimize the inflight characteristics of an aircraft",
+"choice3": "It is used to optimize the handling characteristics of an aircraft during ground operations",
+"choice4": "It is preset on the ground and further adjusted in flight to reduce the need to constantly re-trim the aircraft",
+"answer": 2
+},
+
+{
+"questionid": "5625",
+"question": "The trim wheel or lever in the cockpit is moved aft by the pilot. What effect does this action have on the trim tab and on the elevator?",
+"choice1": "The trim tab moves up, the elevator moves up",
+"choice2": "The trim tab moves up, the elevator moves down",
+"choice3": "The trim tab moves down, the elevator moves up",
+"choice4": "The trim tab moves down, the elevator moves down",
+"answer": 3
+},
+
+{
+"questionid": "5626",
+"question": "When trimming an aircraft nose up, in which direction does the trim tab move?",
+"choice1": "It moves up",
+"choice2": "Depends on CG position",
+"choice3": "It moves down",
+"choice4": "In direction of rudder deflection",
+"answer": 3
+},
+
+{
+"questionid": "5627",
+"question": "The basic empty mass (BEM) of an aircraft includes...",
+"choice1": "the total mass of the aeroplane ready for a specific type of operation including crew, navigation instruments and Useful Load",
+"choice2": "the total mass of an aeroplane ready for a specific type of operation including the required fuel and crew, but excluding Traffic load.",
+"choice3": "the total mass of the aeroplane ready for a specific type of operation, Variable Load, and Dry operating Mass",
+"choice4": "the mass of the aeroplane,  plus standard items such as, unusable fuel, other unusable liquids, lubricating oil in engine, braking system oil, auxiliary/installed units like air conditioning, fire extinguishers, pyrotechnics, emergency oxygen equipment, supplementary electronic equipment.",
+"answer": 4
+},
+
+{
+"questionid": "5628",
+"question": "How does a balance tab move in relation to the flight control surface that it is coupled with?",
+"choice1": "At an angle of 90¬∞",
+"choice2": "In the same direction",
+"choice3": "At an angle of 45¬∞",
+"choice4": "In the opposite direction",
+"answer": 4
+},
+
+{
+"questionid": "5629",
+"question": "The trim is used to...",
+"choice1": "lock control elements.",
+"choice2": "reduce the control force.",
+"choice3": "move the centre of gravity.",
+"choice4": "increase adverse yaw.",
+"answer": 2
+},
+
+{
+"questionid": "5630",
+"question": "If a slot is an inintegral part of a leading edge slat:",
+"choice1": "will cause the airofoil to stall at higher AoA",
+"choice2": "will cause the airofoil to stall at lower AoA",
+"choice3": "It will have no effect on the stalling AoA",
+"choice4": "it will re energise the boundary layer",
+"answer": 4
+},
+
+{
+"questionid": "5631",
+"question": "Which of the following are an aircraft's secondary flight controls?",
+"choice1": "Elevator, rudder, aileron, trim tabs, high-lift wing devices, power controls",
+"choice2": "Elevator, rudder, aileron",
+"choice3": "All movable parts on the aircraft which aid in controlling the aircraft",
+"choice4": "Wing flaps, leading edge devices, spoilers or speedbrakes, trim systems",
+"answer": 4
+},
+
+{
+"questionid": "5632",
+"question": "What has to be considered during refueling?",
+"choice1": "Check the fuel content of the tank with a torch and remove fire protection",
+"choice2": "Refuel through a soaked rag and keep a fire extinguisher available",
+"choice3": "No open fires, obey smoking ban and apply ground cables",
+"choice4": "Apply ground wires, turn on the main switch and magneto ignition",
+"answer": 3
+},
+
+{
+"questionid": "5633",
+"question": "The primer is...",
+"choice1": "an auxiliary pump in the fuel system to facilitate engine starting.",
+"choice2": "a valve in the fuel control system for automatic mixture regulation.",
+"choice3": "a nozzle in the Venturi tube of a carburettor for atomising the fuel.",
+"choice4": "a mechanical switch in the cockpit to engage the turbocharger.",
+"answer": 1
+},
+
+{
+"questionid": "5634",
+"question": "When the trailing edge flaps are raised:",
+"choice1": "the effective AoA increases",
+"choice2": "there is no change in pitching moment",
+"choice3": "the aircraft pitches nose up",
+"choice4": "the effective AoA decreases",
+"answer": 4
+},
+
+{
+"questionid": "5635",
+"question": "What is the purpose of the tank ventilation?",
+"choice1": "To prevent underpressure caused by fuel consumption",
+"choice2": "To prevent water disposal during parking",
+"choice3": "To distribute the fuel from one tank segment to the other during flight",
+"choice4": "To prevent fuel spillage during refueling on the filler plug",
+"answer": 1
+},
+
+{
+"questionid": "5636",
+"question": "An aeroplane's current supply is carried out by the:1 Battery2 Generator3 Relay4 Circuit breaker",
+"choice1": "3 and 4",
+"choice2": "2 and 3",
+"choice3": "1 and 2",
+"choice4": "1 and 4",
+"answer": 3
+},
+
+{
+"questionid": "5637",
+"question": "What is the unit for voltage?",
+"choice1": "Volt",
+"choice2": "Watt",
+"choice3": "Ampere",
+"choice4": "Ohm",
+"answer": 1
+},
+
+{
+"questionid": "5638",
+"question": "Gyroscopic precession occours when:",
+"choice1": "Pitch or RPM change",
+"choice2": "Pitch or Yaw change",
+"choice3": "Yaw or RPM change",
+"choice4": "only RPM changes",
+"answer": 2
+},
+
+{
+"questionid": "5639",
+"question": "What is the unit for electrical power?",
+"choice1": "Ampere",
+"choice2": "Ohm",
+"choice3": "Watt",
+"choice4": "Volt",
+"answer": 3
+},
+
+{
+"questionid": "5640",
+"question": "The empty weight and the corresponding center of gravity (CG) of an aircraft are initially determined...",
+"choice1": "by weighing each aricraft, putting a scale under each wheel/gear,  taking data, to be written on the operating manual, for that single plane only...",
+"choice2": "by engineer calculation",
+"choice3": "for one aircraft of a type only, since all aircraft of the same type, are produced identically an  have the same mass and CG position...",
+"choice4": "through data provided by the aircraft manufacturer",
+"answer": 1
+},
+
+{
+"questionid": "5641",
+"question": "The voltmeter provides an indication of...",
+"choice1": "the electric potential difference (voltage) in Volt [V].",
+"choice2": "the electric current in a system in Amp√©re [A].",
+"choice3": "the elctrical power output in Watt [W].",
+"choice4": "the elctrical charge in Coulomb [C].",
+"answer": 1
+},
+
+{
+"questionid": "5642",
+"question": "What is the reason for static dischargers on aircraft?",
+"choice1": "To eliminate electrical interferences during intensive radio traffic",
+"choice2": "To improve the quality of radio transmission in high altitudes",
+"choice3": "To ensure grounding during refueling",
+"choice4": "To discharge static charging during flight",
+"answer": 4
+},
+
+{
+"questionid": "5643",
+"question": "A stick pusher:",
+"choice1": "vibrates the control column at CLMAX",
+"choice2": "it pushes the control column fwd upon reaching or exceeding a set AoA",
+"choice3": "pulls the stick",
+"choice4": "activates a warning horn",
+"answer": 2
+},
+
+{
+"questionid": "5644",
+"question": "The density of AVGAS 100LL at 15¬∞ C is...",
+"choice1": "0.72 kg/l.",
+"choice2": "0.82 kg/l.",
+"choice3": "1.0 kg/l.",
+"choice4": "0.68 kg",
+"answer": 1
+},
+
+{
+"questionid": "5645",
+"question": "What increases the stalling AoA",
+"choice1": "leading edge slats",
+"choice2": "trailing edge flaps",
+"choice3": "spoilers",
+"choice4": "fuselage mounted speed-brakes",
+"answer": 1
+},
+
+{
+"questionid": "5646",
+"question": "The conversion factor from kilogram [kg] into pounds [lb] is...",
+"choice1": "kg x 2 = lb.",
+"choice2": "kg x 0.454 = lb.",
+"choice3": "kg x 2.205 = lb.",
+"choice4": "kg / 2.205 = lb.",
+"answer": 3
+},
+
+{
+"questionid": "5647",
+"question": "Which statement is correct? (i) a propeller with a small blade angle is referred to as being in fine pitch (ii) a propeller with a large blade twist is referred to be in course pitch",
+"choice1": "(i) is correct (ii) is correct",
+"choice2": "(i) is incorrect (ii) is correct",
+"choice3": "(i) is correct (ii) is incorrect",
+"choice4": "(i) is incorrect (ii) is incorrect",
+"answer": 1
+},
+
+{
+"questionid": "5648",
+"question": "Which statement is correct? (i) a propeller with a small blade angle is referred to as being in fine pitch (ii) a propeller with a large blade twist is referred to be in course pitch",
+"choice1": "(i) is incorrect (ii) is incorrect",
+"choice2": "(i) is correct (ii) is incorrect",
+"choice3": "(i) is incorrect (ii) is correct",
+"choice4": "(i) is correct (ii) is correct",
+"answer": 4
+},
+
+{
+"questionid": "5649",
+"question": "What must be considered if the alternator fails?",
+"choice1": "Only high power consumers will failing",
+"choice2": "No change as long as the battery provides enough power",
+"choice3": "All instruments and warning systems will fail",
+"choice4": "The engine runs roughly and is prone to knocking",
+"answer": 2
+},
+
+{
+"questionid": "5650",
+"question": "One of the advantages of having a tailplane mounted at the top of the fin",
+"choice1": "remove the tailplane from the wing turbolence (downwash)",
+"choice2": "reduce drag",
+"choice3": "easier maintenance",
+"choice4": "more effective at high speeds",
+"answer": 1
+},
+
+{
+"questionid": "5651",
+"question": "When using direct current, electrically driven flight instruments are marked with...",
+"choice1": "EL",
+"choice2": "CO",
+"choice3": "AL",
+"choice4": "DC",
+"answer": 4
+},
+
+{
+"questionid": "5652",
+"question": "Baggage and cargo must be properly stowed and fastened, otherwise a shift of the cargo may cause...",
+"choice1": "continuous changing in attitudes which can be corrected by the pilot using the flight controls.",
+"choice2": "calculable instability if the C.G. is shifting by less than 5 %",
+"choice3": "uncontrollable attitudes, structural damage, risk of injuries",
+"choice4": "structural damage, angle of attack stability, velocity stability.",
+"answer": 3
+},
+
+{
+"questionid": "5653",
+"question": "What devices can be affected by a failure of the electrical system?",
+"choice1": "Radio equipment, navigation equipment and gyros",
+"choice2": "Airspeed indicator, altimeter and artificial horizon",
+"choice3": "Radio equipment, navigation equipment and magnetic compass",
+"choice4": "Fuel quantity indication, radio equipment and altimeter",
+"answer": 1
+},
+
+{
+"questionid": "5654",
+"question": "Which cylinder arrangement is commonly used on small aircrafts and motor gliders?",
+"choice1": "V-type engine",
+"choice2": "Radial engine",
+"choice3": "In-line engine",
+"choice4": "Horizontally opposed engine",
+"answer": 4
+},
+
+{
+"questionid": "5657",
+"question": "What is likely to be the cause if the engine runs unusually rough while checking the magnetos?",
+"choice1": "Short circuit on the ground cable",
+"choice2": "Starter is faulty",
+"choice3": "Sparking plug is defective",
+"choice4": "Ignition switch is faulty",
+"answer": 3
+},
+
+{
+"questionid": "5658",
+"question": "The highest water contamination in fuel can be observed in which situation?",
+"choice1": "Almost empty tanks",
+"choice2": "During parking on wet grass areas",
+"choice3": "During parking on cold aprons",
+"choice4": "Almost full tanks",
+"answer": 1
+},
+
+{
+"questionid": "5659",
+"question": "Where does the condensation water converge in the tank?",
+"choice1": "It is mixed with the fuel",
+"choice2": "At the lowest position",
+"choice3": "Near the cap of the tank",
+"choice4": "It floats on the fuel",
+"answer": 2
+},
+
+{
+"questionid": "5660",
+"question": "In a graphical depiction of streamlined airflow, when the streamlines are shown growing closer together:",
+"choice1": "pressure energy and dynamic energy are decreasing",
+"choice2": "pressure energy is increasing and dynamic energy decreasing",
+"choice3": "static energy and dynamic energy are increasing",
+"choice4": "pressure energy is decreasing and dynamic energy is increasing",
+"answer": 4
+},
+
+{
+"questionid": "5661",
+"question": "What does the octane rating or fuel grade describe?",
+"choice1": "Ignition timing",
+"choice2": "Flame front speed",
+"choice3": "Combustion temperature",
+"choice4": "Anti-knock rating",
+"answer": 4
+},
+
+{
+"questionid": "5662",
+"question": "Which color does Avgas 100 LL have?",
+"choice1": "Yellow",
+"choice2": "Green",
+"choice3": "Red",
+"choice4": "Blue",
+"answer": 4
+},
+
+{
+"questionid": "5663",
+"question": "What is the direct influence by switching on the carburettor heating on fixed propeller engines during engine run-up?",
+"choice1": "Angle of attack decreases",
+"choice2": "RPM decreases",
+"choice3": "RPM increaes",
+"choice4": "Angle of attack increases",
+"answer": 2
+},
+
+{
+"questionid": "5664",
+"question": "What is the major task of a carburettor?",
+"choice1": "To produce an ignitable air/fuel mixture",
+"choice2": "To control the aircraft's speed through the throttle valve",
+"choice3": "To provide additional fuel to cool the engine",
+"choice4": "To pump fuel from the tanks into the cylinder",
+"answer": 1
+},
+
+{
+"questionid": "5665",
+"question": "In which phase of flight must the carburettor heating be switched off even if carburettor icing might be expected?",
+"choice1": "During take-off",
+"choice2": "During taxi",
+"choice3": "During climb",
+"choice4": "During cruise",
+"answer": 1
+},
+
+{
+"questionid": "5666",
+"question": "In which outside air temperature is icing most likely?",
+"choice1": "Between -5¬∞ C and +20¬∞ C",
+"choice2": "Between -10¬∞ C and +10¬∞ C",
+"choice3": "Between -20¬∞ C and +5¬∞ C",
+"choice4": "Between -15¬∞ C and 0¬∞ C",
+"answer": 1
+},
+
+{
+"questionid": "5667",
+"question": "What is the task of cooling fins on air-cooled engine cylinders?",
+"choice1": "Cooling of the cylinder surrounding airflow and forwarding to hotter engine parts",
+"choice2": "Increasing the airflow thus improving cooling of cylinder parts",
+"choice3": "Leading the airflow to parts designated to be cooled",
+"choice4": "Quick heat transfer to the surrounding air flow by expanding the surface",
+"answer": 4
+},
+
+{
+"questionid": "5668",
+"question": "Cylinder head temperature indication relates to...",
+"choice1": "all Cylinders.",
+"choice2": "the average of all cylinders.",
+"choice3": "a random cylinder.",
+"choice4": "the critical cylinder.",
+"answer": 4
+},
+
+{
+"questionid": "5669",
+"question": "What happens during oil filter clocking?",
+"choice1": "A bypass valve opens thus enabling the circulation to continue, debris will be filtered by an alternate filter",
+"choice2": "The oil circulation will end after 15 minutes so that a proper engine run will not be guaranteed",
+"choice3": "A bypass valve opens thus enabling the circulation to continue, debris will not be filtered",
+"choice4": "The oil circulation will end after 30 minutes so that a proper engine run will not be guaranteed",
+"answer": 3
+},
+
+{
+"questionid": "5670",
+"question": "The stalling angle:",
+"choice1": "increases with a fwd movement of the CoG",
+"choice2": "changes with weight",
+"choice3": "is independent of weight",
+"choice4": "increases if CoG moves aft",
+"answer": 3
+},
+
+{
+"questionid": "5671",
+"question": "How should an Otto engine be shut down?",
+"choice1": "By shutting down the generator",
+"choice2": "By completely leaning the mixture",
+"choice3": "By moving the propeller to the feathered position",
+"choice4": "By closing the throttle lever completely",
+"answer": 2
+},
+
+{
+"questionid": "5672",
+"question": "Piston engines have...",
+"choice1": "two coupled ignition systems.",
+"choice2": "one electrical ignition system.",
+"choice3": "two independent ignition systems.",
+"choice4": "one magneto ignition system.",
+"answer": 3
+},
+
+{
+"questionid": "5673",
+"question": "Propeller efficiency is the ratio between:",
+"choice1": "thrust power to engine power",
+"choice2": "input power to output power",
+"choice3": "brake horse power to indicated airspeed",
+"choice4": "thermal efficiency to mechanical efficiency",
+"answer": 1
+},
+
+{
+"questionid": "5674",
+"question": "The term flight time is defined as...",
+"choice1": "the total time from the first aircraft movement until the moment it finally comes to rest at the end of the flight.",
+"choice2": "the period from the start of the take-off run to the final touchdown when landing.",
+"choice3": "the period from engine start for the purpose of taking off to leaving the aircraft after engine shutdown.",
+"choice4": "the total time from the first take-off until the last landing in conjunction with one or more consecutive flights.",
+"answer": 1
+},
+
+{
+"questionid": "5675",
+"question": "How do you call fuel mixtures with a high amount of fuel?",
+"choice1": "Rich",
+"choice2": "Lean",
+"choice3": "Empty",
+"choice4": "Full",
+"answer": 1
+},
+
+{
+"questionid": "5676",
+"question": "What should be considered regarding a scheduled flight over water, when land cannot be reached in case of an emergency landing?",
+"choice1": "Transponder code 7600 has to be set during the whole flight",
+"choice2": "Contact to the nearest ATC shall consist during the whole flight",
+"choice3": "For all passengers there must be life jackets or lifeboats present",
+"choice4": "The flight plan has to contain the exact waypoints",
+"answer": 3
+},
+
+{
+"questionid": "5677",
+"question": "Which of the items below may have an influence on the noise perceived by a person on the ground? 1)Engine power setting 2)Propeller revolutions per minute 3)Position of the landing gear 4)Flap position 5)Flight track 6)Height above ground 7)Flight rules",
+"choice1": "1, 2, 3, 4, 5, 6",
+"choice2": "1, 5, 6",
+"choice3": "1, 5, 6, 7",
+"choice4": "3, 4, 5, 6, 7",
+"answer": 1
+},
+
+{
+"questionid": "5679",
+"question": "How can the pilot of an an engine-driven aircraft minimise the noise emission during descent and approach?",
+"choice1": "High approach with minimum power setting, late descent, late configuration, adherence to established arrival routes",
+"choice2": "Descent and approach in landing configuration while maintaining a descent angle of 3¬∞, direct approach whenever possible",
+"choice3": "Low approach with minimum power setting, late configuration and steep approach, adherence to established arrival routes",
+"choice4": "Normal approach with normal power setting, configuration prior to initiating descent, shortest possible arrival route",
+"answer": 1
+},
+
+{
+"questionid": "5680",
+"question": "How should a power increase be executed on a constant-speed propeller, provided that no other procedure is described in the flight manual?",
+"choice1": "1) Increase RPM 2) Increase manifold pressure",
+"choice2": "1) Increase manifold pressure 2) Increase RPM",
+"choice3": "1) Decrease manifold pressure 2) Increase RPM",
+"choice4": "1) Decrease RPM 2) Increase manifold pressure",
+"answer": 1
+},
+
+{
+"questionid": "5681",
+"question": "How should a power decrease be executed on a constant-speed propeller, provided that no other procedure is described in the flight manual?",
+"choice1": "1) Decrease RPM 2) Increase manifold pressure",
+"choice2": "1) Decrease manifold pressure 2) Decrease RPM",
+"choice3": "1) Decrease manifold pressure 2) Increase RPM",
+"choice4": "1) Decrease RPM 2) Decrease manifold pressure",
+"answer": 2
+}
+
+
+
+
+]

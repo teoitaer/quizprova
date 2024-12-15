@@ -1,0 +1,1134 @@
+
+[
+  {
+"questionid": "5028",
+"question": "Compared to trailing edge flaps, leading edge devices like Slots...",
+"choice1": "Reduce the critical angle of attack at a given speed.",
+"choice2": "Allow higher speeds at take-off and landing",
+"choice3": "Produce less drag while allowing a higher angle of attack.",
+"choice4": "Increase the camber and allow a lower angle of attack.",
+"answer": 3
+},
+
+{
+"questionid": "5029",
+"question": "Stabilization around the lateral axis during cruise is achieved by the...",
+"choice1": "Horizontal stabilizer.",
+"choice2": "Airlerons",
+"choice3": "Wing flaps.",
+"choice4": "Vertical rudder.",
+"answer": 1
+},
+
+{
+"questionid": "5030",
+"question": "Flying with speeds higher than the never-exceed-speed (vNE) may result in...",
+"choice1": "Too high total pressure resulting in an unusable airspeed indicator.",
+"choice2": "Flutter and mechanically damaging the wings.",
+"choice3": "An increased lift-to-drag ratio and a better glide angle",
+"choice4": "Reduced drag with increased control forces",
+"answer": 2
+},
+
+{
+"questionid": "5031",
+"question": "What effects typically result from propeller icing?",
+"choice1": "Reduced power output, decreasing RPM",
+"choice2": "Increased power output, decreasing RPM.",
+"choice3": "Increased power output, increasing RPM.",
+"choice4": "Reduced power output, increasing RPM.",
+"answer": 1
+},
+
+{
+"questionid": "5032",
+"question": "During a straight and steady climb, which force acts addionally, and in the same direction as the drag force, resulting in more power required for climb than for horizontal flight?",
+"choice1": "A component of the weight force along the rearward flight path",
+"choice2": "The vertical component of the weight force",
+"choice3": "A component of the thrust along the rearward flightpath.",
+"choice4": "A component of the lift force along the forward flightpath.",
+"answer": 1
+},
+
+{
+"questionid": "5033",
+"question": "The static pressure of gases work...",
+"choice1": "Only vertical to the flow direction.",
+"choice2": "Only in the direction of the total pressure.",
+"choice3": "In all directions.",
+"choice4": "Only in flow direction",
+"answer": 3
+},
+
+{
+"questionid": "5034",
+"question": "Bernoulli's equation for frictionless, incompressible gases states that...",
+"choice1": "Static pressure = total pressure + dynamic pressure",
+"choice2": "Total pressure = dynamic pressure - static pressure",
+"choice3": "Dynamic pressure = total pressure + static pressure.",
+"choice4": "Total pressure = dynamic pressure + static pressure.",
+"answer": 4
+},
+
+{
+"questionid": "5035",
+"question": "If surrounded by airflow (v>0), any arbitrarily shaped body produces...",
+"choice1": "Lift without drag.",
+"choice2": "Drag and lift.",
+"choice3": "Constant drag at any speed.",
+"choice4": "Drag",
+"answer": 4
+},
+
+{
+"questionid": "5036",
+"question": "All aerodynamic forces can be considered to act on a single point. This point is called...",
+"choice1": "Center of gravity.",
+"choice2": "Center of pressure.",
+"choice3": "Lift point.",
+"choice4": "Transition point.",
+"answer": 2
+},
+
+{
+"questionid": "5037",
+"question": "The center of pressure is the theoretical point of origin of...",
+"choice1": "Only the resulting total drag.",
+"choice2": "All aerodynamic forces of the profile",
+"choice3": "Gravity forces of the profile",
+"choice4": "Gravity and aerodynamic forces",
+"answer": 2
+},
+
+{
+"questionid": "5040",
+"question": "The angle of attack is the angle between...",
+"choice1": "The undisturbed airflow and the longitudinal axis of an aeroplane.",
+"choice2": "The chord line and the longitudinal axis of an aeroplane",
+"choice3": "The chord line and the oncoming airflow",
+"choice4": "The wing and the fuselage of an aeroplane.",
+"answer": 3
+},
+
+{
+"questionid": "5041",
+"question": "The ratio of span and mean chord length is referred to as...",
+"choice1": "Trapezium shape.",
+"choice2": "Tapering",
+"choice3": "Aspect ratio.",
+"choice4": "Wing sweep.",
+"answer": 3
+},
+
+{
+"questionid": "5044",
+"question": "Wing tip vortex development begins during which phase of flight?",
+"choice1": "As soon as the aircraft starts moving",
+"choice2": "While setting take-off power during take-off run",
+"choice3": "While setting flaps to lower position",
+"choice4": "When lift is being generated during rotation",
+"answer": 4
+},
+
+{
+"questionid": "5046",
+"question": "What pattern can be found at the stagnation point?",
+"choice1": "The boundary layer starts separating on the upper surface of the profile",
+"choice2": "The laminar boundary layer changes into a turbulent boundary layer",
+"choice3": "All aerodynamic forces can be considered as attacking at this single point",
+"choice4": "Streamlines are divided into airflow above and below the profile",
+"answer": 4
+},
+
+{
+"questionid": "5047",
+"question": "What pressure pattern can be observed at a lift-generating wing profile at positive angle of attack?",
+"choice1": "Low pressure is created above, higher pressure below the profile",
+"choice2": "High pressure is created above, lower pressure below the profile",
+"choice3": "Pressure above remains unchanged, higher pressure is created below the profile",
+"choice4": "Pressure below remains unchanged, lower pressure is created above the profile",
+"answer": 1
+},
+
+{
+"questionid": "5048",
+"question": "The position of the the center of pressure at a positively shaped profile...",
+"choice1": "Moves to the leading edge while the angle of attack becomes smaller.",
+"choice2": "Is located at approximately 25% of the chord, measured from the leading edge",
+"choice3": "Moves to the trailing edge while the angle of attack becomes smaller.",
+"choice4": "Does not move since it is independent of the angle of attack.",
+"answer": 3
+},
+
+{
+"questionid": "5049",
+"question": "In which way does the position of the center of pressure move at a positively shaped profile with increasing angle of attack?",
+"choice1": "It moves backward until reaching the critical angle of attack",
+"choice2": "It moves forward first, then backward",
+"choice3": "It moves forward until reaching the critical angle of attack",
+"choice4": "It moves to the wing tips",
+"answer": 3
+},
+
+{
+"questionid": "5050",
+"question": "Which statement about lift and angle of attack is correct?",
+"choice1": "Too large angles of attack can lead to an exponential increase in lift",
+"choice2": "Increasing the angle of attack results in less lift being generated by the aerofoil",
+"choice3": "Increasing the angle of attack too far may result in a loss of lift and an airflow separation",
+"choice4": "Decreasing the angle of attack results in more drag being generated by the aerofoil",
+"answer": 3
+},
+
+{
+"questionid": "5051",
+"question": "Which statement about the airflow around an aerofoil is correct if the angle of attack increases?",
+"choice1": "The stagnation point moves down",
+"choice2": "The center of pressure moves down",
+"choice3": "The center of pressure moves up",
+"choice4": "The stagnation point moves up",
+"answer": 1
+},
+
+{
+"questionid": "5052",
+"question": "Which statement about the airflow around an aerofoil is correct if the angle of attack decreases?",
+"choice1": "The center of pressure moves aft",
+"choice2": "The stagnation point remains constant",
+"choice3": "The stagnation point moves down",
+"choice4": "The center of pressure moves forward",
+"answer": 1
+},
+
+{
+"questionid": "5054",
+"question": "In order to improve the stall characteristics of an aircraft, the wing is twisted outwards (the angle of incidence varies spanwise). This is known as...",
+"choice1": "Aerodynamic washout",
+"choice2": "Arrow shape",
+"choice3": "V-form.",
+"choice4": "Geometric washout",
+"answer": 4
+},
+
+{
+"questionid": "5055",
+"question": "Which option states a benefit of wing washout?",
+"choice1": "Structurally the wing is made more rigid against rotation",
+"choice2": "With the washout the form drag reduces at high speeds",
+"choice3": "Greater hardness because the wing can withstand more torsion forces",
+"choice4": "At high angles of attack the effectiveness of the aileron is retained as long as possible",
+"answer": 4
+},
+
+{
+"questionid": "5056",
+"question": "Which statement concerning the angle of attack is correct?",
+"choice1": "The angle of attack cannot be negative",
+"choice2": "Increasing the angle of attack results in decreasing lift",
+"choice3": "The angle of attack is constant throughout the flight",
+"choice4": "A too large angle of attack may result in a loss of lift",
+"answer": 4
+},
+
+{
+"questionid": "5057",
+"question": "When increasing the airflow speed by a factor of 2 while keeping all other parameters constant, how does the parasite drag change approximately?",
+"choice1": "It decreases by a factor of 2",
+"choice2": "It increases by a factor of 2",
+"choice3": "It decreases by a factor of 4",
+"choice4": "It increases by a factor of 4",
+"answer": 4
+},
+
+{
+"questionid": "5058",
+"question": "The drag coefficient...",
+"choice1": "Increases with increasing airspeed.",
+"choice2": "Is proportional to the lift coefficient.",
+"choice3": "Cannot be lower than a non-negative, minimal value.",
+"choice4": "May range from zero to an infinite positive value",
+"answer": 3
+},
+
+{
+"questionid": "5059",
+"question": "Pressure compensation on an wing occurs at the...",
+"choice1": "Wing roots",
+"choice2": "Wing tips.",
+"choice3": "Trailing edge",
+"choice4": "Leading edge.",
+"answer": 2
+},
+
+{
+"questionid": "5060",
+"question": "Which of the following options is likely to produce large induced drag?",
+"choice1": "Large aspect ratio",
+"choice2": "Tapered wings",
+"choice3": "Small aspect ratio",
+"choice4": "Low lift coefficients",
+"answer": 3
+},
+
+{
+"questionid": "5061",
+"question": "Which parts of an aircraft mainly affect the generation of induced drag?",
+"choice1": "The front part of the fuselage.",
+"choice2": "The wing tips",
+"choice3": "The lower part of the gear.",
+"choice4": "The outer part of the ailerons",
+"answer": 2
+},
+
+{
+"questionid": "5062",
+"question": "Where is interference drag generated?",
+"choice1": "At the wing root",
+"choice2": "At the ailerons",
+"choice3": "At the the gear",
+"choice4": "Near the wing tips",
+"answer": 1
+},
+
+{
+"questionid": "5064",
+"question": "Pressure drag, interference drag and friction drag belong to the group of the...",
+"choice1": "Induced drag",
+"choice2": "Parasite drag.",
+"choice3": "Main resistance",
+"choice4": "Total drag",
+"answer": 2
+},
+
+{
+"questionid": "5065",
+"question": "What kind of drag is NOT part of the parasite drag?",
+"choice1": "Interference drag",
+"choice2": "Skin-friction drag",
+"choice3": "Induced drag",
+"choice4": "Form drag",
+"answer": 3
+},
+
+{
+"questionid": "5066",
+"question": "How do induced drag and parasite drag change with increasing airspeed during a horizontal and stable cruise flight?",
+"choice1": "Induced drag decreases and parasite drag increase",
+"choice2": "Parasite drag decreases and induced drag increases",
+"choice3": "Parasite drag decreases and induced drag decreases",
+"choice4": "Induced drag increases and parasite drag increases",
+"answer": 1
+},
+
+{
+"questionid": "5067",
+"question": "Which of the listed wing shapes has the lowest induced drag?",
+"choice1": "Elliptical shape",
+"choice2": "Double trapezoidal shape",
+"choice3": "Rectangular shape",
+"choice4": "Trapezoidal shape",
+"answer": 1
+},
+
+{
+"questionid": "5068",
+"question": "Which effect does a decreasing airspeed have on the induced drag during a horizontal and stable cruise flight?",
+"choice1": "The induced drag will increase",
+"choice2": "The induced drag will collapse",
+"choice3": "The induced drag will remain constant",
+"choice4": "The induced drag will slightly decrease",
+"answer": 1
+},
+
+{
+"questionid": "5069",
+"question": "Which statement about induced drag during the horizontal cruise flight is correct?",
+"choice1": "Induced drag has a minimum at a certain speed and increases at higher as well as lower speeds",
+"choice2": "Induced drag has a maximum at a certain speed and decreases at higher as well as lower speeds",
+"choice3": "Induced drag increases with increasing airspeed",
+"choice4": "Induced drag decreases with increasing airspeed",
+"answer": 4
+},
+
+{
+"questionid": "5070",
+"question": "In which mentioned situation is the total drag at its minimum?",
+"choice1": "Induced drag is twice as much as parasite drag",
+"choice2": "Parasite drag is twice as much as induced drag",
+"choice3": "Parasite drag is equal to induced drag",
+"choice4": "Induced drag is smaller than parasite drag",
+"answer": 3
+},
+
+{
+"questionid": "5071",
+"question": "Which kinds of drag contribute to total drag?",
+"choice1": "Form drag, skin-friction drag, interference drag",
+"choice2": "Interference drag and parasite drag",
+"choice3": "Induced drag, form drag, skin-friction drag",
+"choice4": "Induced drag and parasite drag",
+"answer": 4
+},
+
+{
+"questionid": "5072",
+"question": "How do lift and drag change when approaching a stall condition?",
+"choice1": "Lift and drag decrease",
+"choice2": "Lift and drag increase",
+"choice3": "Lift decreases and drag increases",
+"choice4": "Lift increases and drag decreases",
+"answer": 3
+},
+
+{
+"questionid": "5073",
+"question": "In case of a stall it is important to...",
+"choice1": "Increase the bank angle and reduce the speed",
+"choice2": "Increase the angle of attack and increase the speed.",
+"choice3": "Decrease the angle of attack and increase the speed",
+"choice4": "Increase the angle of attack and reduce the speed.",
+"answer": 3
+},
+
+{
+"questionid": "5074",
+"question": "During a stall, the lift...",
+"choice1": "Decreases and drag increases.",
+"choice2": "Increases and drag decreases.",
+"choice3": "Increases and drag increases.",
+"choice4": "Decreases and drag decreases.",
+"answer": 1
+},
+
+{
+"questionid": "5075",
+"question": "The critical angle of attack...",
+"choice1": "Changes with increasing weight.",
+"choice2": "Decreases with forward center of gravity position",
+"choice3": "Is independent of the weight.",
+"choice4": "Increases with backward center of gravity position.",
+"answer": 3
+},
+
+{
+"questionid": "5076",
+"question": "What leads to a decreased stall speed Vs (IAS)?",
+"choice1": "Lower altitude",
+"choice2": "Lower density",
+"choice3": "Higher load factor",
+"choice4": "Decreasing weight",
+"answer": 4
+},
+
+{
+"questionid": "5077",
+"question": "The stall warning will be activated just before reaching which speed?",
+"choice1": "VNE",
+"choice2": "VS",
+"choice3": "VX",
+"choice4": "VR",
+"answer": 2
+},
+
+{
+"questionid": "5078",
+"question": "In airplanes the stall warning is usually activated by a change in position of...",
+"choice1": "The center of gravity",
+"choice2": "The transition point.",
+"choice3": "The center of pressure.",
+"choice4": "The stagnation point.",
+"answer": 4
+},
+
+{
+"questionid": "5079",
+"question": "How should the pilot react to an engaged stall warning?",
+"choice1": "Pull the elevator, increase power",
+"choice2": "Pull the elevator, decrease power",
+"choice3": "Push the elevator, increase power",
+"choice4": "Raise the nose to decrease airspeed",
+"answer": 3
+},
+
+{
+"questionid": "5080",
+"question": "Raise the nose to decrease airspeed",
+"choice1": "During recovery the ailerons should be kept neutral",
+"choice2": "Only very old aeroplanes have a risk of spinning",
+"choice3": "During recovery the ailerons should be crossed",
+"choice4": "During the spin the speed constantly increases",
+"answer": 1
+},
+
+{
+"questionid": "5081",
+"question": "When extending the flaps for landing at constant angle of attack, in which way does the lift coefficient change far before reaching the maximum lift coefficient?",
+"choice1": "It decreases",
+"choice2": "It is not possible to define",
+"choice3": "It increases",
+"choice4": "It remains constant",
+"answer": 3
+},
+
+{
+"questionid": "5082",
+"question": "With regard to flaps, which of the following options provides a lift-increasing effect?",
+"choice1": "Increasing of the effective AoA",
+"choice2": "Increasing the aerofoil camber",
+"choice3": "Decreasing the form drag",
+"choice4": "Lowering the induced drag",
+"answer": 2
+},
+
+{
+"questionid": "5083",
+"question": "Which factor can be changed by deploying flaps for landing?",
+"choice1": "The position of the center of gravity",
+"choice2": "The effectiveness of the ailerons",
+"choice3": "The twist effect of the engine",
+"choice4": "The trim condition",
+"answer": 4
+},
+
+{
+"questionid": "5084",
+"question": "What is the principle of a Fowler flap?",
+"choice1": "A profile-like flap is extended from the trailing edge of the wing",
+"choice2": "A flap from the rear bottom side of the wing is folded down",
+"choice3": "At high angles of attack a part of the leading edge lifts",
+"choice4": "At high angles of attack a part of the leading edge lifts",
+"answer": 1
+},
+
+{
+"questionid": "5085",
+"question": "A take-off with flaps in take-off position causes...",
+"choice1": "An increased rate of climb",
+"choice2": "An increased acceleration",
+"choice3": "A shortening of the take-off run.",
+"choice4": "A decrease in drag.",
+"answer": 3
+},
+
+{
+"questionid": "5086",
+"question": "Provided that no other procedure is described in the Aircraft Operating Handbook, after increasing the engine power in a go-around, the flaps may...",
+"choice1": "Not be operated up to the minimum safe altitude",
+"choice2": "Be retracted to a middle position",
+"choice3": "Be fully retracted without any delay.",
+"choice4": "Remain fully extended until reaching the traffic pattern",
+"answer": 2
+},
+
+{
+"questionid": "5087",
+"question": "How do lift and drag change when setting flaps to a lower position?",
+"choice1": "Lift increases, drag decreases",
+"choice2": "Lift increases, drag increases",
+"choice3": "Lift decreases, drag decreases",
+"choice4": "Lift decreases, drag increases",
+"answer": 2
+},
+
+{
+"questionid": "5088",
+"question": "The laminar boundary layer on the aerofoil is located between...",
+"choice1": "The transition point and the separation point.",
+"choice2": "The stagnation point and the transition point.",
+"choice3": "The transition point and the center of pressure",
+"choice4": "The stagnation point and the center of pressure",
+"answer": 2
+},
+
+{
+"questionid": "5089",
+"question": "What types of boundary layers can be found on an aerofoil?",
+"choice1": "Laminar layer at the leading wing areas, turbulent boundary layer at the trailing areas",
+"choice2": "Turbulent boundary layer along the complete upper surface with separated airflow",
+"choice3": "Turbulent layer at the leading wing areas, laminar boundary layer at the trailing areas",
+"choice4": "Laminar boundary layer along the complete upper surface with non-separated airflow",
+"answer": 1
+},
+
+{
+"questionid": "5090",
+"question": "How does a laminar boundary layer differ from a turbulent boundary layer?",
+"choice1": "The laminar boundary layer produces lift, the turbulent boundary layer produces drag",
+"choice2": "The turbulent boundary layer is thicker and provides less skin-friction drag",
+"choice3": "The laminar boundary layer is thinner and provides more skin-friction drag",
+"choice4": "The turbulent boundary layer can follow the airfoil camber at higher angles of attack",
+"answer": 4
+},
+
+{
+"questionid": "5091",
+"question": "What structural item provides lateral stability to an airplane?",
+"choice1": "Differential aileron deflection",
+"choice2": "Wing dihedral",
+"choice3": "Vertical tail",
+"choice4": "Elevator",
+"answer": 2
+},
+
+{
+"questionid": "5092",
+"question": "Which statement describes a situation of static stability?",
+"choice1": "An aircraft distorted by external impact will tend to an even more deflected position",
+"choice2": "An aircraft distorted by external impact will return to the original position",
+"choice3": "An aircraft distorted by external impact can return to its original position by rudder input",
+"choice4": "An aircraft distorted by external impact will maintain the deflected position",
+"answer": 2
+},
+
+{
+"questionid": "5094",
+"question": "Longitudinal stability is referred to as stability around which axis?",
+"choice1": "Propeller axis",
+"choice2": "Vertical axis",
+"choice3": "Longitudinal axis",
+"choice4": "Lateral axis",
+"answer": 4
+},
+
+{
+"questionid": "5095",
+"question": "Stability around which axis is mainly influenced by the center of gravity's longitudinal position?",
+"choice1": "Vertical axis",
+"choice2": "Longitudinal axis",
+"choice3": "Gravity axis",
+"choice4": "Lateral axis",
+"answer": 4
+},
+
+{
+"questionid": "5096",
+"question": "What structural item provides directional stability to an airplane?",
+"choice1": "Differential aileron deflection",
+"choice2": "Large vertical tail",
+"choice3": "Wing dihedral",
+"choice4": "Large elevator",
+"answer": 2
+},
+
+{
+"questionid": "5097",
+"question": "Rotation around the vertical axis is called...",
+"choice1": "Rolling",
+"choice2": "Pitching",
+"choice3": "Yawing",
+"choice4": "Slipping",
+"answer": 3
+},
+
+{
+"questionid": "5098",
+"question": "Rotation around the lateral axis is called...",
+"choice1": "Rolling",
+"choice2": "Stalling",
+"choice3": "Yawing",
+"choice4": "Pitching",
+"answer": 4
+},
+
+{
+"questionid": "5099",
+"question": "The critical angle of attack...",
+"choice1": "Increases with a front centre of gravity.",
+"choice2": "Decreases with a rear centre of gravity.",
+"choice3": "Is changed by different aircraft weights.",
+"choice4": "Is not changed by different aircraft weights.",
+"answer": 4
+},
+
+{
+"questionid": "5100",
+"question": "In straight and level flight with constant performance of the engine, the angle of attack at the wing is...",
+"choice1": "Greater than in a climb.",
+"choice2": "Greater than at take-off",
+"choice3": "Smaller than in a descent",
+"choice4": "Smaller than in a climb",
+"answer": 4
+},
+
+{
+"questionid": "5101",
+"question": "What is the function of the horizontal tail (among other things)?",
+"choice1": "To stabilise the aeroplane around the lateral axis",
+"choice2": "To initiate a curve around the vertical axis",
+"choice3": "To stabilise the aeroplane around the longitudinal axis",
+"choice4": "To stabilise the aeroplane around the vertical axis",
+"answer": 1
+},
+
+{
+"questionid": "5102",
+"question": "The elevator deflection during take-off rotation...",
+"choice1": "Is increased for a front centre of gravity.",
+"choice2": "Is increased for a rear centre of gravity",
+"choice3": "Is increased at high speeds.",
+"choice4": "Is independent of the speed.",
+"answer": 1
+},
+
+{
+"questionid": "5103",
+"question": "The elevator moves an aeroplane around the...",
+"choice1": "Lateral axis.",
+"choice2": "Elevator axis.",
+"choice3": "Longitudinal axis",
+"choice4": "Vertical axis.",
+"answer": 1
+},
+
+{
+"questionid": "5104",
+"question": "What has to be considered with regard to the center of gravity position?",
+"choice1": "The center of gravity's position can only be determined during flight.",
+"choice2": "Only correct loading can assure a correct and safe center of gravity position",
+"choice3": "By moving the elevator trim tab, the center of gravity can be shifted into a correct position",
+"choice4": "By moving the aileron trim tab, the center of gravity can be shifted into a correct position.",
+"answer": 2
+},
+
+{
+"questionid": "5105",
+"question": "Rudder deflections result in a turn of the aeroplane around the...",
+"choice1": "Rudder axis",
+"choice2": "Lateral axis",
+"choice3": "Vertical axis.",
+"choice4": "Longitudinal axis.",
+"answer": 3
+},
+
+{
+"questionid": "5106",
+"question": "Deflecting the rudder to the left causes...",
+"choice1": "Pitching of the aircraft to the right.",
+"choice2": "Yawing of the aircraft to the right",
+"choice3": "Yawing of the aircraft to the left.",
+"choice4": "Pitching of the aircraft to the left",
+"answer": 3
+},
+
+{
+"questionid": "5107",
+"question": "What is the advantage of differential aileron movement?",
+"choice1": "The ratio of the drag coefficient to lift coefficient is increased",
+"choice2": "The adverse yaw is highe",
+"choice3": "The drag of the downwards deflected aileron is lowered and the adverse yaw is smaller",
+"choice4": "The total lift remains constant during aileron deflection",
+"answer": 3
+},
+
+{
+"questionid": "5108",
+"question": "Which design feature can compensate for adverse yaw?",
+"choice1": "Wing dihedral",
+"choice2": "Full deflection of the aileron",
+"choice3": "Aileron trim",
+"choice4": "Differential aileron defletion",
+"answer": 4
+},
+
+{
+"questionid": "5109",
+"question": "Differential aileron deflection is used to...",
+"choice1": "Keep the adverse yaw low",
+"choice2": "Avoid a stall at low angles of attack",
+"choice3": "Increase the rate of descent",
+"choice4": "Reduce wake turbulence.",
+"answer": 1
+},
+
+{
+"questionid": "5110",
+"question": "The right aileron deflects upwards, the left downwards. How does the aircraft react?",
+"choice1": "Rolling to the left, no yawing",
+"choice2": "Rolling to the right, yawing to the right",
+"choice3": "Rolling to the right, yawing to the left",
+"choice4": "Rolling to the left, yawing to the right",
+"answer": 3
+},
+
+{
+"questionid": "5111",
+"question": "The aerodynamic rudder balance...",
+"choice1": "Improves the rudder effectiveness.",
+"choice2": "Reduces the control surfaces",
+"choice3": "Reduces the control stick forces",
+"choice4": "Delays the stall.",
+"answer": 3
+},
+
+{
+"questionid": "5112",
+"question": "Which constructive feature has the purpose to reduce stearing forces?",
+"choice1": "Fraise ailerons",
+"choice2": "Vortex generators",
+"choice3": "Differential aileron deflection",
+"choice4": "Aerodynamic rudder balance (horn balance)",
+"answer": 4
+},
+
+{
+"questionid": "5113",
+"question": "What is the function of the static rudder balance?",
+"choice1": "To trim the controls almost without any force",
+"choice2": "To increase the control stick forces",
+"choice3": "To limit the control stick forces",
+"choice4": "To prevent control surface flutter",
+"answer": 4
+},
+
+{
+"questionid": "5114",
+"question": "During cruise flight with constant power setting, an aircraft shows a permanent tendency to raise the nose. How can this tendency be eliminated?",
+"choice1": "By deflecting the elevator trim tab upwards",
+"choice2": "By shifting the center of gravity backwards",
+"choice3": "By elevator deflection upwards",
+"choice4": "By deflecting the elevator trim tab downwards",
+"answer": 1
+},
+
+{
+"questionid": "5115",
+"question": "The trim tab at the elevator is defelected upwards. In which position is the corresponding indicator?",
+"choice1": "Neutral position",
+"choice2": "Nose-up position",
+"choice3": "Nose-down position",
+"choice4": "Laterally trimmed",
+"answer": 3
+},
+
+{
+"questionid": "5116",
+"question": "What describes wing loading?",
+"choice1": "Drag per wing area",
+"choice2": "Weight per wing area",
+"choice3": "Wing area per weight",
+"choice4": "Drag per weight",
+"answer": 2
+},
+
+{
+"questionid": "5117",
+"question": "Through which factor listed below does the load factor increase during cruise flight?",
+"choice1": "A forward centre of gravity",
+"choice2": "An upward gust",
+"choice3": "Higher aeroplane weight",
+"choice4": "A downward gust",
+"answer": 2
+},
+
+{
+"questionid": "5118",
+"question": "Which statement regarding the constant-speed propeller is correct?",
+"choice1": "The propeller keeps the airspeed constant",
+"choice2": "The pitch of the propeller rises with higher speeds",
+"choice3": "The RPM decreases with lower speeds",
+"choice4": "The set RPM is kept constant by the motor power (MAP)",
+"answer": 2
+},
+
+{
+"questionid": "5119",
+"question": "The change in pitch at a propeller blade from the root to the tip ensures...",
+"choice1": "That the most thrust is produced at the blade tip",
+"choice2": "That the most thrust is produced at the blade root",
+"choice3": "A nearly constant load by a constant effective angle of attack over the entire length of the blade.",
+"choice4": "The largest possible angle of attack at the blade tip",
+"answer": 3
+},
+
+{
+"questionid": "5120",
+"question": "After an engine failure, the windmilling propeller...",
+"choice1": "Generates neither thrust nor drag.",
+"choice2": "Has a greater pitch in feathered position",
+"choice3": "Generates drag rather than thrust.",
+"choice4": "Improves the properties of the glide",
+"answer": 3
+},
+
+{
+"questionid": "5121",
+"question": "During a descent at idle power with constant speed, the propeller lever is moved backwards. How do the propeller pitch and sink rate change?",
+"choice1": "Propeller pitch is increased, sink rate is increased",
+"choice2": "Propeller pitch is increased, sink rate is decreased",
+"choice3": "Propeller pitch is decreased, sink rate is increased",
+"choice4": "Propeller pitch is decreased, sink rate is decreased",
+"answer": 2
+},
+
+{
+"questionid": "5124",
+"question": "The bank in a two-minute turn (rate one turn) depends on the...",
+"choice1": "Weight",
+"choice2": "Wind",
+"choice3": "Load factor.",
+"choice4": "TAS",
+"answer": 4
+},
+
+{
+"questionid": "5125",
+"question": "In a co-ordinated turn, how is the relation between the load factor (n) and the stall speed (Vs)?",
+"choice1": "N is smaller than 1, Vs is greater than in straight and level flight",
+"choice2": "N is greater than 1, Vs is greater than in straight and level flight.",
+"choice3": "N is smaller than 1, Vs is smaller than in straight and level flight.",
+"choice4": "N is greater than 1, Vs is smaller than in straight and level flight",
+"answer": 2
+},
+
+{
+"questionid": "5126",
+"question": "How is the balance of forces affected during a turn?",
+"choice1": "Lift force must be increased to compensate for the sum of centrifugal and gravitational force",
+"choice2": "The net force results from superposition of gravity and centripetal forces",
+"choice3": "The horizontal component of the lift force during a turn is the centrifugal force",
+"choice4": "A lower lift force compensates for a lower net force as compared to level flight",
+"answer": 1
+},
+
+{
+"questionid": "5127",
+"question": "The pressure compensation between wind upper and lower surface results in ...",
+"choice1": "Laminar airflow by wing tip vortices.",
+"choice2": "Profile drag by wing tip vortices.",
+"choice3": "Induced drag by wing tip vortices.",
+"choice4": "Lift by wing tip vortices",
+"answer": 3
+},
+
+{
+"questionid": "5128",
+"question": "What is meant by ground effect?",
+"choice1": "Increase of lift and increase of induced drag close to the ground",
+"choice2": "Decrease of lift and increase of induced drag close to the ground",
+"choice3": "Decrease of lift and decrease of induced drag close to the ground",
+"choice4": "Increase of lift and decrease of induced drag close to the ground",
+"answer": 4
+},
+
+{
+"questionid": "5129",
+"question": "What is the diffeence between spin and spiral dive?",
+"choice1": "Spin: stall at outer wing, speed constant; Spiral dive: airflow at both wings, speed increasing rapidly",
+"choice2": "Spin: stall at inner wing, speed constant; Spiral dive: airflow at both wings, speed increasing rapidly",
+"choice3": "Spin: stall at outer wing, speed increasing rapidly; Spiral dive: airflow at both wings, speed constant",
+"choice4": "Spin: stall at inner wing, speed increasing rapidly; Spiral dive: airflow at both wings, speed constant",
+"answer": 2
+},
+
+{
+"questionid": "5559",
+"question": "The static pressure of gasses works...",
+"choice1": "only in flow direction.",
+"choice2": "only vertical to the flow direction.",
+"choice3": "only in the direction of the total pressure.",
+"choice4": "in all directions.",
+"answer": 4
+},
+
+{
+"questionid": "5560",
+"question": "Bernoulli's equation for frictionless, incompressible gasses states that...",
+"choice1": "total pressure = dynamic pressure + static pressure.",
+"choice2": "total pressure = dynamic pressure - static pressure.",
+"choice3": "dynamic pressure = total pressure + static pressure.",
+"choice4": "static pressure = total pressure + dynamic pressure.",
+"answer": 1
+},
+
+{
+"questionid": "5561",
+"question": "If surrounded by airflow (v>0), any arbitrarily shaped body produces...",
+"choice1": "constant drag at any speed.",
+"choice2": "drag and lift.",
+"choice3": "drag.",
+"choice4": "lift without drag.",
+"answer": 3
+},
+
+{
+"questionid": "5562",
+"question": "All aerodynamic forces can be considered to act on a single point.",
+"choice1": "center of gravity.",
+"choice2": "center of pressure.",
+"choice3": "transition point.",
+"choice4": "lift point.",
+"answer": 2
+},
+
+{
+"questionid": "5563",
+"question": "The center of pressure is the theoretical point of origin of...",
+"choice1": "only the resulting total drag.",
+"choice2": "gravity forces of the profile.",
+"choice3": "gravity and aerodynamic forces.",
+"choice4": "all aerodynamic forces of the profile.",
+"answer": 4
+},
+
+{
+"questionid": "5569",
+"question": "The angle of attack is the angle between...",
+"choice1": "the undisturbed airflow and the longitudinal axis of an airplane.",
+"choice2": "the chord line and the longitudinal axis of an airplane.",
+"choice3": "the chord line and the oncoming airflow.",
+"choice4": "the wing and the fuselage of an airplane.",
+"answer": 3
+},
+
+{
+"questionid": "5570",
+"question": "The ratio of span and mean chord length is referred to as...",
+"choice1": "aspect ratio.",
+"choice2": "taper ratio.",
+"choice3": "wing sweep.",
+"choice4": "trapezium shape.",
+"answer": 1
+},
+
+{
+"questionid": "5572",
+"question": "Wing tip vortex development begins during which phase of flight?",
+"choice1": "When lift is being generated during rotation",
+"choice2": "As soon as the aircraft starts moving",
+"choice3": "While setting flaps to lower position",
+"choice4": "While setting take-off power during take-off run",
+"answer": 1
+},
+
+{
+"questionid": "5574",
+"question": "What pattern can be found at the stagnation point?",
+"choice1": "The laminar boundary layer changes into a turbulent boundary layer",
+"choice2": "The boundary layer starts separating on the upper surface of the profile",
+"choice3": "Streamlines are divided into airflow above and below the profile",
+"choice4": "All aerodynamic forces can be considered as attacking at this single point",
+"answer": 3
+},
+
+{
+"questionid": "5575",
+"question": "What pressure pattern can be observed at a lift-generating wing profile at positive angle of attack?",
+"choice1": "Pressure above remains unchanged, higher pressure is created below the profile",
+"choice2": "Pressure below remains unchanged, lower pressure is created above the profile",
+"choice3": "High pressure is created above, lower pressure below the profile",
+"choice4": "Lower pressure is created above, higher pressure below the profile",
+"answer": 4
+},
+
+{
+"questionid": "5576",
+"question": "The position of the center of pressure at a positively shaped profile...",
+"choice1": "moves to the leading edge as the angle of attack is reduced.",
+"choice2": "moves to the trailing edge as the angle of attack is reduced.",
+"choice3": "is located at approximately 25% of the chord, measured from the leading edge.",
+"choice4": "does not move since it is independent of the angle of attack.",
+"answer": 2
+},
+
+{
+"questionid": "5577",
+"question": "In which way does the position of the center of pressure move at a positively shaped profile with increasing angle of attack?",
+"choice1": "It moves backward until reaching the critical angle of attack",
+"choice2": "It moves forward until reaching the critical angle of attack",
+"choice3": "It moves forward first, then backward",
+"choice4": "It moves to the wing tips",
+"answer": 2
+},
+
+{
+"questionid": "5578",
+"question": "Skin friction drag will (i) __________ with aircraft speed due to an increase in the (ii) __________",
+"choice1": "(i) increase (ii) laminar boundary layer",
+"choice2": "(i) decrease (ii) laminar boundary layer",
+"choice3": "(i) decrease (ii) turbolent boundary layer",
+"choice4": "(i) increase (ii) turbolent boundary layer",
+"answer": 4
+},
+
+{
+"questionid": "5579",
+"question": "With a weight decrease of 19%, how does this affect the Vs",
+"choice1": "10% lower",
+"choice2": "19% higher",
+"choice3": "4.95% lower",
+"choice4": "19% lower",
+"answer": 1
+},
+
+{
+"questionid": "5580",
+"question": "In 3D airflow, wing tip vortices:",
+"choice1": "increase the value of lift and drag",
+"choice2": "have no effect on the wing AoA",
+"choice3": "increase the effective AoA",
+"choice4": "decrease the effective AoA",
+"answer": 4
+},
+
+{
+"questionid": "5581",
+"question": "Aspect Ratio is expressed as:(i) Span / Mean Chord (ii) Span squared / Wing Area (iii) Wing Area / Mean Chord squared",
+"choice1": "all the above",
+"choice2": "none of the answers is correct",
+"choice3": "(i) incorrect (ii) correct (iii) incorrect",
+"choice4": "(i) correct (ii) incorrect (iii) incorrect",
+"answer": 1
+},
+
+{
+"questionid": "5582",
+"question": "At the separation point:",
+"choice1": "there is constant turning moment",
+"choice2": "the laminar boundary layer becomes turbolent",
+"choice3": "the airflow separates between upper and lower surface",
+"choice4": "airflow separation will start if the critical AoA is exceeded",
+"answer": 4
+},
+
+{
+"questionid": "5583",
+"question": "An aircraft in clean configuration has a Stall Speed of 50kts with a CLMAX of 1.5 If extending flaps increases CLMAX to 3.2, what is the new Stall Speed?",
+"choice1": "73kts",
+"choice2": "34kts",
+"choice3": "28kts",
+"choice4": "41kts",
+"answer": 2
+},
+
+{
+"questionid": "5584",
+"question": "Vmd is:",
+"choice1": "The speed for minimum drag, and corresponds to the minimum CD/CL ratio for an aircraft in level flight",
+"choice2": "The speed for minimum drag, but the best CL/CD ratio is another point",
+"choice3": "The speed for minimum drag, and corresponds to the maximum CD/CL ratio for an aircraft in level flight",
+"choice4": "The speed for minimum profile drag",
+"answer": 1
+},
+
+{
+"questionid": "5585",
+"question": "Which is an effect of ice, snow or frost formation on an airplane?",
+"choice1": "Decreased Critical AoA",
+"choice2": "Increased tendency to be stable in roll",
+"choice3": "Decreased Stall speed",
+"choice4": "Increased Critical AoA",
+"answer": 1
+},
+
+{
+"questionid": "5586",
+"question": "The factors which will determinate the distance travelled over the ground by an airplane glide are:",
+"choice1": "The wind and the weight together with power loading, which is the ratio between the power output and the weight",
+"choice2": "The wind, the lift/drag ratio and the IAS",
+"choice3": "The wind and CLMAX",
+"choice4": "The wind, the airplane's weight and the AoA",
+"answer": 2
+}
+
+
+]

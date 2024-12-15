@@ -1,0 +1,1567 @@
+
+[
+  {
+"questionid": "4812",
+"question": "What clouds and weather may result from an humid and instable air mass, that is pushed against a chain of mountains by the predominant wind and forced to rise?",
+"choice1": "Embedded CB with thunderstorms and showers of hail and/or rain.",
+"choice2": "Thin Altostratus and Cirrostratus clouds with light and steady precipitation.",
+"choice3": "Overcast low stratus (high fog) with no precipitation.",
+"choice4": "Smooth, unstructured NS cloud with light drizzle or snow (during winter)",
+"answer": 1
+},
+
+{
+"questionid": "4813",
+"question": "What type of fog emerges if humid and almost saturated air, is forced to rise upslope of hills or shallow mountains by the prevailling wind?",
+"choice1": "Orographic fog",
+"choice2": "Steaming fog",
+"choice3": "Radiation fog",
+"choice4": "Advection fog",
+"answer": 1
+},
+
+{
+"questionid": "4814",
+"question": "What situation is called over-development in a weather report?",
+"choice1": "Vertical development of Cumulus clouds to rain showers",
+"choice2": "Widespreading of Cumulus clouds below an inversion layer",
+"choice3": "Change from blue thermals to cloudy thermals during the afternoon",
+"choice4": "Development of a thermal low to a storm depression",
+"answer": 1
+},
+
+{
+"questionid": "4815",
+"question": "What is the gas composition of air?",
+"choice1": "Oxygen 21 % Water vapour 78 % Noble gases / carbon dioxide 1 %",
+"choice2": "Oxygen 78 % Water vapour 21 % Nitrogen 1 %",
+"choice3": "Nitrogen 21 % Oxygen 78 % Noble gases / carbon dioxide 1 %",
+"choice4": "Oxygen 21 % Nitrogen 78 % Noble gases / carbon dioxide 1 %",
+"answer": 4
+},
+
+{
+"questionid": "4816",
+"question": "Weather phenomena are most common to be found in which atmospheric layer?",
+"choice1": "Stratosphere",
+"choice2": "Tropopause",
+"choice3": "Thermosphere",
+"choice4": "Troposphere",
+"answer": 4
+},
+
+{
+"questionid": "4817",
+"question": "What is the mass of a cube of air with the edges 1 m long, at MSL according ISA?",
+"choice1": "1,225 kg",
+"choice2": "0,01225 kg",
+"choice3": "0,1225 kg",
+"choice4": "12,25 kg",
+"answer": 1
+},
+
+{
+"questionid": "4818",
+"question": "At what rate does the temperature change with increasing height according to ISA (ICAO Standard Atmosphere) within the troposphere?",
+"choice1": "Decreases by 2° C / 1000 ft",
+"choice2": "Increases by 2° C / 1000 ft",
+"choice3": "Decreases by 2° C / 100 m",
+"choice4": "Increases by 2° C / 100 m",
+"answer": 1
+},
+
+{
+"questionid": "4819",
+"question": "What is the mean height of the tropopause according to ISA (ICAO Standard Atmosphere)?",
+"choice1": "18000 ft",
+"choice2": "11000 ft",
+"choice3": "11000 m",
+"choice4": "36000 m",
+"answer": 3
+},
+
+{
+"questionid": "4820",
+"question": "The term tropopause is defined as...",
+"choice1": "The layer above the troposphere showing an increasing temperature.",
+"choice2": "The boundary area between the mesosphere and the stratosphere.",
+"choice3": "The boundary area between the troposphere and the stratosphere.",
+"choice4": "The height above which the temperature starts to decrease.",
+"answer": 3
+},
+
+{
+"questionid": "4821",
+"question": "Temperatures will be given by meteorological aviation services in Europe in which unit?",
+"choice1": "Degrees Centigrade (° C)",
+"choice2": "Kelvin",
+"choice3": "Gpdam",
+"choice4": "Degrees Fahrenheit",
+"answer": 1
+},
+
+{
+"questionid": "4822",
+"question": "What is meant by inversion layer?",
+"choice1": "An atmospheric layer where temperature decreases with increasing height",
+"choice2": "A boundary area between two other layers within the atmosphere",
+"choice3": "An atmospheric layer with constant temperature with increasing height",
+"choice4": "An atmospheric layer where temperature increases with increasing height",
+"answer": 4
+},
+
+{
+"questionid": "4823",
+"question": "What is meant by isothermal layer?",
+"choice1": "An atmospheric layer where temperature increases with increasing height",
+"choice2": "An atmospheric layer where temperature decreases with increasing height",
+"choice3": "A boundary area between two other layers within the atmosphere",
+"choice4": "An atmospheric layer with constant temperature with increasing height",
+"answer": 4
+},
+
+{
+"questionid": "4824",
+"question": "The temperature lapse rate with increasing height within the troposphere according ISA is...",
+"choice1": "0,65° C / 100 m",
+"choice2": "3° C / 100 m.",
+"choice3": "1° C / 100 m",
+"choice4": "0,6° C / 100 m.",
+"answer": 1
+},
+
+{
+"questionid": "4825",
+"question": "Which process may result in an inversion layer at about 5000 ft (1500 m) height?",
+"choice1": "Intensive sunlight insolation during a warm summer day",
+"choice2": "Widespread descending air within a high pressure area",
+"choice3": "Ground cooling by radiation during the night",
+"choice4": "Advection of cool air in the upper troposphere",
+"answer": 2
+},
+
+{
+"questionid": "4826",
+"question": "An inversion layer close to the ground can be caused by...",
+"choice1": "Ground cooling during the night.",
+"choice2": "Large-scale lifting of air.",
+"choice3": "Intensifying and gusting winds",
+"choice4": "Thickening of clouds in medium layers.",
+"answer": 1
+},
+
+{
+"questionid": "4827",
+"question": "What is the ISA standard pressure at FL 180 (5500 m)?",
+"choice1": "250 hPa",
+"choice2": "300 hPa",
+"choice3": "1013.25 hPa",
+"choice4": "500 hPa",
+"answer": 4
+},
+
+{
+"questionid": "4828",
+"question": "The pressure which is measured at a ground station and reduced to mean sea level (MSL) by means of the actual atmospheric conditions is called...",
+"choice1": "QNH",
+"choice2": "QNE",
+"choice3": "QFE",
+"choice4": "QFF",
+"answer": 4
+},
+
+{
+"questionid": "4829",
+"question": "Which processes result in decreasing air density?",
+"choice1": "Decreasing temperature, increasing pressure",
+"choice2": "Increasing temperature, decreasing pressure",
+"choice3": "Increasing temperature, increasing pressure",
+"choice4": "Decreasing temperature, decreasing pressure",
+"answer": 2
+},
+
+{
+"questionid": "4830",
+"question": "The pressure at MSL in ISA conditions is...",
+"choice1": "113.25 hPa.",
+"choice2": "15 hPa.",
+"choice3": "1013.25 hPa",
+"choice4": "1123 hPa.",
+"answer": 3
+},
+
+{
+"questionid": "4831",
+"question": "The height of the tropopause of the International Standard Atmosphere (ISA) is at...",
+"choice1": "5500 ft.",
+"choice2": "11000 ft.",
+"choice3": "36000 ft.",
+"choice4": "48000 ft.",
+"answer": 3
+},
+
+{
+"questionid": "4832",
+"question": "The barometric altimeter indicates height above...",
+"choice1": "A selected reference pressure level.",
+"choice2": "Mean sea level.",
+"choice3": "Standard pressure 1013.25 hPa.",
+"choice4": "Ground.",
+"answer": 1
+},
+
+{
+"questionid": "4833",
+"question": "The altimeter can be checked on the ground by setting...",
+"choice1": "QFE and comparing the indication with the airfield elevation.",
+"choice2": "QNH and comparing the indication with the airfield elevation.",
+"choice3": "QNE and checking that the indication shows zero on the ground.",
+"choice4": "QFF and comparing the indication with the airfield elevation.",
+"answer": 2
+},
+
+{
+"questionid": "4834",
+"question": "The barometric altimeter with QFE setting indicates...",
+"choice1": "Height above the pressure level at airfield elevation.",
+"choice2": "True altitude above MSL.",
+"choice3": "Height above MSL.",
+"choice4": "Height above standard pressure 1013.25 hPa",
+"answer": 1
+},
+
+{
+"questionid": "4835",
+"question": "The barometric altimeter with QNH setting indicates...",
+"choice1": "Height above standard pressure 1013.25 hPa",
+"choice2": "Height above the pressure level at airfield elevation",
+"choice3": "True altitude above MSL.",
+"choice4": "Height above MSL.",
+"answer": 4
+},
+
+{
+"questionid": "4836",
+"question": "Given the following information, what is the true altitude? (rounded to the nearest 50 ft) QNH: 983 hPa Altitude: FL 85 Outside Air Temperature: ISA - 10°",
+"choice1": "7900 ft",
+"choice2": "9400 ft",
+"choice3": "7300 ft",
+"choice4": "7600 ft",
+"answer": 3
+},
+
+{
+"questionid": "4837",
+"question": "How can wind speed and wind direction be derived from surface weather charts?",
+"choice1": "By alignment and distance of isobaric lines",
+"choice2": "By alignment and distance of hypsometric lines",
+"choice3": "By alignment of lines of warm- and cold fronts.",
+"choice4": "By annotations from the text part of the chart",
+"answer": 1
+},
+
+{
+"questionid": "4838",
+"question": "Which force causes wind?",
+"choice1": "Centrifugal force",
+"choice2": "Thermal force",
+"choice3": "Coriolis force",
+"choice4": "Pressure gradient force",
+"answer": 4
+},
+
+{
+"questionid": "4839",
+"question": "Above the friction layer, with a prevailing pressure gradient, the wind direction is...",
+"choice1": "Perpendicular to the isohypses",
+"choice2": "At an angle of 30° to the isobars towards low pressure.",
+"choice3": "Parallel to the isobars.",
+"choice4": "Perpendicular to the isobars.",
+"answer": 3
+},
+
+{
+"questionid": "4840",
+"question": "Which of the stated surfaces will reduce the wind speed most due to ground friction?",
+"choice1": "Flat land, deserted land, no vegetation",
+"choice2": "Oceanic areas",
+"choice3": "Mountainous areas, vegetation cover",
+"choice4": "Flat land, lots of vegetation cover",
+"answer": 3
+},
+
+{
+"questionid": "4841",
+"question": "The movement of air flowing together is called...",
+"choice1": "Convergence",
+"choice2": "Divergence",
+"choice3": "Soncordence",
+"choice4": "Subsidence",
+"answer": 1
+},
+
+{
+"questionid": "4842",
+"question": "The movement of air flowing apart is called...",
+"choice1": "Convergence",
+"choice2": "Concordence",
+"choice3": "Divergence",
+"choice4": "Subsidence",
+"answer": 3
+},
+
+{
+"questionid": "4843",
+"question": "What weather development will result from convergence at ground level?",
+"choice1": "Descending air and cloud formation",
+"choice2": "Ascending air and cloud dissipation",
+"choice3": "Descending air and cloud dissipation",
+"choice4": "Ascending air and cloud formation",
+"answer": 4
+},
+
+{
+"questionid": "4844",
+"question": "When air masses meet each other head on, how is this referred to and what air movements will follow?",
+"choice1": "Convergence resulting in sinking air",
+"choice2": "Divergence resulting in sinking air",
+"choice3": "Convergence resulting in air being lifted",
+"choice4": "Divergence resulting in air being lifted",
+"answer": 3
+},
+
+{
+"questionid": "4845",
+"question": "What are the air masses that Central Europe is mainly influenced by?",
+"choice1": "Arctic and polar cold air",
+"choice2": "Polar cold air and tropical warm air",
+"choice3": "Equatorial and tropical warm air",
+"choice4": "Tropical and arctic cold air",
+"answer": 2
+},
+
+{
+"questionid": "4846",
+"question": "With regard to global circulation within the atmosphere, where does polar cold air meets subtropical warm air?",
+"choice1": "At the equator",
+"choice2": "At the geographic poles",
+"choice3": "At the subtropical high pressure belt",
+"choice4": "At the polar front",
+"answer": 4
+},
+
+{
+"questionid": "4847",
+"question": "Winds blowing uphill are defined as...",
+"choice1": "Katabatic winds.",
+"choice2": "Anabatic winds",
+"choice3": "Convergent winds",
+"choice4": "Subsident winds.",
+"answer": 2
+},
+
+{
+"questionid": "4848",
+"question": "Winds blowing downhill are defined as...",
+"choice1": "Anabatic winds.",
+"choice2": "Katabatic winds.",
+"choice3": "Convergent winds.",
+"choice4": "Subsident winds.",
+"answer": 2
+},
+
+{
+"questionid": "4849",
+"question": "Air descending behind a mountain range is defined as...",
+"choice1": "Katabatic wind",
+"choice2": "Convergent wind.",
+"choice3": "Anabatic wind.",
+"choice4": "Divergent wind.",
+"answer": 1
+},
+
+{
+"questionid": "4850",
+"question": "Foehn conditions usually develop with...",
+"choice1": "Instability, widespread air blown against a mountain ridge.",
+"choice2": "Stability, widespread air blown against a mountain ridge.",
+"choice3": "Instability, high pressure area with calm wind.",
+"choice4": "Stability, high pressure area with calm wind.",
+"answer": 2
+},
+
+{
+"questionid": "4851",
+"question": "What type of turbulence is typically found close to the ground on the lee side during Foehn conditions?",
+"choice1": "Inversion turbulence",
+"choice2": "Turbulence in rotors",
+"choice3": "Clear-air turbulence (CAT)",
+"choice4": "Thermal turbulence",
+"answer": 2
+},
+
+{
+"questionid": "4852",
+"question": "Light turbulence always has to be expected...",
+"choice1": "Above cumulus clouds due to thermal convection.",
+"choice2": "Below stratiform clouds in medium layers.",
+"choice3": "When entering inversions",
+"choice4": "Below cumulus clouds due to thermal convection",
+"answer": 4
+},
+
+{
+"questionid": "4853",
+"question": "Moderate to severe turbulence has to be expected...",
+"choice1": "With the appearance of extended low stratus clouds (high fog)",
+"choice2": "Overhead unbroken cloud layers.",
+"choice3": "Below thick cloud layers on the windward side of a mountain range",
+"choice4": "On the lee side of a mountain range when rotor clouds are present.",
+"answer": 4
+},
+
+{
+"questionid": "4854",
+"question": "Which answer contains every state of water found in the atmosphere?",
+"choice1": "Liquid and solid",
+"choice2": "Liquid, solid, and gaseous",
+"choice3": "Gaseous and liquid",
+"choice4": "Liquid",
+"answer": 2
+},
+
+{
+"questionid": "4855",
+"question": "How do dew point and relative humidity change with decreasing temperature?",
+"choice1": "Dew point remains constant, relative humidity decreases",
+"choice2": "Dew point decreases, relative humidity increases",
+"choice3": "Dew point increases, relative humidity decreases",
+"choice4": "Dew point remains constant, relative humidity increases",
+"answer": 4
+},
+
+{
+"questionid": "4856",
+"question": "How do spread and relative humidity change with increasing temperature?",
+"choice1": "Spread increases, relative humidity decreases",
+"choice2": "Spread remains constant, relative humidity decreases",
+"choice3": "Spread increases, relative humidity increases",
+"choice4": "Spread remains constant, relative humidity increases",
+"answer": 1
+},
+
+{
+"questionid": "4857",
+"question": "The spread is defined as...",
+"choice1": "Relation of actual to maximum possible humidity of air.",
+"choice2": "Maximum amount of water vapour that can be contained in air.",
+"choice3": "Difference between dew point and condensation point.",
+"choice4": "Difference between actual temperature and dew point.",
+"answer": 4
+},
+
+{
+"questionid": "4858",
+"question": "With other factors remaining constant, decreasing temperature results in...",
+"choice1": "Decreasing spread and decreasing relative humidity.",
+"choice2": "Increasing spread and decreasing relative humidity.",
+"choice3": "Increasing spread and increasing relative humidity.",
+"choice4": "Decreasing spread and increasing relative humidity.",
+"answer": 4
+},
+
+{
+"questionid": "4859",
+"question": "What process causes latent heat being released into the upper troposphere?",
+"choice1": "Descending air across widespread areas",
+"choice2": "Stabilisation of inflowing air masses",
+"choice3": "Cloud forming due to condensation",
+"choice4": "Evaporation over widespread water areas",
+"answer": 3
+},
+
+{
+"questionid": "4860",
+"question": "The saturated adiabatic lapse rate is...",
+"choice1": "Lower than the dry adiabatic lapse rate",
+"choice2": "Proportional to the dry adiabatic lapse rate",
+"choice3": "Higher than the dry adiabatic lapse rate.",
+"choice4": "Equal to the dry adiabatic lapse rate.",
+"answer": 1
+},
+
+{
+"questionid": "4861",
+"question": "The dry adiabatic lapse rate has a value of...",
+"choice1": "1,0° C / 100 m.",
+"choice2": "2° / 1000 ft.",
+"choice3": "0,6° C / 100 m.",
+"choice4": "0,65° C / 100 m.",
+"answer": 1
+},
+
+{
+"questionid": "4862",
+"question": "The saturated adiabatic lapse rate should be assumed with a mean value of:",
+"choice1": "1,0° C / 100 m.",
+"choice2": "0° C / 100 m",
+"choice3": "0,6° C / 100 m",
+"choice4": "2° C / 1000 ft.",
+"answer": 3
+},
+
+{
+"questionid": "4863",
+"question": "What weather conditions may be expected during conditionally unstable conditions?",
+"choice1": "Layered clouds up to high levels, prolonged rain or snow",
+"choice2": "Shallow cumulus clouds with base at medium levels",
+"choice3": "Sky clear of clouds, sunshine, low winds",
+"choice4": "Towering cumulus, isolated showers of rain or thunderstorms",
+"answer": 4
+},
+
+{
+"questionid": "4864",
+"question": "Which conditions are likely for the formation of advection fog?",
+"choice1": "Cold, humid air moves over a warm ocean",
+"choice2": "Warm, humid air moves over a cold surface",
+"choice3": "Warm, humid air cools during a cloudy night",
+"choice4": "Humidity evaporates from warm, humid ground into cold air",
+"answer": 2
+},
+
+{
+"questionid": "4865",
+"question": "Clouds are basically distinguished by what types?",
+"choice1": "Stratiform and ice clouds",
+"choice2": "Layered and lifted clouds",
+"choice3": "Cumulus and stratiform clouds",
+"choice4": "Thunderstorm and shower clouds",
+"answer": 3
+},
+
+{
+"questionid": "4866",
+"question": "Clouds in high layers are referred to as...",
+"choice1": "Nimbo-.",
+"choice2": "Strato-.",
+"choice3": "Alto-",
+"choice4": "Cirro-",
+"answer": 4
+},
+
+{
+"questionid": "4870",
+"question": "What factor may affect the top of cumulus clouds?",
+"choice1": "Relative humidity",
+"choice2": "The spread",
+"choice3": "The presence of an inversion layer",
+"choice4": "The absolute humidity",
+"answer": 3
+},
+
+{
+"questionid": "4871",
+"question": "What factors may indicate a tendency to fog formation?",
+"choice1": "Low pressure, increasing temperature",
+"choice2": "Low spread, decreasing temperature",
+"choice3": "Low spread, increasing temperature",
+"choice4": "Strong winds, decreasing temperature",
+"answer": 2
+},
+
+{
+"questionid": "4872",
+"question": "What condition may prevent the formation of radiation fog?",
+"choice1": "Overcast cloud cover",
+"choice2": "Calm wind",
+"choice3": "Low spread",
+"choice4": "Clear night, no clouds",
+"answer": 1
+},
+
+{
+"questionid": "4873",
+"question": "What process results in the formation of advection fog?",
+"choice1": "Cold, moist air is being moved across warm ground areas",
+"choice2": "Warm, moist air is moved across cold ground areas",
+"choice3": "Cold, moist air mixes with warm, moist air",
+"choice4": "Prolonged radiation during nights clear of clouds",
+"answer": 2
+},
+
+{
+"questionid": "4874",
+"question": "What process results in the formation of orographic fog (hill fog)?",
+"choice1": "Prolonged radiation during nights clear of clouds",
+"choice2": "Warm, moist air is moved across a hill or a mountain range",
+"choice3": "Cold, moist air mixes with warm, moist air",
+"choice4": "Evaporation from warm, moist ground area into very cold air",
+"answer": 2
+},
+
+{
+"questionid": "4875",
+"question": "What factors are required for the formation of precipitation in clouds?",
+"choice1": "High humidity and high temperatures",
+"choice2": "The presence of an inversion layer",
+"choice3": "Calm winds and intensive sunlight insolation",
+"choice4": "Moderate to strong updrafts",
+"answer": 4
+},
+
+{
+"questionid": "4876",
+"question": "The formation of medium to large precipitation particles requires...",
+"choice1": "A high cloud base.",
+"choice2": "Strong wind.",
+"choice3": "An inversion layer.",
+"choice4": "Strong updrafts.",
+"answer": 4
+},
+
+{
+"questionid": "4877",
+"question": "Which type of cloud is associated with prolonged rain?",
+"choice1": "Cumulonimbus",
+"choice2": "Cirrostratus",
+"choice3": "Nimbostratus",
+"choice4": "Altocumulus",
+"answer": 3
+},
+
+{
+"questionid": "4878",
+"question": "Regarding the type of cloud, precipitation is classified as...",
+"choice1": "Light and heavy precipitation.",
+"choice2": "Showers of snow and rain",
+"choice3": "Prolonged rain and continuous rain.",
+"choice4": "Rain and showers of rain.",
+"answer": 4
+},
+
+{
+"questionid": "4879",
+"question": "How is an air mass described when moving to Central Europe via the Russian continent during winter?",
+"choice1": "Maritime tropical air",
+"choice2": "Continental tropical air",
+"choice3": "Continental polar air",
+"choice4": "Maritime polar air",
+"answer": 3
+},
+
+{
+"questionid": "4880",
+"question": "The characteristics of an air mass are given by what properties?",
+"choice1": "Temperatures at origin and present region",
+"choice2": "Wind speed and tropopause height",
+"choice3": "Region of origin and track during movement",
+"choice4": "Environmental lapse rate at origin",
+"answer": 3
+},
+
+{
+"questionid": "4884",
+"question": "What cloud sequence can typically be observed during the passage of a warm front?",
+"choice1": "In coastal areas during daytime wind from the coast and forming of cumulus clouds, dissipation of clouds during evening and night",
+"choice2": "Wind becoming calm, dissipation of clouds and warming during summer; formation of extended high fog layers during winter",
+"choice3": "Squall line with showers of rain and thunderstorms (Cb), gusting wind followed by cumulus clouds with isolated showers of rain",
+"choice4": "Cirrus, thickening altostratus and altocumulus clouds, lowering cloud base with rain, nimbostratus",
+"answer": 4
+},
+
+{
+"questionid": "4885",
+"question": "What clouds and weather can typically be observed during the passage of a cold front?",
+"choice1": "In coastal areas during daytime wind from the coast and forming of cumulus clouds, dissipation of clouds during evening and night",
+"choice2": "Strongly developed cumulus clouds (Cb) with showers of rain and thunderstorms, gusting wind followed by cumulus clouds with isolated showers of rain",
+"choice3": "Cirrus, thickening altostratus and altocumulus clouds, lowering cloud base with rain, nimbostratus",
+"choice4": "Wind becoming calm, dissipation of clouds and warming during summer; formation of extended high fog layers during winter",
+"answer": 2
+},
+
+{
+"questionid": "4886",
+"question": "What visual flight conditions can be expected within the warm sector of a polar front low during summer time?",
+"choice1": "Visibilty less than 1000 m, cloud-covered ground",
+"choice2": "Good visibility, some isolated high clouds",
+"choice3": "Moderate to good visibility, scattered clouds",
+"choice4": "Moderate visibility, heavy showers and thunderstorms",
+"answer": 3
+},
+
+{
+"questionid": "4887",
+"question": "What visual flight conditions can be expected after the passage of a cold front?",
+"choice1": "Scattered cloud layers, visbility more than 5 km, formation of shallow cumulus clouds",
+"choice2": "Good visiblity, formation of cumulus clouds with showers of rain or snow",
+"choice3": "Medium visibility with lowering cloud bases, onset of prolonged precipitation",
+"choice4": "Poor visibility, formation of overcast or ground-covering stratus clouds, snow",
+"answer": 2
+},
+
+{
+"questionid": "4888",
+"question": "A boundary between a cold polar air mass and a warm subtropical air mass showing no horizontal displacement is called...",
+"choice1": "Cold front",
+"choice2": "Warm front.",
+"choice3": "Occluded front.",
+"choice4": "Stationary front.",
+"answer": 4
+},
+
+{
+"questionid": "4889",
+"question": "What is the usual direction of movement of a polar front low?",
+"choice1": "To the northwest during winter, to the southwest during summer",
+"choice2": "To the northeast during winter, to the southeast during summer",
+"choice3": "Parallel to the warm front line to the south",
+"choice4": "Parallel to the the warm-sector isobars",
+"answer": 4
+},
+
+{
+"questionid": "4890",
+"question": "What pressure pattern can be observed during the passage of a polar front low?",
+"choice1": "Rising pressure in front of the warm front, constant pressure within the warm sector, rising pressure behind the cold front",
+"choice2": "Falling pressure in front of the warm front, constant pressure within the warm sector, rising pressure behind the cold front",
+"choice3": "Falling pressure in front of the warm front, constant pressure within the warm sector, falling pressure behind the cold front",
+"choice4": "Rising pressure in front of the warm front, rising pressure within the warm sector, falling pressure behind the cold front",
+"answer": 2
+},
+
+{
+"questionid": "4891",
+"question": "What pressure pattern can be observed when a cold front is passing?",
+"choice1": "Continually decreasing pressure",
+"choice2": "Shortly decreasing, thereafter increasing pressure",
+"choice3": "Continually increasing pressure",
+"choice4": "Constant pressure pattern",
+"answer": 2
+},
+
+{
+"questionid": "4892",
+"question": "What change of wind direction can be expected during the passage of a polar front low in Central Europe?",
+"choice1": "Backing wind during passage of the warm front, veering wind during passage of the cold front",
+"choice2": "Backing wind during passage of the warm front, backing wind during passage of the cold front",
+"choice3": "Veering wind during passage of the warm front, veering wind during passage of the cold front",
+"choice4": "Veering wind during passage of the warm front, backing wind during passage of the cold front",
+"answer": 3
+},
+
+{
+"questionid": "4893",
+"question": "Extensive high pressure areas can be found throughout the year ...",
+"choice1": "In areeas showing extensive lifting processes",
+"choice2": "In mid latitudes along the polar front",
+"choice3": "Over oceanic areas at latitues around 30°N/S.",
+"choice4": "In tropical areas, close to the equator",
+"answer": 3
+},
+
+{
+"questionid": "4894",
+"question": "What cloud type can typically be observed across widespread high pressure areas during summer?",
+"choice1": "Overcast low stratus",
+"choice2": "Scattered Cu clouds",
+"choice3": "Overcast Ns clouds",
+"choice4": "Squall lines and thunderstorms",
+"answer": 2
+},
+
+{
+"questionid": "4895",
+"question": "What pressure pattern may result from cold-air inflow in high tropospheric layers?",
+"choice1": "Formation of a low in the upper troposphere",
+"choice2": "Formation of a high in the upper troposphere",
+"choice3": "Formation of a large ground low",
+"choice4": "Alternating pressure",
+"answer": 1
+},
+
+{
+"questionid": "4896",
+"question": "Cold air inflow in high tropospheric layers may result in...",
+"choice1": "Showers and thunderstorms.",
+"choice2": "Stabilisation and calm weather",
+"choice3": "Frontal weather.",
+"choice4": "Calm weather and cloud dissipation.",
+"answer": 1
+},
+
+{
+"questionid": "4897",
+"question": "How does inflowing cold air affect the shape and vertical distance between pressure layers?",
+"choice1": "Increasing vertical distance, raise in height (high pressure)",
+"choice2": "Decreasing vertical distance, raise in height (high pressure)",
+"choice3": "Decrease in vertical distance, lowering in height (low pressure)",
+"choice4": "Increase in vertical distance, lowering in height (low pressure)",
+"answer": 3
+},
+
+{
+"questionid": "4898",
+"question": "What weather phenomena have to be expected around an upper-level trough?",
+"choice1": "Calm wind, forming of shallow cumulus clouds",
+"choice2": "Calm weather, formation of lifted fog layers",
+"choice3": "Formation of high stratus clouds, ground-covering cloud bases",
+"choice4": "Development of showers and thunderstorms (Cb)",
+"answer": 4
+},
+
+{
+"questionid": "4899",
+"question": "What frontal line divides subtropical air from polar cold air, in particular across Central Europe?",
+"choice1": "Occlusion",
+"choice2": "Cold front",
+"choice3": "Polar front",
+"choice4": "Warm front",
+"answer": 3
+},
+
+{
+"questionid": "4900",
+"question": "What weather conditions can be expected in high pressure areas during summer?",
+"choice1": "Changing weather with passing of frontal lines",
+"choice2": "Squall lines and thunderstorms",
+"choice3": "Calm winds and widespread areas with high fog",
+"choice4": "Calm weather and cloud dissipation, few high Cu",
+"answer": 4
+},
+
+{
+"questionid": "4901",
+"question": "What weather conditions in Central Europe are typically found in high pressure areas during summer?",
+"choice1": "Large isobar spacing with calm winds, formation of local wind systems",
+"choice2": "Large isobar spacing with strong prevailing westerly winds",
+"choice3": "Small isobar spacing with calm winds, formation of local wind systems",
+"choice4": "Small isobar spacing with strong prevailing northerly winds",
+"answer": 1
+},
+
+{
+"questionid": "4902",
+"question": "What weather conditions can be expected in high pressure areas during winter?",
+"choice1": "Changing weather with passing of frontal lines",
+"choice2": "Calm weather and cloud dissipation, few high Cu",
+"choice3": "Calm winds and widespread areas with high fog",
+"choice4": "Squall lines and thunderstorms",
+"answer": 3
+},
+
+{
+"questionid": "4903",
+"question": "What wind conditions can be expected in areas showing large distances between isobars?",
+"choice1": "Formation of local wind systems with strong prevailing westerly winds",
+"choice2": "Strong prevailing easterly winds with rapid backing",
+"choice3": "Strong prevailing westerly winds with rapid veering",
+"choice4": "Variable winds, formation of local wind systems",
+"answer": 4
+},
+
+{
+"questionid": "4904",
+"question": "What weather conditions can be expected during Foehn on the windward side of a mountain range?",
+"choice1": "Dissipating clouds with unusual warming, accompanied by strong, gusty winds",
+"choice2": "Scattered cumulus clouds with showers and thunderstorms",
+"choice3": "Layered clouds, mountains obscured, poor visibility, moderate or heavy rain",
+"choice4": "Calm wind and forming of high stratus clouds (high fog)",
+"answer": 3
+},
+
+{
+"questionid": "4905",
+"question": "Which of the stated wind phenomena will increase in speed since its path is narrowed by mountains?",
+"choice1": "Bora",
+"choice2": "Mistral",
+"choice3": "Scirocco",
+"choice4": "Passat",
+"answer": 2
+},
+
+{
+"questionid": "4906",
+"question": "What is the name of the the cold, katabatic wind phenomena blowing from northeast into the Adriatic Sea?",
+"choice1": "Scirocco",
+"choice2": "Mistral",
+"choice3": "Bora",
+"choice4": "Passat",
+"answer": 3
+},
+
+{
+"questionid": "4907",
+"question": "Which of the following conditions are most favourable for ice accretion?",
+"choice1": "Temperatures between 0° C and -12° C, presence of supercooled water droplets (clouds)",
+"choice2": "Temperaturs below 0° C, strong wind, sky clear of clouds",
+"choice3": "Temperatures between +10° C and -30° C, presence of hail (clouds)",
+"choice4": "Temperatures between -20° C and -40° C, presence of ice crystals (Ci clouds)",
+"answer": 1
+},
+
+{
+"questionid": "4908",
+"question": "What temperatures are most dangerous with respect to airframe icing?",
+"choice1": "=+5° to -10° C",
+"choice2": "0° to -12° C",
+"choice3": "-20° to -40° C",
+"choice4": "=+20° to -5° C",
+"answer": 2
+},
+
+{
+"questionid": "4909",
+"question": "Which type of ice forms by very small water droplets and ice crystals hitting the front surfaces of an aircraft?",
+"choice1": "Clear ice",
+"choice2": "Mixed ice",
+"choice3": "Hoar frost",
+"choice4": "Rime ice",
+"answer": 4
+},
+
+{
+"questionid": "4910",
+"question": "Which type of ice forms by large, supercooled droplets hitting the front surfaces of an aircraft?",
+"choice1": "Hoar frost",
+"choice2": "Clear ice",
+"choice3": "Rime ice",
+"choice4": "Mixed ice",
+"answer": 2
+},
+
+{
+"questionid": "4911",
+"question": "What situation may result in the occurrence of severe wind shear?",
+"choice1": "Flying ahead of a warm front with visible Ci clouds",
+"choice2": "Cross-country flying below Cu clouds with about 4 octas coverage",
+"choice3": "During final approach, 30 min after a heavy shower has passed the airfield",
+"choice4": "When a shower is visible close to the airfield",
+"answer": 4
+},
+
+{
+"questionid": "4912",
+"question": "What conditions are favourable for the formation of thunderstorms?",
+"choice1": "Warm humid air, conditionally unstable environmental lapse rate",
+"choice2": "Calm winds and cold air, overcast cloud cover with St or As",
+"choice3": "Clear night over land, cold air and patches of fog",
+"choice4": "Warm and dry air, strong inversion layer",
+"answer": 1
+},
+
+{
+"questionid": "4913",
+"question": "What conditions are mandatory for the formation of thermal thunderstorms?",
+"choice1": "Conditionally unstable atmosphere, low temperature and low humidity",
+"choice2": "Absolutely stable atmosphere, high temperature and high humidity",
+"choice3": "Absolutely stable atmosphere, high temperature and low humidity",
+"choice4": "Conditionally unstable atmosphere, high temperature and high humidit",
+"answer": 4
+},
+
+{
+"questionid": "4914",
+"question": "With regard to thunderstorms, strong up- and downdrafts appear during the...",
+"choice1": "Initial stage.",
+"choice2": "Dissipating stage",
+"choice3": "Mature stage",
+"choice4": "Thunderstorm stage.",
+"answer": 3
+},
+
+{
+"questionid": "4915",
+"question": "Which stage of a thunderstorm is dominated by updrafts?",
+"choice1": "Dissipating stage",
+"choice2": "Upwind stage",
+"choice3": "Mature stage",
+"choice4": "Cumulus stage",
+"answer": 4
+},
+
+{
+"questionid": "4916",
+"question": "What danger is most immenent when an aircraft is hit by lightning?",
+"choice1": "Rapid cabin depressurization and smoke in the cabin",
+"choice2": "Surface overheat and damage to exposed aircraft parts",
+"choice3": "Explosion of electrical equipment in the cockpit",
+"choice4": "Disturbed radio communication, static noise signals",
+"answer": 2
+},
+
+{
+"questionid": "4917",
+"question": "Heavy downdrafts and strong wind shear close to the ground can be expected...",
+"choice1": "During cold, clear nights with the formation of radiation fog",
+"choice2": "Near the rainfall areas of heavy showers or thunderstorms",
+"choice3": "During approach to an airfield at the coast with a strong sea breeze",
+"choice4": "During warm summer days with high, flatted Cu clouds.",
+"answer": 2
+},
+
+{
+"questionid": "4918",
+"question": "What phenomenon is caused by cold air downdrafts with precipitation from a fully developed thunderstorm cloud?",
+"choice1": "Electrical discharge",
+"choice2": "Anvil-head top of Cb cloud",
+"choice3": "Gust front",
+"choice4": "Freezing Rain",
+"answer": 3
+},
+
+{
+"questionid": "4919",
+"question": "What has to be considered when taking off in a ground inversion?",
+"choice1": "Climb should be performed with the lowest possible speed and maximum power",
+"choice2": "Due to low temperatures close to the ground, icing has to be expected",
+"choice3": "During climb, a sudden decrease in speed and climb performance has to be expected",
+"choice4": "During the climb, a sudden increase in speed and climb performance has to be expected",
+"answer": 3
+},
+
+{
+"questionid": "4920",
+"question": "What danger is most imminent during an approach to an airfield situated in a valley, with strong wind aloft blowing perpendicular to the mountain ridge?",
+"choice1": "Reduced visibilty, maybe loss of sight to the airfield during final approach",
+"choice2": "Formation of medium to heavy clear ice on all aircraft surfaces",
+"choice3": "Heavy downdrafts within rainfall areas below thunderstorm clouds",
+"choice4": "Wind shear during descent, wind direction may change by 180°",
+"answer": 4
+},
+
+{
+"questionid": "4921",
+"question": "What kind of reduction in visibility is not very sensitive to changes in temperature?",
+"choice1": "Haze",
+"choice2": "Patches of fog (BCFG)",
+"choice3": "Radiation fog (FG)",
+"choice4": "Mist (BR)",
+"answer": 1
+},
+
+{
+"questionid": "4922",
+"question": "Information about pressure patterns and frontal situation can be found in which chart?",
+"choice1": "Wind chart.",
+"choice2": "Surface weather chart.",
+"choice3": "Significant Weather Chart (SWC).",
+"choice4": "Hypsometric chart.",
+"answer": 2
+},
+
+{
+"questionid": "4923",
+"question": "Which weather chart shows the actual air pressure as in MSL along with pressure centers and fronts?",
+"choice1": "Hypsometric chart",
+"choice2": "Surface weather chart",
+"choice3": "Prognostic chart",
+"choice4": "Wind chart",
+"answer": 2
+},
+
+{
+"questionid": "4924",
+"question": "What information can be obtained from satallite images?",
+"choice1": "Temperature and dew point of environmental air",
+"choice2": "Turbulence and icing",
+"choice3": "Flight visibility, ground visibility, and ground contact",
+"choice4": "Overview of cloud covers and front lines",
+"answer": 4
+},
+
+{
+"questionid": "4925",
+"question": "What chart shows areas of precipitation?",
+"choice1": "GAFOR",
+"choice2": "Wind chart",
+"choice3": "Satellite picture",
+"choice4": "Radar picture",
+"answer": 4
+},
+
+{
+"questionid": "4926",
+"question": "What information is NOT found on Low-Level Significant Weather Charts (LLSWC)?",
+"choice1": "Information about icing conditions",
+"choice2": "Radar echos of precipitation",
+"choice3": "Information about turbulence areas",
+"choice4": "Front lines and frontal displacements",
+"answer": 2
+},
+
+{
+"questionid": "4927",
+"question": "Measured pressure distribution in MSL and corresponding frontal systems are displayed by the...",
+"choice1": "Prognostic chart.",
+"choice2": "Significant Weather Chart (SWC)",
+"choice3": "Surface weather chart.",
+"choice4": "Hypsometric chart.",
+"answer": 3
+},
+
+{
+"questionid": "4928",
+"question": "In a METAR, heavy rain is designated by the identifier...",
+"choice1": "RA",
+"choice2": "SHRA",
+"choice3": " +RA",
+"choice4": " -RA",
+"answer": 4
+},
+
+{
+"questionid": "4929",
+"question": "What information can be found in the ATIS, but not in a METAR?",
+"choice1": "Information about current weather, for example types of precipitation",
+"choice2": "Operational information such as runway in use and transition level",
+"choice3": "Information about mean wind speeds, maximum speeds in gusts if applicable",
+"choice4": "Approach information, such as ground visibility and cloud base",
+"answer": 2
+},
+
+{
+"questionid": "4931",
+"question": "Weather and operational information about the destination aerodrome can be obtained during the flight by...",
+"choice1": "VOLMET",
+"choice2": "PIREP",
+"choice3": "ATIS",
+"choice4": "SIGMET",
+"answer": 3
+},
+
+{
+"questionid": "4932",
+"question": "SIGMET warnings are issued for...",
+"choice1": "Specific routings.",
+"choice2": "Airports",
+"choice3": "FIRs / UIRs",
+"choice4": "Countries",
+"answer": 3
+},
+
+
+
+{
+"questionid": "4933",
+"question": "An inversion is a layer ...",
+"choice1": "With increasing pressure with increasing height.",
+"choice2": "With decreasing temperature with increasing height.",
+"choice3": "With constant temperature with increasing height.",
+"choice4": "With increasing temperature with increasing height.",
+"answer": 4
+},
+
+{
+"questionid": "4934",
+"question": "What can be expected for the prevailling wind with isobars on a surface weather chart showing large distances?",
+"choice1": "Strong pressure gradients resulting in strong prevailling wind",
+"choice2": "Strong pressure gradients resulting in low prevailling wind",
+"choice3": "Low pressure gradients resulting in strong prevailling wind",
+"choice4": "Low pressure gradients resulting in low prevailling wind",
+"answer": 4
+},
+
+{
+"questionid": "4935",
+"question": "What is referred to as mountain wind?",
+"choice1": "Wind blowing uphill from the valley during daytime",
+"choice2": "Wind blowing uphill from the valley during the night",
+"choice3": "Wind blowing down the mountain side during the night",
+"choice4": "Wind blowing down the mountain side during daytime.",
+"answer": 3
+},
+
+{
+"questionid": "4937",
+"question": "What wind is reportet as 225/15 ?",
+"choice1": "North-east wind with 15 kt",
+"choice2": "South-west wind with 15 km/h",
+"choice3": "North-east wind with 15 km/h",
+"choice4": "South-west wind with 15 kt",
+"answer": 4
+},
+
+{
+"questionid": "4938",
+"question": "How does air temperatur change in ISA from MSL to approx. 10.000 m height?",
+"choice1": "From +20° to -40°C",
+"choice2": "From +30° to -40°C",
+"choice3": "From -15° to 50°C",
+"choice4": "From +15° to -50°C",
+"answer": 4
+},
+
+{
+"questionid": "4939",
+"question": "What weather is likely to be experienced during Foehn in the Bavarian area close to the alps?",
+"choice1": "High pressure area overhead Biskaya and low pressure area in Eastern Europe",
+"choice2": "Cold, humid downhill wind on the lee side of the alps, flat pressure pattern",
+"choice3": "Nimbostratus cloud in the northern alps, rotor clouds at the windward side, warm and dry wind",
+"choice4": "Nimbostratus cloud in the southern alps, rotor clouds at the lee side, warm and dry wind",
+"answer": 4
+},
+
+{
+"questionid": "4940",
+"question": "Mountain side updrafts can be intensified by ...",
+"choice1": "Solar irradiation on the windward side",
+"choice2": "Solar irradiation on the lee side",
+"choice3": "By warming of upper atmospheric layers",
+"choice4": "Thermal radiation of the windward side during the night",
+"answer": 1
+},
+
+{
+"questionid": "5682",
+"question": "Which of the following processes within a layer of air may lead to the formation of CU and CB clouds?",
+"choice1": "Convection",
+"choice2": "Subsidence",
+"choice3": "Radiation",
+"choice4": "Frontal lifting within stabla layers",
+"answer": 1
+},
+
+{
+"questionid": "5688",
+"question": "What is the height (AGL) of the base of low-level clouds?",
+"choice1": "surface - 6500ft",
+"choice2": "100ft - 500ft",
+"choice3": "1000ft - 5000ft",
+"choice4": "2000ft - 5000ft",
+"answer": 1
+},
+
+{
+"questionid": "5707",
+"question": "A wind shear is...",
+"choice1": "a vertical or horizontal change of wind speed and wind direction.",
+"choice2": "a wind speed change of more than 15 kt.",
+"choice3": "a slow increase of the wind speed in altitudes above 13000 ft.",
+"choice4": "a meteorological downslope wind phenomenon in the alps.",
+"answer": 1
+},
+
+{
+"questionid": "5712",
+"question": "QFE is the...",
+"choice1": "altitude above the reference pressure level 1013.25 hPa.",
+"choice2": "magnetic bearing to a station.",
+"choice3": "barometric pressure adjusted to sea level, using the international standard atmosphere (ISA).",
+"choice4": "barometric pressure at a reference datum, typically the runway threshold of an airfield.",
+"answer": 4
+},
+
+{
+"questionid": "5713",
+"question": "During an approach the aeroplane experiences a windshear with a decreasing tailwind. If the pilot does not make any corrections, how do the approach path and the indicated airspeed (IAS) change?",
+"choice1": "Path is higher, IAS decreases",
+"choice2": "Path is higher, IAS increases",
+"choice3": "Path is lower, IAS increases",
+"choice4": "Path is lower, IAS decreases",
+"answer": 2
+},
+
+{
+"questionid": "5718",
+"question": "How can a wind shear encounter in flight be avoided?",
+"choice1": "Avoid thermally active areas, particularly during summer, or stay below these areas",
+"choice2": "Avoid areas of precipitation, particularly during winter, and choose low flight altitudes",
+"choice3": "Avoid take-off and landing during the passage of heavy showers or thunderstorms",
+"choice4": "Avoid take-offs and landings in mountainous terrain and stay in flat country whenever possible",
+"answer": 3
+},
+
+{
+"questionid": "5719",
+"question": "What action should be taken when entering a windshear? 1)Reduce speed 2)Retract gear and flaps 3)Maintain current configuration 4)Adjust thrust",
+"choice1": "3 and 4",
+"choice2": "1 and 3",
+"choice3": "1 and 2",
+"choice4": "2 and 4",
+"answer": 1
+},
+
+
+{
+"questionid": "5721",
+"question": "After lift-off, a much stronger than expected airspeed rise is experienced during the initial climb phase. What may be expected if the aeroplane entered a microburst?",
+"choice1": "An increased climb rate and airspeed",
+"choice2": "A decreased climb rate and airspeed",
+"choice3": "An increased climb rate and decreased airspeed",
+"choice4": "A decreased climb rate and increased airspeed",
+"answer": 2
+},
+
+{
+"questionid": "5722",
+"question": "Immediately after lift-off, a microburst is entered inadvertently. Which action might avoid an unintentional descent?",
+"choice1": "Set maximum power, retract landing gear and flaps, increase pitch until attaining optimum climb speed",
+"choice2": "Set maximum power, maintain present aircraft configuration, climb at the best rate of climb speed",
+"choice3": "Set maximum power, retract landing gear and flaps, pick up speed and perform a left or a right turn in an attempt to leave the area of the microburst on the shortest way",
+"choice4": "Set maximum power, maintain present aircraft configuration, pick up speed in an attempt to leave the area of the microburst as fast as possible",
+"answer": 2
+},
+
+{
+"questionid": "5723",
+"question": "Wake turbulences develop during take-off just as the aeroplane...",
+"choice1": "lifts off with the front gear.",
+"choice2": "lifts off with the main gear.",
+"choice3": "accelerates.",
+"choice4": "reaches an altitude of 15 ft",
+"answer": 1
+},
+
+{
+"questionid": "5724",
+"question": "Wake turbulence is caused by...",
+"choice1": "pressure compensation at the wingtip of an aerofoil.",
+"choice2": "turbulence at the downwind side of a mountain range.",
+"choice3": "jet blast behind a turbine engine",
+"choice4": "wind shear at the wingtip of an aerofoil.",
+"answer": 1
+},
+
+{
+"questionid": "5725",
+"question": "Wake turbulence is particularly strong...",
+"choice1": "when flying at high speeds.",
+"choice2": "when flying at high altitudes",
+"choice3": "when flying at low speeds.",
+"choice4": "when flying at low altitude",
+"answer": 3
+},
+
+{
+"questionid": "5726",
+"question": "Wake turbulence is particularly strong... (1,00 P.",
+"choice1": "at a low aeroplane weight.",
+"choice2": "when flying with high thrust.",
+"choice3": "when flying with low thrust.",
+"choice4": "at a high aeroplane weight.",
+"answer": 4
+},
+
+{
+"questionid": "5727",
+"question": "The intensity of wake turbulence depends on...",
+"choice1": "the propeller pitch.",
+"choice2": "the altitude of the aeroplane.",
+"choice3": "the temperature.",
+"choice4": "the weight of the aeroplane",
+"answer": 4
+},
+
+{
+"questionid": "5728",
+"question": "Two aircraft of the same type, same gross weight and same flap configuration fly with different speeds and altitude. Which aircraft will cause more wake turbulence?",
+"choice1": "The aircraft flying at lower speed.",
+"choice2": "The aircraft flying at a higher altitude",
+"choice3": "The aircraft flying at a lower altitude",
+"choice4": "The aircraft flying at higher speed.",
+"answer": 1
+},
+
+{
+"questionid": "5729",
+"question": "QNE is the...",
+"choice1": "standard pressure setting 1013.25 hPa.",
+"choice2": "barometric pressure adjusted to sea level, using the international standard atmosphere (ISA).",
+"choice3": "magnetic bearing to a station.",
+"choice4": "barometric pressure at a reference datum, typically the runway threshold of an airfield.",
+"answer": 1
+},
+
+{
+"questionid": "5731",
+"question": "Which is the purpose of the altimeter subscale?",
+"choice1": "To adjust the altimeter reading for non-standard temperature",
+"choice2": "To correct the altimeter reading for system errors",
+"choice3": "To reference the altimeter reading to a predetermined level such as mean sea level, aerodrome level or pressure level 1013.25 hPa",
+"choice4": "To set the reference level for the altitude decoder of the transponder",
+"answer": 3
+},
+
+{
+"questionid": "5732",
+"question": "In which way may an altimeter subscale which is set to an incorrect QNH lead to an incorrect altimeter reading?",
+"choice1": "If the subscale is set to a higher than actual pressure, the indication is too low. This may lead to much greater heights above the ground than intended",
+"choice2": "If the subscale is set to a lower than actual pressure, the indication is too high. This may lead to much closer proximity to the ground than intended",
+"choice3": "If the subscale is set to a higher than actual pressure, the indication is too high. This may lead to much closer proximity to the ground than intended",
+"choice4": "If the subscale is set to a lower than actual pressure, the indication is too low. This may lead to much closer proximity to the ground than intended",
+"answer": 3
+},
+
+{
+"questionid": "5733",
+"question": "What difference in altitude is shown by an altimeter, if the reference pressure scale setting is changed from 1000 hPa to 1010 hPa?",
+"choice1": "Values depending on QNH",
+"choice2": "Zero",
+"choice3": "80 m less than before",
+"choice4": "80 m more than before",
+"answer": 4
+},
+
+{
+"questionid": "5734",
+"question": "The altimeter's reference scale is set to airfield pressure (QFE). What indication is shown during the flight?",
+"choice1": "Height above airfield",
+"choice2": "Pressure altitude",
+"choice3": "Altitude above MSL",
+"choice4": "Airfield elevation",
+"answer": 1
+},
+
+{
+"questionid": "5735",
+"question": "Lower-than-standard temperature may lead to...",
+"choice1": "a correct altitude indication as long as the altimeter subscale is set to correct for non-standard temperature.",
+"choice2": "a blockage of the Pitot tube by ice, freezing the altimeter indication to its present value.",
+"choice3": "an altitude indication which is too low.",
+"choice4": "an altitude indication which is too high.",
+"answer": 4
+},
+
+{
+"questionid": "5736",
+"question": "A flight level is a...",
+"choice1": "true altitude.",
+"choice2": "pressure altitude.",
+"choice3": "density altitude.",
+"choice4": "altitude above ground.",
+"answer": 2
+},
+
+{
+"questionid": "5737",
+"question": "A true altitude is...",
+"choice1": "a pressure altitude corrected for non-standard temperature.",
+"choice2": "a height above ground level corrected for non-standard pressure.",
+"choice3": "a height above ground level corrected for non-standard temperature.",
+"choice4": "an altitude above mean sea level corrected for non-standard temperature.",
+"answer": 4
+},
+
+{
+"questionid": "5738",
+"question": "During a flight in colder-than-ISA air the indicated altitude is...",
+"choice1": "lower than the true altitude.",
+"choice2": "eqal to the true altitude.",
+"choice3": "higher than the true altitude.",
+"choice4": "equal to the standard altitude.",
+"answer": 3
+},
+
+{
+"questionid": "5739",
+"question": "During a flight in an air mass with a temperature equal to ISA and the QNH set correctly, the indicated altitude is...",
+"choice1": "equal to the true altitude.",
+"choice2": "higher than the true altitude.",
+"choice3": "lower than the true altitude.",
+"choice4": "equal to the standard atmosphere.",
+"answer": 1
+},
+
+{
+"questionid": "5740",
+"question": "Which instrument can be affected by the hysteresis error?",
+"choice1": "Tachometer",
+"choice2": "Altimeter",
+"choice3": "Vertical speed indicator",
+"choice4": "Direct reading compass",
+"answer": 2
+},
+
+{
+"questionid": "5741",
+"question": "The measurement of altitude is based on the change of the...",
+"choice1": "differential pressure.",
+"choice2": "total pressure.",
+"choice3": "dynamic pressure.",
+"choice4": "static pressure.",
+"answer": 4
+},
+
+{
+"questionid": "5742",
+"question": "When is it necessary to adjust the pressure in the reference scale of an alitimeter?",
+"choice1": "After maintance has been finished",
+"choice2": "Before every flight and during cross country flights",
+"choice3": "Once a month before flight operation",
+"choice4": "Every day before the first flight",
+"answer": 2
+},
+
+{
+"questionid": "5755",
+"question": "At higher altitudes, true airspeed (TAS) tends to be higher than calibrated airspeed (CAS).A rough estimate of the TAS can be obtained by...",
+"choice1": "subtracting 10 % of the CAS for every 1000 m altitude.",
+"choice2": "subtracting 2 % of the CAS for every 1000 ft altitude.",
+"choice3": "adding 2 % of the CAS for every 1000 ft altitude.",
+"choice4": "adding 10 % of the CAS for every 1000 ft altitude.",
+"answer": 3
+},
+
+{
+"questionid": "5837",
+"question": "Preflight action, as required for all flights away from the vicinity of an airport, shall include:",
+"choice1": "the designation of an alternate airport.",
+"choice2": "a study of arrival procedures at airports/heliports of intended use.",
+"choice3": "an alternate course of action if the flight cannot be completed as planned.",
+"choice4": "nothing",
+"answer": 3
+},
+
+{
+"questionid": "5838",
+"question": "What does AAL mean?",
+"choice1": "Above aerodrome level.",
+"choice2": "Angle of attack limitation.",
+"choice3": "Acknowledge.",
+"choice4": "Aerodrome altitude level.",
+"answer": 1
+},
+
+{
+"questionid": "6032",
+"question": "what is the difference between mist and fog?",
+"choice1": "When visibility is less than 1000 m the term ‚Äòfog‚Äô is used and when visibility is at least 1000 m but not more than 5000 m the term mist is used.",
+"choice2": "Fog is made up of particles that are bigger than 1 millimeter",
+"choice3": "Mist forms at greater heights than fog, which is always at the surface.",
+"choice4": "Mist is made up of particles less than 0.1 millimeter",
+"answer": 1
+},
+
+{
+"questionid": "6033",
+"question": "a sea breeze moves air:",
+"choice1": "towards the sea by day, creating an offshore wind",
+"choice2": "towards the land by day, creating an onshore wind",
+"choice3": "upwards and away from the coastline towards the sea",
+"choice4": "towards land by night.",
+"answer": 2
+},
+
+{
+"questionid": "6034",
+"question": "As the warm front approaches at the surface, the air pressure will:",
+"choice1": "stay steady",
+"choice2": "steadily rise",
+"choice3": "steadily fall",
+"choice4": "fluctuate significantly",
+"answer": 3
+},
+
+{
+"questionid": "6035",
+"question": "What is the meaning of the abbreviation AIREP?",
+"choice1": "Aeronautical information report",
+"choice2": "Automatic identification report",
+"choice3": "Aeronautical instrument requirement report",
+"choice4": "Aircraft report",
+"answer": 4
+}
+
+
+]

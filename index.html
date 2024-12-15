@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <title>PA PPL QUIZ</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="home" class="flex-center flex-column">
+        <h1>PA PPL QUIZ</h1>
+
+
+
+
+<label class="lab" for="subject-selection">SELECT SUBJECT:</label>
+<select class="option" name="optionlist" id="subjectsel" onChange="combo(this, 'subject')">
+<option value="">--Select subject--</option>
+<option>AL ENG</option>
+<option>AGK ENG</option>
+<option>POF ENG</option>
+<option>COM ENG</option> 
+<option>OPS ENG</option>
+<option>HPL ENG</option>
+<option>NAV ENG</option>
+<option>FPP ENG</option>
+<option>MET ENG</option>
+
+</select>
+
+<label class="lab" for="number-selection">SELECT NUMBER OF QUESTIONS:</label>
+<select class="option" name="optionlist" id="numsel" onChange="combo(this, 'number')">
+<option value="">--Select Number--</option>
+<option>10</option>
+<option>20</option>
+<option>30</option>
+<option>40</option>
+<option>50</option>
+<option>60</option>
+<option>70</option>
+<option>80</option>
+<option>90</option>
+<option>100</option>
+</select>
+
+
+ <!-- salva il valore inserito nella combobox subjectsel -->
+
+<script>
+const mySel2 = document.getElementById("subjectsel"); 
+mySel2.addEventListener("change",function() { 
+  localStorage.setItem("secValue",this.value); // save it 
+}); 
+let val2 = localStorage.getItem("secValue"); 
+if (val2) mySel2.value=val2; // set the dropdown 
+// trigger the change in case there are other events on the select 
+mySel2.onchange();  
+</script>
+
+ <!-- salva il valore inserito nella combobox numsel -->
+ 
+<script>
+const mySel = document.getElementById("numsel"); 
+mySel.addEventListener("change",function() { 
+  localStorage.setItem("selValue",this.value); // save it 
+}); 
+let val = localStorage.getItem("selValue"); 
+if (val) mySel.value=val; // set the dropdown 
+// trigger the change in case there are other events on the select 
+mySel.onchange();  
+</script>
+
+
+
+<!-- nuovo -->
+</select>
+
+<label class="lab" for="random selection">RANDOM QUESTIONS:</label>
+<select class="option" name="optionlist" id="random" onChange="combo(this, 'random')">
+<option value="">--RANDOM QUESTIONS--</option>
+<option>YES</option>
+<option>NO</option>
+</select>
+
+<!-- salva il valore inserito nella checkbox random -->
+
+<script>
+const mySel3 = document.getElementById("random"); 
+mySel3.addEventListener("change",function() { 
+  localStorage.setItem("terValue",this.value); // save it 
+}); 
+let val3 = localStorage.getItem("terValue"); 
+if (val3) mySel3.value=val3; // set the dropdown 
+// trigger the change in case there are other events on the select 
+mySel3.onchange();  
+</script>
+
+<!-- fine nuovo -->
+
+
+
+        <a class="btn" href="/game.html">Start Quiz</a>
+        <a class="btn" href="/highscores.html">Last Scores</a>
+      </div>
+    </div>
+  </body>
+</html>

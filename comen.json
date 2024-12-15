@@ -1,0 +1,1065 @@
+
+[
+  {
+"questionid": "4941",
+"question": "In which situations should a pilot use blind transmissions?",
+"choice1": "When no radio communication can be established with the appropriate aeronautical station, but when evidence exists that transmissions are received at that ground unit",
+"choice2": "When a pilot has flown into cloud or fog unintentionally and therefore would like to request navigational assistance from a ground unit",
+"choice3": "When a transmission containing important navigational or technical information is to be sent to several stations at the same time",
+"choice4": "When the traffic situation at an airport allows the transmission of information which does not need to be acknowledged by the ground station",
+"answer": 1
+},
+
+{
+"questionid": "4942",
+"question": "Leaving a control frequency (except when reaching the final parking position)...",
+"choice1": "Is not mandatory to be reported",
+"choice2": "Must be approved twice",
+"choice3": "Must be approved.",
+"choice4": "Must be reported.",
+"answer": 3
+},
+
+{
+"questionid": "4943",
+"question": "Which abbreviation is used for the term abeam?",
+"choice1": "ABM",
+"choice2": "ABB",
+"choice3": "ABA",
+"choice4": "ABE",
+"answer": 1
+},
+
+{
+"questionid": "4944",
+"question": "Which abbreviation is used for the term visual flight rules?",
+"choice1": "VFS",
+"choice2": "VFR",
+"choice3": "VRU",
+"choice4": "VMC",
+"answer": 2
+},
+
+{
+"questionid": "4945",
+"question": "Which abbreviation is used for the term obstacle?",
+"choice1": "OBTC",
+"choice2": "OBST",
+"choice3": "OST",
+"choice4": "OBS",
+"answer": 2
+},
+
+{
+"questionid": "4946",
+"question": "What does the abbreviation FIS stand for?",
+"choice1": "Flashing information service",
+"choice2": "Flight information system",
+"choice3": "Flashing information system",
+"choice4": "Flight information service",
+"answer": 4
+},
+
+{
+"questionid": "4947",
+"question": "What does the abbreviaton FIR stand for?",
+"choice1": "Flight integrity receiver",
+"choice2": "Flow information radar",
+"choice3": "Flight information region",
+"choice4": "Flow integrity required",
+"answer": 3
+},
+
+{
+"questionid": "4948",
+"question": "What does the abbreviation H24 stand for?",
+"choice1": "Sunrise to sunset",
+"choice2": "24 h service",
+"choice3": "No specific opening times",
+"choice4": "Sunset to sunrise",
+"answer": 2
+},
+
+{
+"questionid": "4949",
+"question": "What does the abbreviation HX stand for?",
+"choice1": "No specific opening hours",
+"choice2": "Sunrise to sunset",
+"choice3": "Sunset to sunrise",
+"choice4": "24 h service",
+"answer": 1
+},
+
+{
+"questionid": "4950",
+"question": "The altimeter has to be set to what value in order to show zero on ground?",
+"choice1": "QNH",
+"choice2": "QNE",
+"choice3": "QTE",
+"choice4": "QFE",
+"answer": 4
+},
+
+{
+"questionid": "4951",
+"question": "Which altitude is displayed on the altimeter when set to a specific QNH?",
+"choice1": "Altitude in relation to the 1013.25 hPa datum",
+"choice2": "Altitude in relation to mean sea level",
+"choice3": "Altitude in relation to the air pressure at the reference airfiel",
+"choice4": "Altitude in relation to the highest elevation within 10 km",
+"answer": 2
+},
+
+{
+"questionid": "4952",
+"question": "Which altitude is displayed on the altimeter when set to a specific QFE?",
+"choice1": "Altitude in relation to the 1013.25 hPa datum",
+"choice2": "Altitude in relation to the air pressure at the reference airfield",
+"choice3": "Altitude in relation to the highest elevation within 10 km",
+"choice4": "Altitude in relation to mean sea level",
+"answer": 2
+},
+
+{
+"questionid": "4953",
+"question": "What does the abbreviation QDR stand for?",
+"choice1": "True bearing from the station",
+"choice2": "Magnetic bearing from the station",
+"choice3": "Magnetic bearing to the station",
+"choice4": "True bearing to the station",
+"answer": 2
+},
+
+{
+"questionid": "4954",
+"question": "What does the abbreviation QUJ stand for?",
+"choice1": "True bearing from the station",
+"choice2": "True bearing to the station",
+"choice3": "Magnetic bearing to the station",
+"choice4": "Magnetic bearing from the station",
+"answer": 2
+},
+
+{
+"questionid": "4955",
+"question": "What does the abbreviation QTE stand for?",
+"choice1": "Magnetic bearing to the station",
+"choice2": "Magnetic bearing from the station",
+"choice3": "True bearing from the station",
+"choice4": "True bearing to the station",
+"answer": 3
+},
+
+{
+"questionid": "4956",
+"question": "Which Q-code is used for the magnetic bearing from the station?",
+"choice1": "QUJ",
+"choice2": "QTE",
+"choice3": "QDM",
+"choice4": "QDR",
+"answer": 4
+},
+
+{
+"questionid": "4957",
+"question": "Which Q-code is used for the true bearing from the station?",
+"choice1": "QDR",
+"choice2": "QUJ",
+"choice3": "QDM",
+"choice4": "QTE",
+"answer": 4
+},
+
+{
+"questionid": "4958",
+"question": "Which Q-code is used for the true bearing to the station?",
+"choice1": "QDR",
+"choice2": "QDM",
+"choice3": "QTE",
+"choice4": "QUJ",
+"answer": 4
+},
+
+{
+"questionid": "4959",
+"question": "Which of the listed radiotelephony messages has a higher priority than a flight safety message?",
+"choice1": "Communication related to direction finding",
+"choice2": "Flight regularity message",
+"choice3": "Meteorological message",
+"choice4": "Aircraft position report message",
+"answer": 1
+},
+
+{
+"questionid": "4960",
+"question": "What is the correct term for a message used for air traffic control?",
+"choice1": "Flight regularity message",
+"choice2": "Meteorological message",
+"choice3": "Message related to direction finding",
+"choice4": "Flight safety message",
+"answer": 4
+},
+
+{
+"questionid": "4961",
+"question": "Distress messages are messages...",
+"choice1": "Concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.",
+"choice2": "Sent by a pilot or an aircraft operating agency which have an imminent meaning for aircraft in flight.",
+"choice3": "Concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.",
+"choice4": "Concerning the operation or maintenance of facilities which are important for the safety and regularity of flight operations.",
+"answer": 3
+},
+
+{
+"questionid": "4962",
+"question": "Urgency messages are messages...",
+"choice1": "Concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.",
+"choice2": "Concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.",
+"choice3": "Concerning the operation or maintenance of facilities essential for the safety or regularity of aircraft operation.",
+"choice4": "Sent by a pilot or an aircraft operating agency which have an imminent meaning for aircraft in flight",
+"answer": 2
+},
+
+{
+"questionid": "4963",
+"question": "Regularity messages are messages...",
+"choice1": "Concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.",
+"choice2": "Concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.",
+"choice3": "Sent by an aircraft operating agency or an aircraft of immediate concern to an aircraft in flight",
+"choice4": "Concerning the operation or maintenance of facilities essential for the safety or regularity of aircraft operation",
+"answer": 4
+},
+
+{
+"questionid": "4964",
+"question": "Which of the following messages has the highest priority?",
+"choice1": "Turn left",
+"choice2": "Request QDM",
+"choice3": "QNH 1013",
+"choice4": "Wind 300 degrees, 5 knots",
+"answer": 2
+},
+
+{
+"questionid": "4965",
+"question": "What is the correct way to transmit the call sign HB-YKM?",
+"choice1": "Home Bravo Yuliett Kilo Mike",
+"choice2": "Hotel Bravo Yankee Kilo Mike",
+"choice3": "Hotel Bravo Yuliett Kilo Mikro",
+"choice4": "Home Bravo Yankee Kilo Mikro",
+"answer": 2
+},
+
+{
+"questionid": "4966",
+"question": "What is the correct way to transmit the call sign OE-JVK?",
+"choice1": "Omega Echo Jankee Victor Kilo",
+"choice2": "Oscar Echo Jankee Victor Kilogramm",
+"choice3": "Oscar Echo Juliett Victor Kilo",
+"choice4": "Oscar Echo Juliett Victor Kilo",
+"answer": 3
+},
+
+{
+"questionid": "4967",
+"question": "An altitude of 4500 ft is transmitted as...",
+"choice1": "Four tousand five hundred.",
+"choice2": "Four five tousand.",
+"choice3": "Four tousand five zero zero.",
+"choice4": "Four five zero zero.",
+"answer": 1
+},
+
+{
+"questionid": "4968",
+"question": "A heading of 285 degrees is correctly transmitted as...",
+"choice1": "Two eight five.",
+"choice2": "Two eight five hundred.",
+"choice3": "Two hundred eight five.",
+"choice4": "Two hundred eighty-five.",
+"answer": 1
+},
+
+{
+"questionid": "4969",
+"question": "A frequency of 119.500 MHz is correctly transmitted as...",
+"choice1": "One one niner tousand decimal five zero.",
+"choice2": "One one niner decimal five",
+"choice3": "One one niner decimal five zero.",
+"choice4": "One one niner decimal five zero zero.",
+"answer": 2
+},
+
+{
+"questionid": "4970",
+"question": "The directional information 12 o'clock is correctly transmitted as...",
+"choice1": "One two.",
+"choice2": "One two o'clock",
+"choice3": "One two hundred.",
+"choice4": "Twelve o'clock.",
+"answer": 4
+},
+
+{
+"questionid": "4971",
+"question": "Times are transmitted as...",
+"choice1": "UTC",
+"choice2": "Standard time.",
+"choice3": "Local time.",
+"choice4": "Time zone time",
+"answer": 1
+},
+
+{
+"questionid": "4972",
+"question": "If there is any doubt about ambiguity, a time of 1620 is to be transmitted as...",
+"choice1": "Sixteen twenty",
+"choice2": "Two zero",
+"choice3": "One tousand six hundred two zero",
+"choice4": "One six two zero",
+"answer": 4
+},
+
+{
+"questionid": "4973",
+"question": "What is the meaning of the phrase Roger?",
+"choice1": "Permission for proposed action is granted",
+"choice2": "I understand your message and will comply with it",
+"choice3": "I have received all of your last transmission",
+"choice4": "An error has been made in this transmission. The correct version is...",
+"answer": 3
+},
+
+{
+"questionid": "4974",
+"question": "What is the meaning of the phrase Correction?",
+"choice1": "Permission for proposed action is granted",
+"choice2": "An error has been made in this transmission. The correct version is...",
+"choice3": "I have received all of your last transmission",
+"choice4": "I understand your message and will comply with it",
+"answer": 2
+},
+
+{
+"questionid": "4975",
+"question": "What is the meaning of the phrase Approved?",
+"choice1": "I have received all of your last transmission",
+"choice2": "I understand your message and will comply with it",
+"choice3": "Permission for proposed action is granted",
+"choice4": "An error has been made in this transmission. The correct version is...",
+"answer": 3
+},
+
+{
+"questionid": "4976",
+"question": "Which phrase does a pilot use when he / she wants to check the readability of his / her transmission?",
+"choice1": "What is the communication like?",
+"choice2": "How do you read?",
+"choice3": "Request readability",
+"choice4": "You read me five",
+"answer": 2
+},
+
+{
+"questionid": "4977",
+"question": "Which phrase is used by a pilot when he wants to fly through controlled airspace?",
+"choice1": "Apply",
+"choice2": "Want",
+"choice3": "Would like",
+"choice4": "Request",
+"answer": 4
+},
+
+{
+"questionid": "4978",
+"question": "What phrase is used by a pilot if a transmission is to be answered with yes?",
+"choice1": "Roger",
+"choice2": "Yes",
+"choice3": "Affirm",
+"choice4": "Affirmative",
+"answer": 3
+},
+
+{
+"questionid": "4979",
+"question": "What phrase is used by a pilot if a transmission is to be answered with no?",
+"choice1": "Negative",
+"choice2": "Not",
+"choice3": "Finish",
+"choice4": "No",
+"answer": 1
+},
+
+{
+"questionid": "4980",
+"question": "Which phrase is to be used when a pilot wants the tower to know that he is ready for take-off?",
+"choice1": "Ready for start-up",
+"choice2": "Ready for departure",
+"choice3": "Request take-off",
+"choice4": "Ready",
+"answer": 2
+},
+
+{
+"questionid": "4981",
+"question": "What phrase is used by a pilot to inform the tower about a go-around?",
+"choice1": "No landing",
+"choice2": "Pulling up",
+"choice3": "Going around",
+"choice4": "Approach canceled",
+"answer": 3
+},
+
+{
+"questionid": "4982",
+"question": "What is the call sign of the aerodrome control?",
+"choice1": "Tower",
+"choice2": "Airfield",
+"choice3": "Ground",
+"choice4": "Control",
+"answer": 1
+},
+
+{
+"questionid": "4983",
+"question": "What is the call sign of the surface movement control?",
+"choice1": "Tower",
+"choice2": "Earth",
+"choice3": "Ground",
+"choice4": "Control",
+"answer": 3
+},
+
+{
+"questionid": "4984",
+"question": "What is the call sign of the flight information service?",
+"choice1": "Info",
+"choice2": "Advice",
+"choice3": "Flight information",
+"choice4": "Information",
+"answer": 4
+},
+
+{
+"questionid": "4985",
+"question": "What is the correct abbreviation of the call sign D-EAZF?",
+"choice1": "DEA",
+"choice2": "AZF",
+"choice3": "DZF",
+"choice4": "DEF",
+"answer": 3
+},
+
+{
+"questionid": "4986",
+"question": "In what case is the pilot allowed to abbreviate the call sign of his aircraft?",
+"choice1": "After the ground station has used the abbreviation",
+"choice2": "Within controlled airspace",
+"choice3": "If there is little traffic in the traffic circuit",
+"choice4": "After passing the first reporting point",
+"answer": 1
+},
+
+{
+"questionid": "4987",
+"question": "What is the correct way of using the aircraft call sign at first contact?",
+"choice1": "Using the first two characters only",
+"choice2": "Using the last two characters only",
+"choice3": "Using the first three characters only",
+"choice4": "Using all characters",
+"answer": 4
+},
+
+{
+"questionid": "4988",
+"question": "What is the correct way of establishing radio communication between D-EAZF and Dusseldorf Tower?",
+"choice1": "Dusseldorf Tower over",
+"choice2": "DEAZF is calling Dusseldorf Tower",
+"choice3": "Dusseldorf Tower D-EAZF",
+"choice4": "Tower from D-EAZF",
+"answer": 3
+},
+
+{
+"questionid": "4989",
+"question": "What is the correct way of acknowledging the instruction Call Hamburg Tower on 121.275?",
+"choice1": "Call 121.275",
+"choice2": "Call tower",
+"choice3": "125.35.00",
+"choice4": "Call tower on 121.275",
+"answer": 3
+},
+
+{
+"questionid": "4990",
+"question": "What does a readability of 1 indicate?",
+"choice1": "The transmission is perfectly readable",
+"choice2": "The transmission is unreadable",
+"choice3": "The transmission is readable but with difficulty",
+"choice4": "The transmission is readable now and then",
+"answer": 2
+},
+
+{
+"questionid": "4991",
+"question": "What does a readability of 2 indicate?",
+"choice1": "The transmission is readable now and then",
+"choice2": "The transmission is readable but with difficulty",
+"choice3": "The transmission is perfectly readable",
+"choice4": "The transmission is unreadable",
+"answer": 1
+},
+
+{
+"questionid": "4992",
+"question": "What does a readability of 3 indicate?",
+"choice1": "The transmission is readable now and then",
+"choice2": "The transmission is perfectly readable",
+"choice3": "The transmission is readable but with difficulty",
+"choice4": "The transmission is unreadable",
+"answer": 3
+},
+
+{
+"questionid": "4993",
+"question": "What does a readability of 5 indicate?",
+"choice1": "The transmission is readable now and then",
+"choice2": "The transmission is readable but with difficulty",
+"choice3": "The transmission is unreadable",
+"choice4": "The transmission is perfectly readable",
+"answer": 4
+},
+
+{
+"questionid": "4994",
+"question": "Which information from a ground station does not require readback?",
+"choice1": "Runway in use",
+"choice2": "Wind",
+"choice3": "SSR-Code",
+"choice4": "Altitude",
+"answer": 2
+},
+
+{
+"questionid": "4995",
+"question": "Which information from a ground station does not require readback?",
+"choice1": "Altimeter setting",
+"choice2": "Traffic information",
+"choice3": "Taxi instructions",
+"choice4": "Heading",
+"answer": 2
+},
+
+{
+"questionid": "4996",
+"question": "What is the correct way of acknowledging the instruction DZF after lift-off climb straight ahead until 2500 feet before turning right heading 220 degrees, wind 090 degrees, 5 knots, runway 12, cleared for take-off?",
+"choice1": "DZF after lift-off climb straight ahead 2500 feet, wilco, heading 220 degrees, 090 degrees, 5 knots, cleared for take-off",
+"choice2": "DZF after lift-off climb straight ahead 2500 feet, then turn right heading 220, runway 12, cleared for take-off",
+"choice3": "DZF after lift-off climb straight ahead 2500 feet, then turn right heading 220, 090 degrees, 5 knots",
+"choice4": "DZF after lift-off climb straight ahead 2500 feet, then turn right heading 220, 090 degrees, 5 knots, cleared for take-off",
+"answer": 2
+},
+
+{
+"questionid": "4997",
+"question": "What is the correct way of acknowledging the instruction Next report PAH?",
+"choice1": "Positive",
+"choice2": "Roger",
+"choice3": "Report PAH",
+"choice4": "Wilco",
+"answer": 4
+},
+
+{
+"questionid": "4998",
+"question": "What is the correct way of acknowledging the instruction squawk 4321, Call Bremen Radar on 131.325?",
+"choice1": "Roger",
+"choice2": "Squawk 4321, wilco",
+"choice3": "Squawk 4321, 131.325",
+"choice4": "Wilco",
+"answer": 3
+},
+
+{
+"questionid": "4999",
+"question": "What is the correct way of acknowledging You are now entering airspace Delta?",
+"choice1": "Entering",
+"choice2": "Roger",
+"choice3": "Wilco",
+"choice4": "Airspace Delta",
+"answer": 2
+},
+
+{
+"questionid": "5000",
+"question": "What does a cloud coverage of FEW mean in a METAR weather report?",
+"choice1": "8 eighths",
+"choice2": "1 to 2 eighths",
+"choice3": "5 to 7 eighths",
+"choice4": "3 to 4 eighths",
+"answer": 2
+},
+
+{
+"questionid": "5001",
+"question": "What does a cloud coverage of SCT mean in a METAR weather report?",
+"choice1": "1 to 2 eighths",
+"choice2": "8 eighths",
+"choice3": "3 to 4 eighths",
+"choice4": "5 to 7 eighths",
+"answer": 3
+},
+
+{
+"questionid": "5002",
+"question": "What does a cloud coverage of BKN mean in a METAR weather report?",
+"choice1": "3 to 4 eighths",
+"choice2": "8 eighths",
+"choice3": "5 to 7 eighths",
+"choice4": "1 to 2 eighths",
+"answer": 3
+},
+
+{
+"questionid": "5003",
+"question": "Given a visibility of 12 km, what is the correct way to transmit this visibility?",
+"choice1": "One-two kilometers",
+"choice2": "Twelve kilometers",
+"choice3": "One-zero kilometers or more",
+"choice4": "One-zero kilometers.",
+"answer": 3
+},
+
+{
+"questionid": "5004",
+"question": "In what case is visibility transmitted in meters?",
+"choice1": "Up to 5 km",
+"choice2": "Greater than 10 km",
+"choice3": "Greater than 5 km",
+"choice4": "Up to 10 km",
+"answer": 1
+},
+
+{
+"questionid": "5005",
+"question": "In what cases is visibility transmitted in kilometers?",
+"choice1": "Up to 10 km",
+"choice2": "Greater than 5 km",
+"choice3": "Up to 5 km",
+"choice4": "Greater than 10 km",
+"answer": 2
+},
+
+{
+"questionid": "5006",
+"question": "What information is broadcasted on a VOLMET frequency?",
+"choice1": "Navigational information",
+"choice2": "NOTAMS",
+"choice3": "Current information",
+"choice4": "Meteorological information",
+"answer": 4
+},
+
+{
+"questionid": "5007",
+"question": "Which navigation facility may be used for broadcasting the ATIS?",
+"choice1": "GPS",
+"choice2": "DME",
+"choice3": "NDB",
+"choice4": "VOR",
+"answer": 4
+},
+
+{
+"questionid": "5008",
+"question": "How can you obtain meteorological information concerning airports during a cross-country flight?",
+"choice1": "VOLMET",
+"choice2": "GAMET",
+"choice3": "METAR",
+"choice4": "AIRMET",
+"answer": 1
+},
+
+{
+"questionid": "5009",
+"question": "Which transponder code indicates a radio failure?",
+"choice1": "7700",
+"choice2": "7600",
+"choice3": "7500",
+"choice4": "7000",
+"answer": 2
+},
+
+{
+"questionid": "5010",
+"question": "What is the correct phrase to begin a blind transmission?",
+"choice1": "Blind",
+"choice2": "Transmitting blind",
+"choice3": "No reception",
+"choice4": "Listen",
+"answer": 2
+},
+
+{
+"questionid": "5011",
+"question": "On what frequency shall a blind transmission be made?",
+"choice1": "On the appropriate FIS frequency",
+"choice2": "On a radar frequency of the lower airspace",
+"choice3": "On the current frequency",
+"choice4": "On a tower frequency",
+"answer": 3
+},
+
+{
+"questionid": "5012",
+"question": "How often shall a blind transmission be made?",
+"choice1": "Two times",
+"choice2": "Three times",
+"choice3": "Four times",
+"choice4": "One time",
+"answer": 4
+},
+
+{
+"questionid": "5013",
+"question": "In what situation is it appropriate to set the transponder code 7600?",
+"choice1": "Hijacking",
+"choice2": "Emergency",
+"choice3": "Flight into clouds",
+"choice4": "Loss of radio",
+"answer": 4
+},
+
+{
+"questionid": "5014",
+"question": "What is the correct course of action when experiencing a radio failure in class D airspace?",
+"choice1": "The flight has to be continued above 5000 feet complying with VFR flight rules or the airspace has to be left by the shortest route",
+"choice2": "The flight has to be continued according to the last clearance complying with VFR rules or the airspace has to be left by the shortest route",
+"choice3": "The flight has to be continued above 5000 feet complying with VFR flight rules or the airspace has to be left using a standard routing",
+"choice4": "The flight has to be continued according to the last clearance complying with VFR flight rules or the airspace has to be left using a standard routing",
+"answer": 2
+},
+
+{
+"questionid": "5015",
+"question": "Under what conditions may class D airspace be entered with a radio failure?",
+"choice1": "Approval has been granted before",
+"choice2": "There are other aircraft in the aerodrome circuit",
+"choice3": "It ist the aerodrome of departure",
+"choice4": "It is the destination aerodrome",
+"answer": 1
+},
+
+{
+"questionid": "5016",
+"question": "Which phrase is to be repeated three times before transmitting an urgency message?",
+"choice1": "Help",
+"choice2": "Urgent",
+"choice3": "Pan Pan",
+"choice4": "Mayday",
+"answer": 3
+},
+
+{
+"questionid": "5017",
+"question": "Urgency messages are defined as...",
+"choice1": "Messages concerning urgent spare parts which are needed for a continuation of flight and which need to be ordered in advance",
+"choice2": "Messages concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.",
+"choice3": "Information concerning the apron personell and which imply an imminent danger to landing aircraft.",
+"choice4": "Messages concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance",
+"answer": 2
+},
+
+{
+"questionid": "5018",
+"question": "Distress messages contain...",
+"choice1": "Information concerning urgent spare parts which are required for a continuation of flight and which have to be ordered in advance.",
+"choice2": "Information concerning the apron personell and which imply an imminent danger to landing aircraft.",
+"choice3": "Information concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight",
+"choice4": "Information concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.",
+"answer": 4
+},
+
+{
+"questionid": "5019",
+"question": "What is the correct frequency for an initial distress message?",
+"choice1": "Emergency frequency",
+"choice2": "Current frequency",
+"choice3": "FIS frequency",
+"choice4": "Radar frequency",
+"answer": 2
+},
+
+{
+"questionid": "5020",
+"question": "What kind of information should be included in an urgency message?",
+"choice1": "Nature of problem or observation, important information for support, departure aerodrome, information about position, heading and altitude",
+"choice2": "Intended routing, important information for support, intentions of the pilot, information about position, departure aerodrome, heading and altitude",
+"choice3": "Nature of problem or observation, important information for support, intentions of the pilot, information about position, heading and altitude",
+"choice4": "Intended routing, important information for support, intentions of the pilot, departure aerodrome, destination aerodrome, heading and altitude",
+"answer": 3
+},
+
+{
+"questionid": "5021",
+"question": "The correct transponder code for emergencies is...",
+"choice1": "7700",
+"choice2": "7000",
+"choice3": "7600",
+"choice4": "7500",
+"answer": 1
+},
+
+{
+"questionid": "5022",
+"question": "Which of the following frequencies is designated for VHF voice communication?",
+"choice1": "118.75 kHz",
+"choice2": "327.25 MHz",
+"choice3": "327.25 kHz",
+"choice4": "118.75 MHz",
+"answer": 4
+},
+
+{
+"questionid": "5023",
+"question": "Which of the following frequencies is designated for VHF voice communication?",
+"choice1": "120.50 MHz",
+"choice2": "115.15 MHz",
+"choice3": "108.80 MHz",
+"choice4": "117.30 kHz",
+"answer": 1
+},
+
+{
+"questionid": "5024",
+"question": "What is the correct designation of the frequency band from 118.000 to 136.975 MHz used for voice communication?",
+"choice1": "LF",
+"choice2": "VHF",
+"choice3": "MF",
+"choice4": "HF",
+"answer": 2
+},
+
+{
+"questionid": "5025",
+"question": "Which of the following factors affects the reception of VHF transmissions?",
+"choice1": "Altitude",
+"choice2": "Shoreline effect",
+"choice3": "Twilight error",
+"choice4": "Height of ionosphere",
+"answer": 1
+},
+
+{
+"questionid": "5026",
+"question": "What is the approximate speed of electromagnetic wave propagation?",
+"choice1": "123000 m/s",
+"choice2": "300000 km/s",
+"choice3": "123000 km/s",
+"choice4": "300000 m/s",
+"answer": 2
+},
+
+{
+"questionid": "5027",
+"question": "An ATIS is valid for...",
+"choice1": "10 minutes",
+"choice2": "45 minutes.",
+"choice3": "60 minutes.",
+"choice4": "30 minutes",
+"answer": 4
+},
+
+{
+"questionid": "6003",
+"question": "Which of the following messages have priority number one over other messages?",
+"choice1": "Flight regularity messages.",
+"choice2": "Flight safety messages.",
+"choice3": "Meteorological messages.",
+"choice4": "Distress messages.",
+"answer": 4
+},
+
+{
+"questionid": "6004",
+"question": "The pilot tests the readability of transmission using the phrase:",
+"choice1": "RADIO TEST.",
+"choice2": "REQUEST READABILITY OF TRANSMISSION.",
+"choice3": "RADIO CHECK (FREQUENCY).",
+"choice4": "REQUEST RADIO CHECK (FREQUENCY).",
+"answer": 3
+},
+
+{
+"questionid": "6005",
+"question": "What is the meaning of the term IMC?",
+"choice1": "Flight according to instrumental flight rules.",
+"choice2": "Flight according to visual flight rules.",
+"choice3": "Visual meteorogical conditions.",
+"choice4": "Instrumental meteorogical conditions.",
+"answer": 4
+},
+
+{
+"questionid": "6006",
+"question": "What is the meaning of the phrase ROGER?",
+"choice1": "I have received all of your last transmission",
+"choice2": "I understand your message and will comply with it.",
+"choice3": "My transmission is ended and I expect a response from you.",
+"choice4": "Permission for proposed action granted.",
+"answer": 1
+},
+
+{
+"questionid": "6007",
+"question": "What is the meaning of the phrase VERIFY?",
+"choice1": "I hereby indicate the separation between two portions of the message.",
+"choice2": "Check and confirm with the originator.",
+"choice3": "No, or permission not granted or that is not correct.",
+"choice4": "Repeat all or the following part of your last transmission.",
+"answer": 2
+},
+
+{
+"questionid": "6008",
+"question": "What does QNH mean?",
+"choice1": "Atmospheric pressure at aerodrome elevation.",
+"choice2": "Non-directional radio beacon.",
+"choice3": "Altimeter sub-scale setting to obtain elevation when on ground.",
+"choice4": "A specific geographical location at which the position of an aircraft is reported.",
+"answer": 3
+},
+
+{
+"questionid": "6009",
+"question": "A pilot may file a flight plan with an ATC unit during the flight using the phrase:",
+"choice1": "REQUEST FILE FLIGHT PLAN.",
+"choice2": "CANCELING MY FLIGHT PLAN.",
+"choice3": "REQUEST FILL IN FLIGHT PLAN.",
+"choice4": "READY TO COPY.",
+"answer": 1
+},
+
+{
+"questionid": "6010",
+"question": "ATC will give a climb instruction by using the phrase:",
+"choice1": "MAINTAIN FL...",
+"choice2": "CLIMB TO FL...",
+"choice3": "LEAVE FL... FOR FL...",
+"choice4": "CLEARED FL...",
+"answer": 2
+},
+
+{
+"questionid": "6011",
+"question": "If a pilot may start climb/descent at his convenience, an ATC will use the phrase:",
+"choice1": "WHEN READY CLIMB/DESCEND TO FL...",
+"choice2": "CLIMB/DESCEND TO FL... AT YOUR CONVENIENCE.",
+"choice3": "CLIMB/DESCEND TO FL...",
+"choice4": "CLIMB/DESCEND TO FL... AT ANY TIME.",
+"answer": 1
+},
+
+{
+"questionid": "6012",
+"question": "An altitude of 4,500 ft QNH should be pronounced as:",
+"choice1": "FORTY-FIVE-THOUSAND.",
+"choice2": "FOUR POINT FIVE.",
+"choice3": "FORTY-FIVE HUNDRED FEET ABOVE SEA LEVEL.",
+"choice4": "FOUR THOUSAND FIVE HUNDRED FEET.",
+"answer": 4
+},
+
+{
+"questionid": "6013",
+"question": "How will a pilot manage to follow the radar controller's instruction SQUAWK ALFA FOUR FOUR? Switch the transponder to mode?",
+"choice1": "A, code 0044.",
+"choice2": "A, code 4400 and mode C.",
+"choice3": "A, code 0440.",
+"choice4": "A, code 4444.",
+"answer": 4
+},
+
+{
+"questionid": "6014",
+"question": "What is the transponder mode and code for radio communication failure?",
+"choice1": "A 7700.",
+"choice2": "A 7500.",
+"choice3": "A 0077.",
+"choice4": "A 7600.",
+"answer": 4
+},
+
+{
+"questionid": "6015",
+"question": "During overflying a remote forest area you notice a hang glider on tree canopies and it seems to you that the pilot hangs on his harnesses. You decide to call the nearest airport and report the accident. The phrase with which you should begin your radiotelephony message is:",
+"choice1": "EMERGENCY, EMERGENCY, EMERGENCY.",
+"choice2": "MEDICAL, MEDICAL, MEDICAL.",
+"choice3": "MAYDAY, MAYDAY, MAYDAY.",
+"choice4": "PANPAN, PANPAN, PANPAN.",
+"answer": 4
+},
+
+{
+"questionid": "6016",
+"question": "When being intercepted by a military aircraft, the pilot of the intercepted aircraft should try to establish radio contact with the intercepting aircraft on the frequency?",
+"choice1": "126.7 MHz.",
+"choice2": "122.8 MHz.",
+"choice3": "121.5 MHz.",
+"choice4": "123.5 MHz.",
+"answer": 3
+},
+
+{
+"questionid": "6017",
+"question": "if you were requested to squawk mayday what would you do?",
+"choice1": "set 7700 and ident",
+"choice2": "set 7500 and ident",
+"choice3": "2082128",
+"choice4": "2118652",
+"answer": 4
+},
+
+{
+"questionid": "6018",
+"question": "a vhf transmission classed as readability 4 is:",
+"choice1": "readable but with difficulty",
+"choice2": "readable now and then",
+"choice3": "readable",
+"choice4": "perfectly readable",
+"answer": 3
+},
+
+{
+"questionid": "6019",
+"question": "what does the abbreviation QUJ stand for?",
+"choice1": "true track to the station",
+"choice2": "true bearing from the station",
+"choice3": "magnetic heading to the station",
+"choice4": "magnetic bearing from the station",
+"answer": 1
+},
+
+{
+"questionid": "6026",
+"question": "Which abbreviation is used in a METAR for HAIL?",
+"choice1": "HL",
+"choice2": "HA",
+"choice3": "GR",
+"choice4": " +SN",
+"answer": 3
+},
+
+
+{
+"questionid": "6031",
+"question": "Which of the following weather conditions would NOT be reported as CAVOK?",
+"choice1": "visibility 10km, overcast at 8000 ft",
+"choice2": "visibility 15 km, scattered cloud at 6000ft, overcast at 10000ft",
+"choice3": "visibility 20 km, scattered cloud at 5600ft, rain one hour previously.",
+"choice4": "visibility 15 km, broken cloud at 12000 ft including cumulonimbus at 18000 ft",
+"answer": 4
+}
+
+
+]

@@ -1,0 +1,42 @@
+
+[
+  {
+    "questionid":"10",
+    "question": "Which of the following documents have to be on board for an international flight? a) Certificate of aircraft registration b) Certificate of airworthiness c) Airworthiness review certificate d) EASA Form-1 e) Airplane logbook f) Appropriate papers for every crew member g) Technical logbook",
+    "choice1": "B, c, d, e, f, g",
+    "choice2": "A, b, c, e, f",
+    "choice3": "A, b, e, g",
+    "choice4": "D, f, g",
+    "answer": 2
+  },
+
+{
+  "questionid": "4657",
+"question": "ggggheghdfghrnational flight? a) Certificate of aircraft registration b) Certificate of airwrthiness c) Airworthiness review certificate d) EASA Form-1 e) Airplane logbook f) Appropriate papers for every crew member g) Technical logbook",
+"choice1": "B, c, d, e, f, g",
+"choice2": "A, b, c, e, f",
+"choice3": "A, b, e, g",
+"choice4": "D, f, g",
+"answer": 2
+},
+
+
+
+
+  {
+    "question": "Which area could be crossed with certain restrictions?",
+    "choice1": "No-fly zone",
+    "choice2": "Restricted area",
+    "choice3": "Prohibited area",
+    "choice4": "Dangerous area",
+    "answer": 2
+  },
+  {
+    "question": "What is the period of validity of a private pilot license (PPL)?",
+    "choice1": "Unlimited",
+    "choice2": "24 months",
+    "choice3": "48 months",
+    "choice4": "60 month",
+    "answer": 1
+  }
+]

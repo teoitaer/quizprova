@@ -1,0 +1,554 @@
+
+[
+  {
+"questionid": "4754",
+"question": "The majority of aviation accidents are caused by...",
+"choice1": "Technical failure",
+"choice2": "Meteorological influences.",
+"choice3": "Geographical influences.",
+"choice4": "Human failure.",
+"answer": 4
+},
+
+{
+"questionid": "4755",
+"question": "The swiss cheese model can be used to explain the...",
+"choice1": "Error chain.",
+"choice2": "Procedure for an emergency landing.",
+"choice3": "Optimal problem solution.",
+"choice4": "State of readiness of a pilot.",
+"answer": 1
+},
+
+{
+"questionid": "4756",
+"question": "What is the percentage of oxygen in the atmosphere at 6000 ft?",
+"choice1": "0,21",
+"choice2": "0,12",
+"choice3": "0,78",
+"choice4": "18.9 %",
+"answer": 1
+},
+
+{
+"questionid": "4757",
+"question": "What is the percentage of nitrogen in the atmosphere?",
+"choice1": "0,01",
+"choice2": "0,21",
+"choice3": "0,78",
+"choice4": "0.1 %",
+"answer": 3
+},
+
+{
+"questionid": "4758",
+"question": "At which altitude is the atmospheric pressure approximately half the MSL value (1013 hPa)?",
+"choice1": "18000 ft",
+"choice2": "5000 ft",
+"choice3": "10000 ft",
+"choice4": "22000 ft",
+"answer": 1
+},
+
+{
+"questionid": "4759",
+"question": "Air consists of oxygen, nitrogen and other gases. What is the approximate percentage of other gases?",
+"choice1": "0.1 %",
+"choice2": "0,78",
+"choice3": "0,01",
+"choice4": "0,21",
+"answer": 3
+},
+
+{
+"questionid": "4760",
+"question": "Carbon monoxide poisoning can be caused by...",
+"choice1": "Little sleep.",
+"choice2": "Alcohol",
+"choice3": "Smoking.",
+"choice4": "Unhealthy food.",
+"answer": 3
+},
+
+{
+"questionid": "4761",
+"question": "What does the term Red-out mean?",
+"choice1": "Red vision during negative g-loads",
+"choice2": "Rash during decompression sickness",
+"choice3": "Anaemia caused by an injury",
+"choice4": "Falsified colour perception during sunrise and sunset",
+"answer": 1
+},
+
+{
+"questionid": "4762",
+"question": "Which of the following is NOT a symptom of hyperventilaton?",
+"choice1": "Cyanose",
+"choice2": "Tingling",
+"choice3": "Spasm",
+"choice4": "Disturbance of consciousness",
+"answer": 1
+},
+
+{
+"questionid": "4763",
+"question": "Which of the following symptoms may indicate hypoxia?",
+"choice1": "Joint pain in knees and feet",
+"choice2": "Muscle cramps in the upper body area",
+"choice3": "Blue discolouration of lips and fingernails",
+"choice4": "Blue marks all over the body",
+"answer": 3
+},
+
+{
+"questionid": "4764",
+"question": "Which of the human senses is most influenced by hypoxia?",
+"choice1": "The oltfactory perception (smell)",
+"choice2": "The tactile perception (sense of touch)",
+"choice3": "The auditory perception (hearing)",
+"choice4": "The visual perception (vision)",
+"answer": 4
+},
+
+{
+"questionid": "4765",
+"question": "From which altitude on does the body usually react to the decreasing atmospheric pressure?",
+"choice1": "2000 feet",
+"choice2": "7000 feet",
+"choice3": "10000 feet",
+"choice4": "12000 feet",
+"answer": 2
+},
+
+{
+"questionid": "4766",
+"question": "Which altitude marks the lower limit where the the body is unable to completely compensate the effects of the low atmospheric pressure?",
+"choice1": "12000 feet",
+"choice2": "22000 feet",
+"choice3": "5000 feet",
+"choice4": "7000 feet",
+"answer": 1
+},
+
+{
+"questionid": "4767",
+"question": "What is the function of the red blood cells (erythrocytes)?",
+"choice1": "Oxygen transport",
+"choice2": "Blood coagulation",
+"choice3": "Immune defense",
+"choice4": "Blood sugar regulation",
+"answer": 1
+},
+
+{
+"questionid": "4768",
+"question": "Which of the following is responsible for the blood coagulation?",
+"choice1": "Red blood cells (erythrocytes)",
+"choice2": "Capillaries of the arteries",
+"choice3": "White blood cells (leucocytes)",
+"choice4": "Blood plates (thrombocytes)",
+"answer": 4
+},
+
+{
+"questionid": "4769",
+"question": "What is the function of the white blood cells (leucocytes)?",
+"choice1": "Oxygen transport",
+"choice2": "Blood coagulation",
+"choice3": "Blood sugar regulation",
+"choice4": "Immune defense",
+"answer": 4
+},
+
+{
+"questionid": "4770",
+"question": "What is the function of the blood platelets (thrombocytes)?",
+"choice1": "Immune defense",
+"choice2": "Blood coagulation",
+"choice3": "Blood sugar regulation",
+"choice4": "Oxygen transport",
+"answer": 2
+},
+
+{
+"questionid": "4771",
+"question": "Which of the following is NOT a risk factor for hypoxia?",
+"choice1": "Smoking",
+"choice2": "Menstruation",
+"choice3": "Blood donation",
+"choice4": "Diving",
+"answer": 4
+},
+
+{
+"questionid": "4772",
+"question": "Anemic hypoxia can be caused by...",
+"choice1": "Carbon monoxide poisoning.",
+"choice2": "Low pressure",
+"choice3": "High altitudes.",
+"choice4": "Alcohol",
+"answer": 1
+},
+
+{
+"questionid": "4773",
+"question": "What is an appropriate reaction when a passenger during cruise flight suddenly feels uncomfortable?",
+"choice1": "Adjust cabin temperature and prevent excessive bank",
+"choice2": "Give additional oxygen and avoid low load factors",
+"choice3": "Avoid conversation and choose a higher airspeed",
+"choice4": "Switch on the heater blower and provide thermal blankets",
+"answer": 1
+},
+
+{
+"questionid": "4774",
+"question": "What ist the correct term for an involuntary and stereotypical reaction of an organism to the stimulation of a receptor?",
+"choice1": "Reduction",
+"choice2": "Virulence",
+"choice3": "Coherence",
+"choice4": "Reflex",
+"answer": 4
+},
+
+{
+"questionid": "4775",
+"question": "What is the correct term for the system which, among others, controls breathing, digestion, and heart frequency?",
+"choice1": "Critical nervous system",
+"choice2": "Autonomic nervous system",
+"choice3": "Automatical nervous system",
+"choice4": "Compliant nervous system",
+"answer": 2
+},
+
+{
+"questionid": "4776",
+"question": "What is the parallax error?",
+"choice1": "Long-sightedness due to aging especially during night",
+"choice2": "Wrong interpretation of instruments caused by the angle of vision",
+"choice3": "Misperception of speed during taxiing",
+"choice4": "A decoding error in communication between pilots",
+"answer": 2
+},
+
+{
+"questionid": "4777",
+"question": "Which characteristic is important when choosing sunglasses used by pilots?",
+"choice1": "Non-polarised",
+"choice2": "No UV filter",
+"choice3": "Curved sidepiece",
+"choice4": "Unbreakable",
+"answer": 1
+},
+
+{
+"questionid": "4778",
+"question": "Which part of the visual system is responsible for colour vision?",
+"choice1": "Cones",
+"choice2": "Rods",
+"choice3": "Macula",
+"choice4": "Blind spot",
+"answer": 1
+},
+
+{
+"questionid": "4779",
+"question": "The connection between middle ear and nose and throat region is called...",
+"choice1": "Eardrum",
+"choice2": "Cochlea",
+"choice3": "Inner ear.",
+"choice4": "Eustachian tube.",
+"answer": 4
+},
+
+{
+"questionid": "4780",
+"question": "In which situation is it NOT possible to achieve a pressure compensation between the middle ear and the environment?",
+"choice1": "During a light and slow climb",
+"choice2": "All windows are completely closed",
+"choice3": "Breathing takes place using the mouth only",
+"choice4": "The eustachien tube is blocked",
+"answer": 4
+},
+
+{
+"questionid": "4781",
+"question": "Wings level after a longer period of turning can lead to the impression of...",
+"choice1": "Starting a descent.",
+"choice2": "Starting a climb.",
+"choice3": "Steady turning in the same direction as before",
+"choice4": "Turning into the opposite direction",
+"answer": 4
+},
+
+{
+"questionid": "4782",
+"question": "Which of the following options does NOT stimulate motion sickness (disorientation)?",
+"choice1": "Head movements during turns",
+"choice2": "Flying under the influence of alcohol",
+"choice3": "Non-accelerated straight and level flight",
+"choice4": "Turbulence in level flight",
+"answer": 3
+},
+
+{
+"questionid": "4783",
+"question": "An acceleration during a straight horizontal flight can lead to the illusion of...",
+"choice1": "A descent.",
+"choice2": "A climb.",
+"choice3": "An inverted flight.",
+"choice4": "A bank.",
+"answer": 2
+},
+
+{
+"questionid": "4784",
+"question": "A deceleration during a straight horizontal flight can lead to the illusion of...",
+"choice1": "A climb.",
+"choice2": "A descent.",
+"choice3": "A bank.",
+"choice4": "An inverted flight.",
+"answer": 2
+},
+
+{
+"questionid": "4785",
+"question": "Which optical illusion might be caused by a runway with an upslope during the approach?",
+"choice1": "The pilot has the feeling that the approach is too fast and reduces the speed below the normal approach speed",
+"choice2": "The pilot has the feeling that the approach is too high and therefore descents below the regular glide slope",
+"choice3": "The pilot has the feeling that the approach is too slow and speeds up above the normal approach speed",
+"choice4": "The pilot has the feeling that the approach is too low and therefore approaches the runway above the regular glide slope",
+"answer": 2
+},
+
+{
+"questionid": "4786",
+"question": "What impression may be caused when approaching a runway with an upslope?",
+"choice1": "A landing beside the centerline",
+"choice2": "A hard landing",
+"choice3": "An undershoot",
+"choice4": "An overshoot",
+"answer": 4
+},
+
+{
+"questionid": "4787",
+"question": "The occurence of a vertigo is most likely when moving the head...",
+"choice1": "During a straight horizontal flight.",
+"choice2": "During a turn.",
+"choice3": "During a descent.",
+"choice4": "During a climb.",
+"answer": 2
+},
+
+{
+"questionid": "4788",
+"question": "A Grey-out is the result of...",
+"choice1": "Hypoxia",
+"choice2": "Tiredness",
+"choice3": "Positive g-forces.",
+"choice4": "Hyperventilation",
+"answer": 3
+},
+
+{
+"questionid": "4789",
+"question": "Visual illusions are mostly caused by...",
+"choice1": "Rapid eye movements.",
+"choice2": "Misinterpretation of the brain.",
+"choice3": "Colour blindness.",
+"choice4": "Binocular vision.",
+"answer": 2
+},
+
+{
+"questionid": "4790",
+"question": "The average decrease of blood alcohol level for an adult in one hour is approximately...",
+"choice1": "0.1 percent.",
+"choice2": "0.01 percent.",
+"choice3": "0.03 percent.",
+"choice4": "0.3 percent.",
+"answer": 2
+},
+
+{
+"questionid": "4791",
+"question": "Which answer states a risk factor for diabetes?",
+"choice1": "Overweight",
+"choice2": "Smoking",
+"choice3": "Sleep deficiency",
+"choice4": "Alcohol consumption",
+"answer": 1
+},
+
+{
+"questionid": "4792",
+"question": "A risk factor for decompression sickness is...",
+"choice1": "Smoking",
+"choice2": "Sports",
+"choice3": "Scuba diving prior to flight.",
+"choice4": "100 % oxygen after decompression.",
+"answer": 3
+},
+
+{
+"questionid": "4793",
+"question": "Which statement is correct with regard to the short-term memory?",
+"choice1": "It can store 10 (¬±5) items for 30 to 60 seconds",
+"choice2": "It can store 7 (¬±2) items for 10 to 20 seconds",
+"choice3": "It can store 3 (¬±1) items for 5 to 10 seconds",
+"choice4": "It can store 5 (¬±2) items for 1 to 2 minutes",
+"answer": 2
+},
+
+{
+"questionid": "4794",
+"question": "For what approximate time period can the short-time memory store information?",
+"choice1": "35 to 50 seconds",
+"choice2": "30 to 40 seconds",
+"choice3": "3 to 7 seconds",
+"choice4": "10 to 20 seconds",
+"answer": 4
+},
+
+{
+"questionid": "4795",
+"question": "What is a latent error?",
+"choice1": "An error which is made by the pilot actively and consciously",
+"choice2": "An error which only has consequences after landing",
+"choice3": "An error which remains undetected in the system for a long time",
+"choice4": "An error which has an immediate effect on the controls",
+"answer": 3
+},
+
+{
+"questionid": "4796",
+"question": "What does the term confirmation bias mean?",
+"choice1": "The feedback loop in a closed communication",
+"choice2": "The preference to find arguments to proof the own mental model",
+"choice3": "The bias to confirm each radio call",
+"choice4": "The critical check of ambiguous situations in flight",
+"answer": 2
+},
+
+{
+"questionid": "4797",
+"question": "The ongoing process to monitor the current flight situation is called...",
+"choice1": "Constant flight check.",
+"choice2": "Situational thinking.",
+"choice3": "Anticipatory check procedure.",
+"choice4": "Situational awareness",
+"answer": 4
+},
+
+{
+"questionid": "4798",
+"question": "Regarding the communication model, how can the use of the same code during radio communication be ensured?",
+"choice1": "By the use of radio phraseology",
+"choice2": "By using radios certified for aviation use only",
+"choice3": "By the use of proper headsets",
+"choice4": "By a particular frequency allocation",
+"answer": 1
+},
+
+{
+"questionid": "4799",
+"question": "In what different ways can a risk be handled appropriately?",
+"choice1": "Extrude, avoid, palliate, transfer",
+"choice2": "Ignore, accept, transfer, extrude",
+"choice3": "Avoid, reduce, transfer, accept",
+"choice4": "Avoid, ignore, palliate, reduce",
+"answer": 3
+},
+
+{
+"questionid": "4800",
+"question": "Under which circumstances is it more likely to accept higher risks?",
+"choice1": "If there is not enough information available",
+"choice2": "During check flights due to a high level of nervousness",
+"choice3": "During flight planning when excellent weather is forecast",
+"choice4": "Due to group-dynamic effects",
+"answer": 4
+},
+
+{
+"questionid": "4801",
+"question": "What is the meaning of risky shift?",
+"choice1": "Crossing of rudder and ailerons on short final",
+"choice2": "The tendency to accept higher risks in groups",
+"choice3": "Spontaneous change of landing direction when the runway has an upslope",
+"choice4": "Seat adjustment in flight",
+"answer": 2
+},
+
+{
+"questionid": "4802",
+"question": "Which dangerous attitudes are often combined?",
+"choice1": "Macho and invulnerability",
+"choice2": "Impulsivity and carefulness",
+"choice3": "Invulnerability and self-abandonment",
+"choice4": "Self-abandonment and macho",
+"answer": 1
+},
+
+{
+"questionid": "4803",
+"question": "What is an indication for a macho attitude?",
+"choice1": "Careful walkaround procedure",
+"choice2": "Comprehensive risk assessment when faced with unfamiliar situations",
+"choice3": "Risky flight maneuvers to impress spectators on ground",
+"choice4": "Quick resignation in complex and critical situations",
+"answer": 3
+},
+
+{
+"questionid": "4804",
+"question": "Which factor can lead to human error?",
+"choice1": "Double check of relevant actions",
+"choice2": "Proper use of checklists",
+"choice3": "To be doubtful if something looks unclear or ambiguous",
+"choice4": "The bias to see what we expect to see",
+"answer": 4
+},
+
+{
+"questionid": "4805",
+"question": "What is the best combination of traits with respect to the individual attitude and behaviour for a pilot?",
+"choice1": "Introverted - unstable",
+"choice2": "Introverted - stable",
+"choice3": "Extroverted - unstable",
+"choice4": "Extroverted - stable",
+"answer": 4
+},
+
+{
+"questionid": "4806",
+"question": "Complacency is a risk due to...",
+"choice1": "The high number of mistakes normally made by humans.",
+"choice2": "Increased cockpit automation.",
+"choice3": "The high error rate of technical systems.",
+"choice4": "Better training options for young pilots.",
+"answer": 2
+},
+
+{
+"questionid": "4809",
+"question": "Which of the following qualities are influenced by stress? 1. Attention 2. Concentration 3. Responsiveness 4. Memory",
+"choice1": "2, 4",
+"choice2": "1",
+"choice3": "1, 2, 3, 4",
+"choice4": "1, 2, 3",
+"answer": 3
+},
+
+{
+"questionid": "4811",
+"question": "Carbon monoxide poisoning can be caused by...",
+"choice1": "Fuel or hydraulic fluids.",
+"choice2": "Generator failure.",
+"choice3": "Cracks in the heat exchanger.",
+"choice4": "Pitot icing.",
+"answer": 3
+}
+
+
+]

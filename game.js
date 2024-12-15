@@ -9,199 +9,166 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
+let questionsArray = []; // Array per tracciare domande e risposte
 
 let questions = [];
 
-
- // legge il valore inserito nella combobox numsel di index.html
+// Legge il valore inserito nella combobox numsel di index.html
 var a = localStorage.getItem("terValue");
-    //alert(a);
-
- // legge il valore inserito nella combobox numsel di index.html
 var x = localStorage.getItem("selValue");
-   // alert(x);
-
-// legge il valore inserito nella combobox subjectsel di index.html
 var y = localStorage.getItem("secValue");
-   // alert(y);
 
-
-
-// carica il database per la materia selezionata
+// Carica il database per la materia selezionata
 var z;
-if(y=="AL ENG"){
-    z='alen.json';
-} else if (y=="AGK ENG"){
-    z='agken.json';
-} else if (y=="OPS ENG"){
-    z='opsen.json';
-} else if (y=="HPL ENG"){
-    z='hplen.json';
-} else if (y=="NAV ENG"){
-    z='naven.json';
-} else if (y=="MET ENG"){
-    z='meten.json';
-} else if (y=="FPP ENG"){
-    z='fppen.json';
-} else if (y=="POF ENG"){
-    z='pofen.json';
-} else if (y=="COM ENG"){
-    z='comen.json';
-} 
+if (y == "AL ENG") {
+  z = 'alen.json';
+} else if (y == "AGK ENG") {
+  z = 'agken.json';
+} else if (y == "OPS ENG") {
+  z = 'opsen.json';
+} else if (y == "HPL ENG") {
+  z = 'hplen.json';
+} else if (y == "NAV ENG") {
+  z = 'naven.json';
+} else if (y == "MET ENG") {
+  z = 'meten.json';
+} else if (y == "FPP ENG") {
+  z = 'fppen.json';
+} else if (y == "POF ENG") {
+  z = 'pofen.json';
+} else if (y == "COM ENG") {
+  z = 'comen.json';
+}
 
+fetch(z)
+  .then(res => res.json())
+  .then(loadedQuestions => {
+    questions = loadedQuestions;
+    startGame();
+  })
+  .catch(err => {
+    console.error(err);
+  });
 
-
- fetch(z)
-    .then(res => { return res.json();})
-    .then(loadedQuestions => {
-        questions = loadedQuestions;
-       
-        startGame();
-    })
-     .catch(err => {
-         console.error(err);
-    });
-
-
-
-
-//CONSTANTS
+// CONSTANTS
 const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = x;
 
-
 startGame = () => {
-    questionCounter = 0;
-    score = 0;
-    
-    availableQuesions = [...questions];
-    getNewQuestion();
+  questionCounter = 0;
+  score = 0;
+  availableQuesions = [...questions];
+  getNewQuestion();
 };
 
 getNewQuestion = () => {
+  if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    localStorage.setItem('mostRecentScore', scoreText.innerText);
+    // Vai alla pagina finale
+    return window.location.assign('end.html');
+  }
+  questionCounter++;
+  progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+  progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-         localStorage.setItem('mostRecentScore', scoreText.innerText);
+  // Determina se la domanda deve essere in ordine sequenziale o casuale
+  let questionIndex;
+  if (a == "NO") {
+    questionIndex = 0;
+  } else if (a == "YES") {
+    questionIndex = Math.floor(Math.random() * availableQuesions.length);
+  }
 
-        //go to the end page
-        return window.location.assign('end.html');
-    }
-    questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-    //Update the progress bar
-    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+  currentQuestion = availableQuesions[questionIndex];
+  
+  // Traccia la domanda corrente nel PDF
+  questionsArray.push({
+    question: currentQuestion.question,
+    choices: [
+      currentQuestion.choice1,
+      currentQuestion.choice2,
+      currentQuestion.choice3,
+      currentQuestion.choice4
+    ],
+    correctAnswer: currentQuestion.answer
+  });
 
-    
-    
-// nuovo
+  questionid.innerText = currentQuestion.questionid;
+  question.innerText = currentQuestion.question;
 
-    // la variabile b prende il valore dalla chackbox random in index.html. 
-    // il codice imposta le domande in ordine sequenziale o random
-var b;
+  choices.forEach((choice) => {
+    const number = choice.dataset['number'];
+    choice.innerText = currentQuestion['choice' + number];
+  });
 
-    if (a=="NO"){
-    b= 0;
-} else if (a=="YES") {
-    b = Math.floor(Math.random() * availableQuesions.length);
-}
-
-// alert(b);
-     
-const questionIndex = b
-
-    // fine nuovo 
-
-    currentQuestion = availableQuesions[questionIndex];
-// riempie il campo id
-    questionid.innerText = currentQuestion.questionid;
-
-// riempie il campo domanda
-    question.innerText = currentQuestion.question;
-
-// riempie i campi delle risposte
-    choices.forEach((choice) => {
-        const number = choice.dataset['number'];
-        choice.innerText = currentQuestion['choice' + number];
-    });
-
-    availableQuesions.splice(questionIndex, 1);
-    acceptingAnswers = true;
+  availableQuesions.splice(questionIndex, 1);
+  acceptingAnswers = true;
 };
 
 choices.forEach((choice) => {
-    choice.addEventListener('click', (e) => {
-        if (!acceptingAnswers) return;
+  choice.addEventListener('click', (e) => {
+    if (!acceptingAnswers) return;
 
-        acceptingAnswers = false;
-        const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+    acceptingAnswers = false;
+    const selectedChoice = e.target;
+    const selectedAnswer = selectedChoice.dataset['number'];
 
-        const classToApply =
-            selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+    const classToApply =
+      selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
-        if (classToApply === 'correct') {
-            incrementScore(CORRECT_BONUS);
-        }
+    if (classToApply === 'correct') {
+      incrementScore(CORRECT_BONUS);
+    }
 
-        selectedChoice.parentElement.classList.add(classToApply);
+    // Aggiungi la risposta selezionata all'array
+    questionsArray[questionCounter - 1].selectedAnswer = selectedAnswer;
 
-        setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply);
-            getNewQuestion();
-        }, 1000);
-    });
+    selectedChoice.parentElement.classList.add(classToApply);
+
+    setTimeout(() => {
+      selectedChoice.parentElement.classList.remove(classToApply);
+      getNewQuestion();
+    }, 1000);
+  });
 });
 
 incrementScore = (num) => {
-    score += num;
+  score += num;
+  scoreText.innerText = (score / x) * 100;
+};
 
-      scoreText.innerText = (score/x) * 100;
-
-// codice nuovo per pdf
-
- 
-let questionsArray = [];
-
-function loadQuestion(question, choices, selectedAnswer) {
-  // Aggiungi la domanda corrente e le risposte all'array
-  questionsArray.push({
-    question: question,
-    choices: choices,
-    selectedAnswer: selectedAnswer,
-    correctAnswer: correctAnswer // Se disponibile
-  });
-}
-
-// Modifica il caricamento della domanda e del tracciamento della risposta
-// Aggiungi il codice di tracciamento al momento in cui l'utente seleziona una risposta
-
- function generatePDF() {
+// Funzione per generare il PDF
+function generatePDF() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
 
-  // Impostazioni di base
   let yOffset = 10; // Distanza dall'alto del documento
 
   questionsArray.forEach((questionData, index) => {
     doc.text(`Q${index + 1}: ${questionData.question}`, 10, yOffset);
-    yOffset += 10; // Spazio per la domanda
+    yOffset += 10;
 
     questionData.choices.forEach((choice, i) => {
       const choiceLetter = String.fromCharCode(65 + i); // A, B, C, D...
-      const isSelected = questionData.selectedAnswer === choice ? "(Selected)" : "";
-      const isCorrect = questionData.correctAnswer === choice ? "(Correct)" : "";
+      const isSelected = questionData.selectedAnswer == (i + 1) ? "(Selected)" : "";
+      const isCorrect = questionData.correctAnswer == (i + 1) ? "(Correct)" : "";
       doc.text(`${choiceLetter}. ${choice} ${isSelected} ${isCorrect}`, 10, yOffset);
-      yOffset += 10; // Spazio tra le risposte
+      yOffset += 10;
     });
 
     yOffset += 10; // Spazio extra tra le domande
   });
 
-  // Salva il PDF
   doc.save('quiz_results.pdf');
 }
 
-// Chiama la funzione al termine del quiz
-document.getElementById('save-pdf').addEventListener('click', generatePDF);
+// Aggiungi l'event listener per il bottone PDF solo se esiste
+document.addEventListener('DOMContentLoaded', function () {
+  const savePdfButton = document.getElementById('save-pdf');
+  if (savePdfButton) {
+    savePdfButton.addEventListener('click', generatePDF);
+  } else {
+    console.error("Pulsante save-pdf non trovato.");
+  }
+});
 
-};

@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quiz End Page</title>
-    <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="game.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test Complete</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
     <div class="container">
-        <div id="end-screen" class="justify-center flex-column">
-            <h1>Quiz Finished!!!</h1>
-            <p>Click the button below to download your quiz results as a PDF.</p>
-            <button id="download-pdf" class="download-btn">Download PDF</button>
-        </div>
+      <div id="end" class="flex-center flex-column">
+        <h1 id="finalScore"></h1>
+        <form>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+          />
+          <button
+            type="submit"
+            class="btn"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+            disabled
+          >
+            Save
+          </button>
+        </form>
+        <!-- <a class="btn" href="/game.html">New Test</a> -->
+        <a class="btn" href="/">Home page</a>
+      </div>
     </div>
-
-    <!-- Includi jsPDF -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
-    <!-- Includi game.js se contiene la funzione generatePDF -->
-    <script src="game.js"></script>
-
-    <script>
-        // Funzione per generare il PDF e scaricarlo
-        document.getElementById("download-pdf").addEventListener("click", function() {
-            const { jsPDF } = window.jspdf; // Prende jsPDF dalla libreria inclusa
-            const doc = generatePDF(); // Chiama la funzione generatePDF che hai già definito
-            doc.save('quiz_results.pdf'); // Salva il file PDF
-        });
-    </script>
-</body>
+    <script src="end.js"></script>
+  </body>
 </html>

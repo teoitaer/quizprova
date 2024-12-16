@@ -150,6 +150,8 @@ function generatePDF() {
 
     modal.style.display = "flex"; // Mostra la finestra modale
 
+    // Aggiungiamo degli event listener per i pulsanti di conferma e annullamento
+
     // Funzione che viene chiamata quando l'utente conferma
     confirmButton.onclick = function () {
         const { jsPDF } = window.jspdf;
@@ -202,8 +204,10 @@ function generatePDF() {
         // Salva il PDF
         doc.save('quiz_results.pdf');
 
-        // Chiudi la finestra modale e reindirizza alla pagina end.html
+        // Chiudi la finestra modale
         modal.style.display = "none";
+
+        // Reindirizza alla pagina end.html solo dopo la conferma
         window.location.assign('/quizprova/end.html');
     };
 
@@ -211,8 +215,11 @@ function generatePDF() {
     cancelButton.onclick = function () {
         // Chiudi la finestra modale senza fare nulla
         modal.style.display = "none";
+
+        // Reindirizza alla pagina end.html anche se annullato
         window.location.assign('/quizprova/end.html');
     };
 }
+
 
 

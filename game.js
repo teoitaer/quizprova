@@ -136,12 +136,7 @@ incrementScore = (num) => {
     scoreText.innerText = (score / x) * 100;
 };
 
-
-
-
-
-
-
+// Funzione per generare il PDF con l'intestazione che mostra il punteggio
 function generatePDF() {
     return new Promise((resolve, reject) => {
         // Mostra la finestra di conferma personalizzata
@@ -231,5 +226,42 @@ function generatePDF() {
     });
 }
 
+getNewQuestion = () => {
+    if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        localStorage.setItem('mostRecentScore', scoreText.innerText);
 
+        // Chiedi conferma e genera il PDF
+        generatePDF().then(() => {
+            // Dopo la conferma o annullamento, passa alla pagina end.html
+            return window.location.assign('/quizprova/end.html');
+        });
+        
+        return;
+    }
+
+    questionCounter++;
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
+    var b;
+    if (a == "NO") {
+        b = 0;
+    } else if (a == "YES") {
+        b = Math.floor(Math.random() * availableQuesions.length);
+    }
+
+    const questionIndex = b;
+
+    currentQuestion = availableQuesions[questionIndex];
+    questionid.innerText = currentQuestion.questionid;
+    question.innerText = currentQuestion.question;
+
+    choices.forEach((choice) => {
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice' + number];
+    });
+
+    availableQuesions.splice(questionIndex, 1);
+    acceptingAnswers = true;
+};
 

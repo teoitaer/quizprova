@@ -143,83 +143,123 @@ incrementScore = (num) => {
 
 
 function generatePDF() {
-    // Mostra la finestra di conferma personalizzata
-    const modal = document.getElementById("confirmationModal");
-    const confirmButton = document.getElementById("confirmButton");
-    const cancelButton = document.getElementById("cancelButton");
+    return new Promise((resolve, reject) => {
+        // Mostra la finestra di conferma personalizzata
+        const modal = document.getElementById("confirmationModal");
+        const confirmButton = document.getElementById("confirmButton");
+        const cancelButton = document.getElementById("cancelButton");
 
-    modal.style.display = "flex"; // Mostra la finestra modale
+        modal.style.display = "flex"; // Mostra la finestra modale
 
-    // Aggiungiamo degli event listener per i pulsanti di conferma e annullamento
+        // Aggiungiamo degli event listener per i pulsanti di conferma e annullamento
 
-    // Funzione che viene chiamata quando l'utente conferma
-    confirmButton.onclick = function () {
-        const { jsPDF } = window.jspdf;
-        const doc = new jsPDF();
+        // Funzione che viene chiamata quando l'utente conferma
+        confirmButton.onclick = function () {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
 
-        // Impostare margini più stretti
-        const margin = 20;
-        const textWidth = doc.internal.pageSize.width - 2 * margin;
-        const lineHeight = 8;
-        const maxY = 280;
-        let yOffset = 20;
+            // Impostare margini più stretti
+            const margin = 20;
+            const textWidth = doc.internal.pageSize.width - 2 * margin;
+            const lineHeight = 8;
+            const maxY = 280;
+            let yOffset = 20;
 
-        // Imposta il carattere più piccolo
-        doc.setFontSize(8);
+            // Imposta il carattere più piccolo
+            doc.setFontSize(8);
 
-        quizResults.forEach((questionData, index) => {
-            if (yOffset + (questionData.choices.length + 1) * lineHeight > maxY) {
-                doc.addPage();
-                yOffset = 20;
-            }
-
-            let questionText = `Q${index + 1}: ${questionData.question}`;
-            let questionLines = doc.splitTextToSize(questionText, textWidth);
-            doc.text(questionLines, margin, yOffset);
-            yOffset += questionLines.length * lineHeight;
-
-            questionData.choices.forEach((choice, i) => {
-                const choiceLetter = String.fromCharCode(65 + i); 
-                const isSelected = questionData.selectedAnswer == (i + 1) ? "(Selected)" : "";
-                const isCorrect = questionData.correctAnswer == (i + 1) ? "(Correct)" : "";
-
-                let choiceText = `${choiceLetter}. ${choice} ${isSelected} ${isCorrect}`;
-
-                if (questionData.selectedAnswer == (i + 1) && questionData.correctAnswer == (i + 1)) {
-                    doc.setTextColor(0, 128, 0); // Verde
-                } else if (questionData.selectedAnswer == (i + 1) && questionData.correctAnswer != (i + 1)) {
-                    doc.setTextColor(255, 0, 0); // Rosso
-                } else {
-                    doc.setTextColor(0, 0, 0); // Nero
+            quizResults.forEach((questionData, index) => {
+                if (yOffset + (questionData.choices.length + 1) * lineHeight > maxY) {
+                    doc.addPage();
+                    yOffset = 20;
                 }
 
-                let choiceLines = doc.splitTextToSize(choiceText, textWidth);
-                doc.text(choiceLines, margin, yOffset);
-                yOffset += choiceLines.length * lineHeight;
+                let questionText = `Q${index + 1}: ${questionData.question}`;
+                let questionLines = doc.splitTextToSize(questionText, textWidth);
+                doc.text(questionLines, margin, yOffset);
+                yOffset += questionLines.length * lineHeight;
+
+                questionData.choices.forEach((choice, i) => {
+                    const choiceLetter = String.fromCharCode(65 + i); 
+                    const isSelected = questionData.selectedAnswer == (i + 1) ? "(Selected)" : "";
+                    const isCorrect = questionData.correctAnswer == (i + 1) ? "(Correct)" : "";
+
+                    let choiceText = `${choiceLetter}. ${choice} ${isSelected} ${isCorrect}`;
+
+                    if (questionData.selectedAnswer == (i + 1) && questionData.correctAnswer == (i + 1)) {
+                        doc.setTextColor(0, 128, 0); // Verde
+                    } else if (questionData.selectedAnswer == (i + 1) && questionData.correctAnswer != (i + 1)) {
+                        doc.setTextColor(255, 0, 0); // Rosso
+                    } else {
+                        doc.setTextColor(0, 0, 0); // Nero
+                    }
+
+                    let choiceLines = doc.splitTextToSize(choiceText, textWidth);
+                    doc.text(choiceLines, margin, yOffset);
+                    yOffset += choiceLines.length * lineHeight;
+                });
+
+                yOffset += 10;
             });
 
-            yOffset += 10;
-        });
+            // Salva il PDF
+            doc.save('quiz_results.pdf');
 
-        // Salva il PDF
-        doc.save('quiz_results.pdf');
+            // Chiudi la finestra modale
+            modal.style.display = "none";
 
-        // Chiudi la finestra modale
-        modal.style.display = "none";
+            // Risolve la promessa, segnala che il PDF è stato generato
+            resolve();
+        };
 
-        // Reindirizza alla pagina end.html solo dopo la conferma
-        window.location.assign('/quizprova/end.html');
-    };
+        // Funzione che viene chiamata quando l'utente annulla
+        cancelButton.onclick = function () {
+            // Chiudi la finestra modale
+            modal.style.display = "none";
 
-    // Funzione che viene chiamata quando l'utente annulla
-    cancelButton.onclick = function () {
-        // Chiudi la finestra modale senza fare nulla
-        modal.style.display = "none";
-
-        // Reindirizza alla pagina end.html anche se annullato
-        window.location.assign('/quizprova/end.html');
-    };
+            // Risolve la promessa, segnala che l'utente ha annullato
+            resolve();
+        };
+    });
 }
 
+getNewQuestion = () => {
+    if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        localStorage.setItem('mostRecentScore', scoreText.innerText);
+
+        // Chiedi conferma e genera il PDF
+        generatePDF().then(() => {
+            // Dopo la conferma o annullamento, passa alla pagina end.html
+            return window.location.assign('/quizprova/end.html');
+        });
+        
+        return;
+    }
+
+    questionCounter++;
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
+    var b;
+    if (a == "NO") {
+        b = 0;
+    } else if (a == "YES") {
+        b = Math.floor(Math.random() * availableQuesions.length);
+    }
+
+    const questionIndex = b;
+
+    currentQuestion = availableQuesions[questionIndex];
+    questionid.innerText = currentQuestion.questionid;
+    question.innerText = currentQuestion.question;
+
+    choices.forEach((choice) => {
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice' + number];
+    });
+
+    availableQuesions.splice(questionIndex, 1);
+    acceptingAnswers = true;
+};
 
 

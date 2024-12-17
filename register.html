@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrazione - PA PPL QUIZ</title>
+    <style>
+      /* Aggiungi lo stile */
+      :root {
+        background-color: #d1e0b8;
+        font-size: 75%;
+      }
+
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+
+      h1, h2, h3, h4 {
+        margin-bottom: 1.5rem;
+      }
+
+      h1 {
+        font-size: 7rem;
+        color: #819c49;
+        margin-bottom: 6rem;
+      }
+
+      h2 {
+        font-size: 3.2rem;
+        margin-bottom: 5rem;
+        font-weight: 700;
+      }
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 60rem;
+        padding: 3rem;
+        background-color: #f4f7ee;
+        border-radius: 12px;
+      }
+
+      .btn {
+        font-size: 3rem;
+        padding: 2rem 0;
+        width: 24rem;
+        text-align: center;
+        border: 0.2rem solid #819c49;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        color: #819c49;
+        background-color: #f4f7ee;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        box-shadow: 0 0.5rem 2rem 0 rgba(14, 17, 8, 0.5);
+        transform: translateY(-0.1rem);
+        transition: transform 150ms;
+      }
+
+      .error {
+        color: red;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Registrazione</h2>
+      <input type="text" id="name" placeholder="Nome" />
+      <input type="text" id="surname" placeholder="Cognome" />
+      <input type="email" id="email" placeholder="Email" />
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button class="btn" onclick="register()">Crea Account</button>
+    </div>
+
+    <script>
+      function register() {
+        const name = document.getElementById("name").value;
+        const surname = document.getElementById("surname").value;
+        const email = document.getElementById("email").value;
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+
+        if (name && surname && email && username && password) {
+          alert("Account creato con successo! Verrai reindirizzato alla pagina di login.");
+          window.location.href = "login.html";
+        } else {
+          alert("Compila tutti i campi.");
+        }
+      }
+    </script>
+  </body>
+</html>

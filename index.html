@@ -106,5 +106,16 @@ mySel3.onchange();
         <a class="btn" href="highscores.html">Last Scores</a>
       </div>
     </div>
+
+     <!-- Controllo del login -->
+    <script>
+      window.onload = function() {
+        if (localStorage.getItem("isLoggedIn") !== "true") {
+          // Se l'utente non è loggato, redirigi alla pagina di login
+          window.location.href = "login.html";
+        }
+      };
+    </script>
   </body>
 </html>
+  

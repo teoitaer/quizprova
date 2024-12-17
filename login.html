@@ -7,7 +7,7 @@
     <style>
       :root {
         background-color: #d1e0b8;
-        font-size: 62.5%;
+        font-size: 75%; /* Aumento la base per tutto */
       }
 
       * {
@@ -19,28 +19,28 @@
       }
 
       h1, h2, h3, h4 {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem; /* Maggiore distanza */
       }
 
       h1 {
-        font-size: 5.4rem;
+        font-size: 7rem; /* Aumentato */
         color: #819c49;
-        margin-bottom: 5rem;
+        margin-bottom: 6rem;
       }
 
       h1 > span {
-        font-size: 2.4rem;
+        font-size: 3.2rem; /* Aumentato */
         font-weight: 500;
       }
 
       h2 {
-        font-size: 2.4rem;
-        margin-bottom: 4rem;
+        font-size: 3.2rem; /* Aumentato */
+        margin-bottom: 5rem; /* Maggiore spazio */
         font-weight: 700;
       }
 
       h3 {
-        font-size: 2.8rem;
+        font-size: 3.6rem; /* Aumentato */
         font-weight: 500;
       }
 
@@ -60,10 +60,10 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 50rem;
-        padding: 2rem;
+        max-width: 60rem; /* Più largo */
+        padding: 3rem; /* Più spazio */
         background-color: #f4f7ee;
-        border-radius: 8px;
+        border-radius: 12px; /* Più rotondo */
       }
 
       .flex-column {
@@ -90,12 +90,12 @@
 
       /* BUTTONS */
       .btn {
-        font-size: 2.4rem;
-        padding: 1.5rem 0;
-        width: 22rem;
+        font-size: 3rem; /* Aumento dimensione */
+        padding: 2rem 0;
+        width: 24rem; /* Più largo */
         text-align: center;
-        border: 0.1rem solid #819c49;
-        margin-bottom: 1.5rem;
+        border: 0.2rem solid #819c49;
+        margin-bottom: 2rem; /* Più spazio */
         text-decoration: none;
         color: #819c49;
         background-color: #f4f7ee;
@@ -103,7 +103,7 @@
       }
 
       .btn:hover {
-        box-shadow: 0 0.4rem 1.4rem 0 rgba(14, 17, 8, 0.5);
+        box-shadow: 0 0.5rem 2rem 0 rgba(14, 17, 8, 0.5);
         transform: translateY(-0.1rem);
         transition: transform 150ms;
       }
@@ -116,12 +116,12 @@
 
       /* COMBOBOX */
       .option {
-        font-size: 1.8rem;
-        padding: 1rem 0;
-        width: 17rem;
+        font-size: 2.4rem; /* Aumento font size */
+        padding: 1.5rem 0;
+        width: 18rem; /* Più largo */
         text-align: center;
-        border: 0.1rem solid rgb(176, 198, 134, 0.25);
-        margin-bottom: 1rem;
+        border: 0.2rem solid rgb(176, 198, 134, 0.25);
+        margin-bottom: 1.5rem;
         text-decoration: none;
         color: #819c49;
         background-color: #f4f7ee;
@@ -129,10 +129,10 @@
 
       /* LABELS */
       .lab {
-        font-size: 1.5rem;
-        margin-top: 1.3rem;
-        margin-bottom: 0.8rem;
-        font-weight: 300;
+        font-size: 2rem; /* Aumento dimensione font */
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
         color: #475729;
       }
 
@@ -145,12 +145,12 @@
       }
 
       input {
-        margin-bottom: 1.5rem;
-        width: 22rem;
-        padding: 1.5rem;
-        font-size: 2rem;
+        margin-bottom: 2rem; /* Maggiore distanza */
+        width: 24rem; /* Più largo */
+        padding: 2rem;
+        font-size: 2.4rem; /* Aumento font */
         border: none;
-        box-shadow: 0 0.4rem 1.4rem 0 rgba(14, 17, 8, 0.5);
+        box-shadow: 0 0.5rem 1.5rem 0 rgba(14, 17, 8, 0.5);
       }
 
       input::placeholder {
@@ -159,8 +159,8 @@
 
       .error {
         color: red;
-        font-size: 1.6rem;
-        margin-bottom: 1rem;
+        font-size: 2rem; /* Aumento dimensione font */
+        margin-bottom: 2rem;
       }
     </style>
   </head>
@@ -170,28 +170,27 @@
       <div id="error-message" class="error"></div>
       <input type="text" id="username" placeholder="Username" />
       <input type="password" id="password" placeholder="Password" />
-      <button onclick="login()">Login</button>
+      <button class="btn" onclick="login()">Login</button>
     </div>
-    
 
-   <script>
-  function login() {
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
-    const errorMessage = document.getElementById("error-message");
+    <script>
+      function login() {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        const errorMessage = document.getElementById("error-message");
 
-    // Semplice validazione (puoi aggiungere un controllo più robusto in base alle tue esigenze)
-    if (username === "admin" && password === "password123") {
-      // Salva il login in localStorage
-      localStorage.setItem("isLoggedIn", "true");
-      
-      // Redirigi alla pagina index.html
-      window.location.href = "index.html";
-    } else {
-      // Mostra un messaggio di errore
-      errorMessage.textContent = "Invalid username or password.";
-    }
-  }
-</script>
+        // Semplice validazione (puoi aggiungere un controllo più robusto in base alle tue esigenze)
+        if (username === "admin" && password === "password123") {
+          // Salva il login in localStorage
+          localStorage.setItem("isLoggedIn", "true");
+          
+          // Redirigi alla pagina index.html
+          window.location.href = "index.html";
+        } else {
+          // Mostra un messaggio di errore
+          errorMessage.textContent = "Invalid username or password.";
+        }
+      }
+    </script>
   </body>
 </html>

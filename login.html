@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login - PA PPL QUIZ</title>
     <link rel="stylesheet" href="app.css" />
-    
   </head>
   <body>
-    <div class="login-container">
+    <div class="container flex-center flex-column">
       <h2>Login</h2>
-      <div id="error-message" class="error"></div>
-      <input type="text" id="username" placeholder="Username" />
-      <input type="password" id="password" placeholder="Password" />
-      <button onclick="login()">Login</button>
+      <form class="form">
+        <div id="error-message" class="error"></div>
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button class="btn" type="button" onclick="login()">Login</button>
+      </form>
     </div>
 
    <script>

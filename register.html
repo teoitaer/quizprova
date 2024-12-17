@@ -116,8 +116,15 @@
         })
         .then(response => response.json())
         .then(data => {
+       //   if (data.status === 'success') {
+      //      alert("Registration successful!");
+
           if (data.status === 'success') {
-            alert("Registration successful!");
+    alert("Registration successful!");
+    // Dopo aver mostrato l'alert, reindirizza alla pagina di login
+    window.location.href = 'https://tuo_sito.com/login.html'; // Sostituisci con l'URL della tua pagina di login
+}
+          
           } else {
             alert("Error: " + data.error);
           }

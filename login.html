@@ -6,7 +6,6 @@
     <title>Login - PA PPL QUIZ</title>
     <style>
       :root {
-        background-color: #d1e0b8;
         font-size: 75%; /* Aumento la base per tutto */
       }
 
@@ -23,9 +22,10 @@
       }
 
       h1 {
-        font-size: 7rem; /* Aumentato */
-        color: #819c49;
-        margin-bottom: 6rem;
+        font-size: 7rem;
+        color: #000000; /* Bianco per il titolo */
+        margin-bottom: 3rem;
+        text-align: center;
       }
 
       h1 > span {
@@ -46,26 +46,87 @@
 
       /* UTILITIES */
       html, body {
-        height: 100%;
+       height: 100%;
         margin: 0;
         padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #d1e0b8; /* Sfondo grigio per il body */
       }
 
       .container {
-        display: flex;
+       display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 60rem; /* Più largo */
-        padding: 3rem; /* Più spazio */
-        background-color: #f4f7ee;
-        border-radius: 12px; /* Più rotondo */
+        max-width: 45rem; /* Limita la larghezza */
+        padding: 3rem;
+        background-color: #ffffff; /* Sfondo bianco per il contenitore */
+        border-radius: 12px;
+        box-shadow: 0 0.5rem 1.5rem rgba(14, 17, 8, 0.1); /* Aggiungi una leggera ombra *
       }
 
+        .form-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+
+ /* Form Labels */
+      label {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-top: 1.5rem;
+        color: #475729;
+        display: block;
+      }
+
+      /* Input Form */
+      input {
+        margin-bottom: 1.5rem;
+        width: 100%;
+        max-width: 24rem;
+        padding: 1rem;
+        font-size: 1.8rem;
+        border: 1px solid #819c49;
+        border-radius: 8px;
+        box-shadow: 0 0.5rem 1.5rem 0 rgba(14, 17, 8, 0.2);
+      }
+
+      input::placeholder {
+        color: #aaa;
+      }
+
+      .btn {
+        font-size: 1.8rem;
+        padding: 1rem 0;
+        width: 24rem;
+        text-align: center;
+        border: 1px solid #819c49;
+        margin-top: 1.5rem;
+        text-decoration: none;
+        color: #819c49;
+        background-color: #f4f7ee;
+        cursor: pointer;
+        border-radius: 8px;
+      }
+
+      .btn:hover {
+        box-shadow: 0 0.5rem 2rem 0 rgba(14, 17, 8, 0.5);
+        transform: translateY(-0.1rem);
+        transition: transform 150ms;
+      }
+
+      .error {
+        color: red;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+      }
+        
       .flex-column {
         display: flex;
         flex-direction: column;
@@ -88,31 +149,7 @@
         display: none;
       }
 
-      /* BUTTONS */
-      .btn {
-        font-size: 3rem; /* Aumento dimensione */
-        padding: 2rem 0;
-        width: 24rem; /* Più largo */
-        text-align: center;
-        border: 0.2rem solid #819c49;
-        margin-bottom: 2rem; /* Più spazio */
-        text-decoration: none;
-        color: #819c49;
-        background-color: #f4f7ee;
-        cursor: pointer;
-      }
-
-      .btn:hover {
-        box-shadow: 0 0.5rem 2rem 0 rgba(14, 17, 8, 0.5);
-        transform: translateY(-0.1rem);
-        transition: transform 150ms;
-      }
-
-      .btn[disabled]:hover {
-        cursor: not-allowed;
-        box-shadow: none;
-        transform: none;
-      }
+     
 
       /* COMBOBOX */
       .option {
@@ -145,12 +182,14 @@
       }
 
       input {
-        margin-bottom: 2rem; /* Maggiore distanza */
-        width: 24rem; /* Più largo */
-        padding: 2rem;
-        font-size: 2.4rem; /* Aumento font */
-        border: none;
-        box-shadow: 0 0.5rem 1.5rem 0 rgba(14, 17, 8, 0.5);
+        margin-bottom: 1.5rem;
+        width: 100%;
+        max-width: 24rem;
+        padding: 1rem;
+        font-size: 1.8rem;
+        border: 1px solid #819c49;
+        border-radius: 8px;
+        box-shadow: 0 0.5rem 1.5rem 0 rgba(14, 17, 8, 0.2);
       }
 
       input::placeholder {
@@ -159,8 +198,8 @@
 
       .error {
         color: red;
-        font-size: 2rem; /* Aumento dimensione font */
-        margin-bottom: 2rem;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
       }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>

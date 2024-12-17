@@ -179,14 +179,14 @@
     
     
     
-    <script>
+   <script>
       function login() {
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
         const errorMessage = document.getElementById("error-message");
 
-        // URL del tuo foglio Google Sheet in formato CSV
-        const sheetUrl = 'https://docs.google.com/spreadsheets/d/1S4jCJnMbVwrRn7DxWWUsmdVGD6vJwaUm6OCFdHkwJrw/gviz/tq?tqx=out:csv';
+        // URL del Google Sheet in formato CSV
+        const sheetUrl = 'https://docs.google.com/spreadsheets/d/1S4jCJnMbVwrRn7DxWWUsmdVGD6vJwaUm6OCFdHkwJrw/gviz/tq?tqx=out:csv&gid=0';
 
         // Ottieni i dati dal Google Sheets
         fetch(sheetUrl)

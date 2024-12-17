@@ -173,23 +173,52 @@
       <button class="btn" onclick="login()">Login</button>
     </div>
 
+  
+    
+    
+    
+    
+    
     <script>
       function login() {
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
         const errorMessage = document.getElementById("error-message");
 
-        // Semplice validazione (puoi aggiungere un controllo più robusto in base alle tue esigenze)
-        if (username === "admin" && password === "password123") {
-          // Salva il login in localStorage
-          localStorage.setItem("isLoggedIn", "true");
-          
-          // Redirigi alla pagina index.html
-          window.location.href = "index.html";
-        } else {
-          // Mostra un messaggio di errore
-          errorMessage.textContent = "Invalid username or password.";
-        }
+        // URL del tuo foglio Google Sheet in formato CSV
+        const sheetUrl = 'https://docs.google.com/spreadsheets/d/1S4jCJnMbVwrRn7DxWWUsmdVGD6vJwaUm6OCFdHkwJrw/gviz/tq?tqx=out:csv';
+
+        // Ottieni i dati dal Google Sheets
+        fetch(sheetUrl)
+          .then(response => response.text())
+          .then(data => {
+            const lines = data.split('\n');
+            let found = false;
+
+            // Per ogni riga (eccetto l'intestazione)
+            for (let i = 1; i < lines.length; i++) {
+              const columns = lines[i].split(',');
+
+              // Verifica se il nome utente e la password corrispondono
+              if (columns[0] === username && columns[1] === password) {
+                found = true;
+                break;
+              }
+            }
+
+            if (found) {
+              // Salva il login e redirigi
+              localStorage.setItem("isLoggedIn", "true");
+              window.location.href = "index.html";
+            } else {
+              // Mostra il messaggio di errore
+              errorMessage.textContent = "Invalid username or password.";
+            }
+          })
+          .catch(error => {
+            errorMessage.textContent = "Error accessing the user data.";
+            console.error('Error:', error);
+          });
       }
     </script>
   </body>

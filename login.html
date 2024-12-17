@@ -4,36 +4,195 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login - PA PPL QUIZ</title>
-    <link rel="stylesheet" href="app.css" />
+    <style>
+      :root {
+        background-color: #d1e0b8;
+        font-size: 62.5%;
+      }
+
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+
+      h1, h2, h3, h4 {
+        margin-bottom: 1rem;
+      }
+
+      h1 {
+        font-size: 5.4rem;
+        color: #819c49;
+        margin-bottom: 5rem;
+      }
+
+      h1 > span {
+        font-size: 2.4rem;
+        font-weight: 500;
+      }
+
+      h2 {
+        font-size: 2.4rem;
+        margin-bottom: 4rem;
+        font-weight: 700;
+      }
+
+      h3 {
+        font-size: 2.8rem;
+        font-weight: 500;
+      }
+
+      /* UTILITIES */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 50rem;
+        padding: 2rem;
+        background-color: #f4f7ee;
+        border-radius: 8px;
+      }
+
+      .flex-column {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .flex-center {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .justify-center {
+        justify-content: center;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      /* BUTTONS */
+      .btn {
+        font-size: 2.4rem;
+        padding: 1.5rem 0;
+        width: 22rem;
+        text-align: center;
+        border: 0.1rem solid #819c49;
+        margin-bottom: 1.5rem;
+        text-decoration: none;
+        color: #819c49;
+        background-color: #f4f7ee;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(14, 17, 8, 0.5);
+        transform: translateY(-0.1rem);
+        transition: transform 150ms;
+      }
+
+      .btn[disabled]:hover {
+        cursor: not-allowed;
+        box-shadow: none;
+        transform: none;
+      }
+
+      /* COMBOBOX */
+      .option {
+        font-size: 1.8rem;
+        padding: 1rem 0;
+        width: 17rem;
+        text-align: center;
+        border: 0.1rem solid rgb(176, 198, 134, 0.25);
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: #819c49;
+        background-color: #f4f7ee;
+      }
+
+      /* LABELS */
+      .lab {
+        font-size: 1.5rem;
+        margin-top: 1.3rem;
+        margin-bottom: 0.8rem;
+        font-weight: 300;
+        color: #475729;
+      }
+
+      /* FORMS */
+      form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      input {
+        margin-bottom: 1.5rem;
+        width: 22rem;
+        padding: 1.5rem;
+        font-size: 2rem;
+        border: none;
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(14, 17, 8, 0.5);
+      }
+
+      input::placeholder {
+        color: #aaa;
+      }
+
+      .error {
+        color: red;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container flex-center flex-column">
       <h2>Login</h2>
       <div id="error-message" class="error"></div>
-      <input type="text" id="username" placeholder="Username" />
-      <input type="password" id="password" placeholder="Password" />
-      <button onclick="login()">Login</button>
+      <form>
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <button class="btn" onclick="login()">Login</button>
+      </form>
     </div>
-    
 
-   <script>
-  function login() {
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
-    const errorMessage = document.getElementById("error-message");
+    <script>
+      function login() {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        const errorMessage = document.getElementById("error-message");
 
-    // Semplice validazione (puoi aggiungere un controllo più robusto in base alle tue esigenze)
-    if (username === "admin" && password === "password123") {
-      // Salva il login in localStorage
-      localStorage.setItem("isLoggedIn", "true");
-      
-      // Redirigi alla pagina index.html
-      window.location.href = "index.html";
-    } else {
-      // Mostra un messaggio di errore
-      errorMessage.textContent = "Invalid username or password.";
-    }
-  }
-</script>
+        // Semplice validazione (puoi aggiungere un controllo più robusto in base alle tue esigenze)
+        if (username === "admin" && password === "password123") {
+          // Salva il login in localStorage
+          localStorage.setItem("isLoggedIn", "true");
+          
+          // Redirigi alla pagina index.html
+          window.location.href = "index.html";
+        } else {
+          // Mostra un messaggio di errore
+          errorMessage.textContent = "Invalid username or password.";
+        }
+      }
+    </script>
   </body>
 </html>

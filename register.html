@@ -56,6 +56,14 @@
         align-items: center;
       }
 
+      /* Form Labels */
+      label {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-top: 1.5rem;
+        color: #475729;
+      }
+
       /* Input Form */
       input {
         margin-bottom: 1.5rem;
@@ -97,13 +105,6 @@
         font-size: 1.6rem;
         margin-bottom: 1rem;
       }
-
-      /* Form Labels */
-      label {
-        font-size: 1.8rem;
-        font-weight: 500;
-        margin-top: 1rem;
-      }
     </style>
   </head>
   <body>
@@ -111,20 +112,30 @@
       <h1>Register</h1>
       <div class="form-container">
         <form id="register-form">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required><br><br>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
 
-          <label for="surname">Surname:</label>
-          <input type="text" id="surname" name="surname" required><br><br>
+          <div>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required>
+          </div>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required><br><br>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
 
-          <label for="username">Username:</label>
-          <input type="text" id="username" name="username" required><br><br>
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+          </div>
 
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required><br><br>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
 
           <button type="submit" class="btn">Register</button>
         </form>

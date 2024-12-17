@@ -82,9 +82,9 @@
       }
     </style>
   </head>
-  <body>
+ <body>
     <h1>Register</h1>
-    <form onsubmit="event.preventDefault(); registerUser();">
+    <form id="register-form">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required><br><br>
 
@@ -104,38 +104,28 @@
     </form>
 
     <script>
-      function registerUser() {
-        const url = 'https://script.google.com/macros/s/AKfycbx6scjp93jim2mzeLM9O9wmnX-OY6TIfIzN7WmkWhLU8ACxHCR0G0XRYUm6uhAG2nEJ4w/exec';
+      document.getElementById("register-form").addEventListener("submit", function(event) {
+        event.preventDefault();
 
-        const formData = new FormData();
-        formData.append('username', document.getElementById('username').value);
-        formData.append('password', document.getElementById('password').value);
-        formData.append('email', document.getElementById('email').value);
-        formData.append('name', document.getElementById('name').value);
-        formData.append('surname', document.getElementById('surname').value);
+        // Ottieni i dati dal modulo
+        const formData = new FormData(event.target);
 
-        fetch(url, {
-          method: 'POST',
-          body: formData,
-          headers: {
-            'Accept': 'application/json',
-          },
+        fetch("https://script.google.com/macros/s/AKfycbzJkVCPrSM5YMfI_-_3t1zFN38sG4sYK3hUyGO9aaVzcYDHK5oyJ8aKdGiokXnR0_KySw/exec", {
+          method: "POST",
+          body: formData
         })
         .then(response => response.json())
         .then(data => {
           if (data.status === 'success') {
-            alert('Registration successful!');
-            window.location.href = 'login.html'; // Redirigi alla pagina di login dopo la registrazione
+            alert("Registration successful!");
           } else {
-            alert('Error: ' + data.error);
+            alert("Error: " + data.error);
           }
         })
         .catch(error => {
-          console.error('Error:', error);
-          alert('There was an error with the registration.');
+          console.error("Error:", error);
         });
-      }
+      });
     </script>
   </body>
 </html>
-

@@ -145,6 +145,7 @@ incrementScore = (num) => {
 
 
 
+
 // Funzione per generare il PDF con l'intestazione che mostra il punteggio
 function generatePDF() {
     return new Promise((resolve, reject) => {
@@ -169,15 +170,15 @@ function generatePDF() {
             const maxY = 280;
             let yOffset = 20;
 
-            // Prendere il punteggio dal testo dello score
-            const finalScore = scoreText.innerText;
+            // Imposta il carattere più piccolo
+            doc.setFontSize(8);
 
-            // Aggiungi un'intestazione con il punteggio
-            doc.setFontSize(12);
-            doc.text(`Quiz Results - Final Score: ${finalScore}%`, margin, yOffset);
-            yOffset += 10; // Spazio sotto l'intestazione
+            // Aggiungi l'intestazione con il punteggio
+            doc.setFontSize(12);  // Aumenta temporaneamente la dimensione del font per l'intestazione
+            doc.text(`Quiz Results - Score: ${score}`, margin, yOffset);  // Inserisce il punteggio
+            yOffset += 20;  // Aggiunge spazio dopo l'intestazione
 
-            // Imposta il carattere più piccolo per il resto del contenuto
+            // Ripristina la dimensione del carattere più piccola
             doc.setFontSize(8);
 
             quizResults.forEach((questionData, index) => {
@@ -235,3 +236,41 @@ function generatePDF() {
     });
 }
 
+getNewQuestion = () => {
+    if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        localStorage.setItem('mostRecentScore', scoreText.innerText);
+
+        // Chiedi conferma e genera il PDF
+        generatePDF().then(() => {
+            // Dopo la conferma o annullamento, passa alla pagina end.html
+            return window.location.assign('/quizprova/end.html');
+        });
+        
+        return;
+    }
+
+    questionCounter++;
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
+    var b;
+    if (a == "NO") {
+        b = 0;
+    } else if (a == "YES") {
+        b = Math.floor(Math.random() * availableQuesions.length);
+    }
+
+    const questionIndex = b;
+
+    currentQuestion = availableQuesions[questionIndex];
+    questionid.innerText = currentQuestion.questionid;
+    question.innerText = currentQuestion.question;
+
+    choices.forEach((choice) => {
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice' + number];
+    });
+
+    availableQuesions.splice(questionIndex, 1);
+    acceptingAnswers = true;
+};

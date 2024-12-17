@@ -7,7 +7,7 @@
     <style>
       :root {
         background-color: #d1e0b8;
-        font-size: 75%; /* Aumento la base per tutto */
+        font-size: 75%;
       }
 
       * {
@@ -18,30 +18,12 @@
         color: #333;
       }
 
-      h1, h2, h3, h4 {
-        margin-bottom: 1.5rem; /* Maggiore distanza */
-      }
-
+      /* Titolo */
       h1 {
-        font-size: 7rem; /* Aumentato */
+        font-size: 4rem; /* Ridotto per migliorare il layout */
         color: #819c49;
-        margin-bottom: 6rem;
-      }
-
-      h1 > span {
-        font-size: 3.2rem; /* Aumentato */
-        font-weight: 500;
-      }
-
-      h2 {
-        font-size: 3.2rem; /* Aumentato */
-        margin-bottom: 5rem; /* Maggiore spazio */
-        font-weight: 700;
-      }
-
-      h3 {
-        font-size: 3.6rem; /* Aumentato */
-        font-weight: 500;
+        margin-bottom: 3rem;
+        text-align: center;
       }
 
       /* UTILITIES */
@@ -52,6 +34,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #f4f7ee;
       }
 
       .container {
@@ -60,46 +43,47 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 60rem; /* Più largo */
-        padding: 3rem; /* Più spazio */
+        max-width: 60rem; 
+        padding: 3rem; 
         background-color: #f4f7ee;
-        border-radius: 12px; /* Più rotondo */
+        border-radius: 12px;
       }
 
-      .flex-column {
+      .form-container {
+        width: 100%;
         display: flex;
         flex-direction: column;
-      }
-
-      .flex-center {
-        justify-content: center;
         align-items: center;
       }
 
-      .justify-center {
-        justify-content: center;
+      /* Input Form */
+      input {
+        margin-bottom: 1.5rem;
+        width: 100%;
+        max-width: 24rem;
+        padding: 1rem;
+        font-size: 1.8rem;
+        border: 1px solid #819c49;
+        border-radius: 8px;
+        box-shadow: 0 0.5rem 1.5rem 0 rgba(14, 17, 8, 0.2);
       }
 
-      .text-center {
-        text-align: center;
+      input::placeholder {
+        color: #aaa;
       }
 
-      .hidden {
-        display: none;
-      }
-
-      /* BUTTONS */
       .btn {
-        font-size: 3rem; /* Aumento dimensione */
-        padding: 2rem 0;
-        width: 24rem; /* Più largo */
+        font-size: 1.8rem;
+        padding: 1rem 0;
+        width: 24rem;
         text-align: center;
-        border: 0.2rem solid #819c49;
-        margin-bottom: 2rem; /* Più spazio */
+        border: 1px solid #819c49;
+        margin-top: 1.5rem;
         text-decoration: none;
         color: #819c49;
         background-color: #f4f7ee;
         cursor: pointer;
+        border-radius: 8px;
       }
 
       .btn:hover {
@@ -108,82 +92,44 @@
         transition: transform 150ms;
       }
 
-      .btn[disabled]:hover {
-        cursor: not-allowed;
-        box-shadow: none;
-        transform: none;
-      }
-
-      /* COMBOBOX */
-      .option {
-        font-size: 2.4rem; /* Aumento font size */
-        padding: 1.5rem 0;
-        width: 18rem; /* Più largo */
-        text-align: center;
-        border: 0.2rem solid rgb(176, 198, 134, 0.25);
-        margin-bottom: 1.5rem;
-        text-decoration: none;
-        color: #819c49;
-        background-color: #f4f7ee;
-      }
-
-      /* LABELS */
-      .lab {
-        font-size: 2rem; /* Aumento dimensione font */
-        margin-top: 1.5rem;
-        margin-bottom: 1rem;
-        font-weight: 400;
-        color: #475729;
-      }
-
-      /* FORMS */
-      form {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-
-      input {
-        margin-bottom: 2rem; /* Maggiore distanza */
-        width: 24rem; /* Più largo */
-        padding: 2rem;
-        font-size: 2.4rem; /* Aumento font */
-        border: none;
-        box-shadow: 0 0.5rem 1.5rem 0 rgba(14, 17, 8, 0.5);
-      }
-
-      input::placeholder {
-        color: #aaa;
-      }
-
       .error {
         color: red;
-        font-size: 2rem; /* Aumento dimensione font */
-        margin-bottom: 2rem;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+      }
+
+      /* Form Labels */
+      label {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-top: 1rem;
       }
     </style>
   </head>
- <body>
-    <h1>Register</h1>
-    <form id="register-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required><br><br>
+  <body>
+    <div class="container">
+      <h1>Register</h1>
+      <div class="form-container">
+        <form id="register-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
 
-      <label for="surname">Surname:</label>
-      <input type="text" id="surname" name="surname" required><br><br>
+          <label for="surname">Surname:</label>
+          <input type="text" id="surname" name="surname" required><br><br>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
 
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required><br><br>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required><br><br>
 
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required><br><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required><br><br>
 
-      <button type="submit" class="btn">Register</button>
-    </form>
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+    </div>
 
     <script>
       document.getElementById("register-form").addEventListener("submit", function(event) {
@@ -198,16 +144,11 @@
         })
         .then(response => response.json())
         .then(data => {
-       //   if (data.status === 'success') {
-      //      alert("Registration successful!");
-
           if (data.status === 'success') {
-    alert("Registration successful!");
-    // Dopo aver mostrato l'alert, reindirizza alla pagina di login
-    window.location.href = 'https://teoitaer.github.io/quizprova/login.html'; // Sostituisci con l'URL della tua pagina di login
-}
-          
-           else {
+            alert("Registration successful!");
+            // Dopo aver mostrato l'alert, reindirizza alla pagina di login
+            window.location.href = 'https://teoitaer.github.io/quizprova/login.html'; // Sostituisci con l'URL della tua pagina di login
+          } else {
             alert("Error: " + data.error);
           }
         })
@@ -218,3 +159,4 @@
     </script>
   </body>
 </html>
+

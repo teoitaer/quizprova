@@ -79,12 +79,12 @@ h3 {
 
 /* BUTTONS */
 .btn {
-  font-size: 2.4rem; /* Aumento la dimensione del font del bottone */
-  padding: 1.6rem 0;
-  width: 25rem; /* Aumento la larghezza del bottone */
+  font-size: 3rem; /* Aumenta la dimensione del font del bottone */
+  padding: 2rem 0; /* Aumenta il padding per rendere il bottone più alto */
+  width: 30rem; /* Aumenta la larghezza del bottone */
   text-align: center;
   border: 0.1rem solid #819c49;
-  margin-bottom: 1.5rem; /* Aumento il margine inferiore */
+  margin-bottom: 2rem; /* Aumenta il margine inferiore */
   text-decoration: none;
   color: #819c49;
   background-color: #f4f7ee;

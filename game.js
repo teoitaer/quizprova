@@ -179,7 +179,10 @@ function generatePDF() {
             // yOffset += 20;  // Aggiunge spazio dopo l'intestazione
 
 
- // Aggiungi un'intestazione con il punteggio
+ // Prendere il punteggio dal testo dello score
+            const finalScore = scoreText.innerText;  // Ora viene definito correttamente
+
+            // Aggiungi un'intestazione con il punteggio
             doc.setFontSize(12);
             doc.text(`Quiz Results - Final Score: ${finalScore}%`, margin, yOffset);
             yOffset += 10; // Spazio sotto l'intestazione

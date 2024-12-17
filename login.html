@@ -163,7 +163,9 @@
         margin-bottom: 2rem;
       }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
   </head>
+  
   <body>
     <div class="container">
       <h2>Login</h2>
@@ -192,28 +194,38 @@
         fetch(sheetUrl)
           .then(response => response.text())
           .then(data => {
-            const lines = data.split('\n');
-            let found = false;
+            // Usa PapaParse per analizzare il CSV
+            Papa.parse(data, {
+              complete: function(results) {
+                let found = false;
+                
+                // Itera attraverso le righe dei dati (dopo la prima riga, che è l'intestazione)
+                for (let i = 1; i < results.data.length; i++) {
+                  const row = results.data[i];
+                  const sheetUsername = row[0]; // La prima colonna (Username)
+                  const sheetPassword = row[1]; // La seconda colonna (Password)
 
-            // Per ogni riga (eccetto l'intestazione)
-            for (let i = 1; i < lines.length; i++) {
-              const columns = lines[i].split(',');
+                  // Controlla se corrispondono
+                  if (sheetUsername === username && sheetPassword === password) {
+                    found = true;
+                    break;
+                  }
+                }
 
-              // Verifica se il nome utente e la password corrispondono
-              if (columns[0] === username && columns[1] === password) {
-                found = true;
-                break;
+                if (found) {
+                  // Salva il login e redirigi
+                  localStorage.setItem("isLoggedIn", "true");
+                  window.location.href = "index.html";
+                } else {
+                  // Mostra il messaggio di errore
+                  errorMessage.textContent = "Invalid username or password.";
+                }
+              },
+              error: function(error) {
+                errorMessage.textContent = "Error reading the user data.";
+                console.error('PapaParse Error:', error);
               }
-            }
-
-            if (found) {
-              // Salva il login e redirigi
-              localStorage.setItem("isLoggedIn", "true");
-              window.location.href = "index.html";
-            } else {
-              // Mostra il messaggio di errore
-              errorMessage.textContent = "Invalid username or password.";
-            }
+            });
           })
           .catch(error => {
             errorMessage.textContent = "Error accessing the user data.";

@@ -181,7 +181,7 @@
     
     
     
-   <script>
+ <script>
       function login() {
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
@@ -204,9 +204,10 @@
                   const row = results.data[i];
                   const sheetUsername = row[0]; // La prima colonna (Username)
                   const sheetPassword = row[1]; // La seconda colonna (Password)
+                  const approved = row[5]; // La colonna "approved" (6° colonna, indice 5)
 
-                  // Controlla se corrispondono
-                  if (sheetUsername === username && sheetPassword === password) {
+                  // Controlla se username, password e approved = YES
+                  if (sheetUsername === username && sheetPassword === password && approved === "YES") {
                     found = true;
                     break;
                   }
@@ -218,7 +219,7 @@
                   window.location.href = "index.html";
                 } else {
                   // Mostra il messaggio di errore
-                  errorMessage.textContent = "Invalid username or password.";
+                  errorMessage.textContent = "Invalid username, password, or not approved.";
                 }
               },
               error: function(error) {

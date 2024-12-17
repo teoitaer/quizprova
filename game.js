@@ -174,9 +174,18 @@ function generatePDF() {
             doc.setFontSize(8);
 
             // Aggiungi l'intestazione con il punteggio
-            doc.setFontSize(12);  // Aumenta temporaneamente la dimensione del font per l'intestazione
-            doc.text(`Quiz Results - Score: ${score}`, margin, yOffset);  // Inserisce il punteggio
-            yOffset += 20;  // Aggiunge spazio dopo l'intestazione
+           // doc.setFontSize(12);  // Aumenta temporaneamente la dimensione del font per l'intestazione
+            // doc.text(`Quiz Results - Score: ${score}`, margin, yOffset);  // Inserisce il punteggio
+            // yOffset += 20;  // Aggiunge spazio dopo l'intestazione
+
+
+ // Aggiungi un'intestazione con il punteggio
+            doc.setFontSize(12);
+            doc.text(`Quiz Results - Final Score: ${finalScore}%`, margin, yOffset);
+            yOffset += 10; // Spazio sotto l'intestazione
+
+
+            
 
             // Ripristina la dimensione del carattere più piccola
             doc.setFontSize(8);

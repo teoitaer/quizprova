@@ -58,21 +58,24 @@
       <button onclick="login()">Login</button>
     </div>
 
-    <script>
-      function login() {
-        const username = document.getElementById("username").value;
-        const password = document.getElementById("password").value;
-        const errorMessage = document.getElementById("error-message");
+   <script>
+  function login() {
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+    const errorMessage = document.getElementById("error-message");
 
-        // Semplice validazione
-        if (username === "admin" && password === "password123") {
-          // Redirigi alla pagina index.html
-          window.location.href = "index.html";
-        } else {
-          // Mostra un messaggio di errore
-          errorMessage.textContent = "Invalid username or password.";
-        }
-      }
-    </script>
+    // Semplice validazione (puoi aggiungere un controllo più robusto in base alle tue esigenze)
+    if (username === "admin" && password === "password123") {
+      // Salva il login in localStorage
+      localStorage.setItem("isLoggedIn", "true");
+      
+      // Redirigi alla pagina index.html
+      window.location.href = "index.html";
+    } else {
+      // Mostra un messaggio di errore
+      errorMessage.textContent = "Invalid username or password.";
+    }
+  }
+</script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 :root {
   background-color: #d1e0b8;
-  font-size: 62.5%;
+  font-size: 75%; /* Aumento la dimensione base del font */
 }
 
 * {
@@ -19,24 +19,24 @@ h4 {
 }
 
 h1 {
-  font-size: 5.4rem;
+  font-size: 6.4rem; /* Aumento il font dell'header */
   color: #819c49;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem; /* Aumento il margine inferiore */
 }
 
 h1 > span {
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   font-weight: 500;
 }
 
 h2 {
-  font-size: 2.4rem;
-  margin-bottom: 4rem;
+  font-size: 3.4rem; /* Aumento il font dell'header 2 */
+  margin-bottom: 5rem;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 2.8rem;
+  font-size: 4rem; /* Aumento il font dell'header 3 */
   font-weight: 500;
 }
 
@@ -49,10 +49,10 @@ h3 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 50rem;
-  padding: 2rem;
-  background-color: #f4f7ee; /* Puoi cambiare il colore di sfondo se necessario */
-  border-radius: 8px; /* Aggiungi un bordo arrotondato per migliorare l'aspetto */
+  max-width: 60rem; /* Aumento la larghezza massima */
+  padding: 3rem; /* Maggiore padding */
+  background-color: #f4f7ee;
+  border-radius: 12px; /* Aumento il bordo arrotondato */
 }
 
 .flex-column {
@@ -79,14 +79,12 @@ h3 {
 
 /* BUTTONS */
 .btn {
-  font-size: 1.8rem;
-  padding: 1rem 0;
-  width: 20rem;
+  font-size: 2.4rem; /* Aumento la dimensione del font del bottone */
+  padding: 1.6rem 0;
+  width: 25rem; /* Aumento la larghezza del bottone */
   text-align: center;
-/*  border: 0.1rem solid #56a5eb;*/
-/*border: 0.2rem solid rgb(129, 156, 73, 0.25);*/
-border: 0.1rem solid #819c49;
-  margin-bottom: 1rem;
+  border: 0.1rem solid #819c49;
+  margin-bottom: 1.5rem; /* Aumento il margine inferiore */
   text-decoration: none;
   color: #819c49;
   background-color: #f4f7ee;
@@ -94,8 +92,7 @@ border: 0.1rem solid #819c49;
 
 .btn:hover {
   cursor: pointer;
-/*  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);*/
-box-shadow: 0 0.4rem 1.4rem 0 rgba(14, 17, 8, 0.5);
+  box-shadow: 0 0.6rem 1.8rem 0 rgba(14, 17, 8, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
@@ -106,33 +103,27 @@ box-shadow: 0 0.4rem 1.4rem 0 rgba(14, 17, 8, 0.5);
   transform: none;
 }
 
-
-/*COMBOBOX*/
+/* COMBOBOX */
 .option {
-  font-size: 1.8rem;
-  padding: 1rem 0;
-  width: 17rem;
+  font-size: 2.4rem; /* Aumento la dimensione del font */
+  padding: 1.5rem 0;
+  width: 20rem; /* Aumento la larghezza del combobox */
   text-align: center;
-/*  border: 0.1rem solid black;*/
-border: 0.1rem solid rgb(176, 198, 134, 0.25);
-  margin-bottom: 1rem;
+  border: 0.1rem solid rgb(176, 198, 134, 0.25);
+  margin-bottom: 1.5rem;
   text-decoration: none;
-/*  color: #56a5eb;*/
-color: #819c49;
-/*  background-color: lightgrey;*/
-background-color: #f4f7ee;
+  color: #819c49;
+  background-color: #f4f7ee;
 }
 
-/*labels*/
-
+/* Labels */
 .lab {
-  font-size: 1.5rem;
-  margin-top: 1.3rem;
-  margin-bottom: 0.8rem;
+  font-size: 2rem; /* Aumento la dimensione delle etichette */
+  margin-top: 1.8rem; /* Aumento il margine superiore */
+  margin-bottom: 1rem; /* Aumento il margine inferiore */
   font-weight: 300;
   color: #475729;
 }
-
 
 /* FORMS */
 form {
@@ -143,13 +134,12 @@ form {
 }
 
 input {
-  margin-bottom: 1rem;
-  width: 20rem;
-  padding: 1.5rem;
-  font-size: 1.8rem;
+  margin-bottom: 1.5rem; /* Aumento il margine inferiore */
+  width: 25rem; /* Aumento la larghezza dell'input */
+  padding: 2rem; /* Aumento il padding */
+  font-size: 2.4rem; /* Aumento la dimensione del font */
   border: none;
-/*  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);*/
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(14, 17, 8, 0.5);
+  box-shadow: 0 0.6rem 1.8rem 0 rgba(14, 17, 8, 0.5); /* Aumento l'ombra */
 }
 
 input::placeholder {
@@ -165,3 +155,5 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+
+

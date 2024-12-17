@@ -94,48 +94,38 @@
     </div>
 
     <script>
-      function register() {
-        const name = document.getElementById("name").value;
-        const surname = document.getElementById("surname").value;
-        const email = document.getElementById("email").value;
-        const username = document.getElementById("username").value;
-        const password = document.getElementById("password").value;
+     function registerUser() {
+  const url = 'https://script.google.com/macros/s/AKfycbzb6hOM4AvJJOqB87Wkj1oAcU722DQ98hT5JShzUfrCrqXjZkgcxO11oWEAo8edW8zFkQ/exec';
 
-        if (name && surname && email && username && password) {
-          // Costruisce i dati da inviare
-          const data = {
-            name: name,
-            surname: surname,
-            email: email,
-            username: username,
-            password: password
-          };
+  const formData = new FormData();
+  formData.append('username', document.getElementById('username').value);
+  formData.append('password', document.getElementById('password').value);
+  formData.append('email', document.getElementById('email').value);
+  formData.append('name', document.getElementById('name').value);
+  formData.append('surname', document.getElementById('surname').value);
 
-          // Invia i dati tramite una richiesta POST al Web App di Google Apps Script
-          fetch("https://script.google.com/macros/s/AKfycbwhHAXvkzYbgCuQ0xz3Gat-BUBEVJG4cSsVbL0o_nLlLOlmYyJGnyacF99QbkWUzUvESw/exec", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(data),
-          })
-            .then((response) => response.json())
-            .then((data) => {
-              if (data.status === "success") {
-                alert("Account creato con successo! Verrai reindirizzato alla pagina di login.");
-                window.location.href = "login.html";
-              } else {
-                alert("Si è verificato un errore durante la registrazione.");
-              }
-            })
-            .catch((error) => {
-              console.error("Errore:", error);
-              alert("Si è verificato un errore durante la registrazione.");
-            });
-        } else {
-          alert("Compila tutti i campi.");
-        }
-      }
+  fetch(url, {
+    method: 'POST',
+    body: formData,
+    headers: {
+      'Accept': 'application/json',
+    },
+  })
+  .then(response => response.json())
+  .then(data => {
+    if (data.status === 'success') {
+      alert('Registration successful!');
+      window.location.href = 'login.html'; // Redirigi alla pagina di login dopo la registrazione
+    } else {
+      alert('Error: ' + data.error);
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    alert('There was an error with the registration.');
+  });
+}
+
     </script>
   </body>
 </html>

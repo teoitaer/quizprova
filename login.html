@@ -7,14 +7,12 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <div class="container flex-center flex-column">
+    <div class="container">
       <h2>Login</h2>
-      <form class="form">
-        <div id="error-message" class="error"></div>
-        <input type="text" id="username" placeholder="Username" required />
-        <input type="password" id="password" placeholder="Password" required />
-        <button class="btn" type="button" onclick="login()">Login</button>
-      </form>
+      <div id="error-message" class="error"></div>
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
     </div>
     
 

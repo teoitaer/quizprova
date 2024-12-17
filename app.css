@@ -80,32 +80,33 @@ h3 {
 }
 
 /* BUTTONS */
-/* BUTTONS */
-button {
-  font-size: 3rem !important; /* Forza la dimensione del font del bottone */
-  padding: 2rem 0 !important; /* Forza il padding per rendere il bottone più alto */
-  width: 30rem !important; /* Forza la larghezza del bottone */
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
   text-align: center;
-  border: 0.1rem solid #819c49 !important;
-  margin-bottom: 2rem !important; /* Aumenta il margine inferiore */
+/*  border: 0.1rem solid #56a5eb;*/
+/*border: 0.2rem solid rgb(129, 156, 73, 0.25);*/
+border: 0.1rem solid #819c49;
+  margin-bottom: 1rem;
   text-decoration: none;
   color: #819c49;
   background-color: #f4f7ee;
 }
 
-button:hover {
+.btn:hover {
   cursor: pointer;
-  box-shadow: 0 0.6rem 1.8rem 0 rgba(14, 17, 8, 0.5);
+/*  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);*/
+box-shadow: 0 0.4rem 1.4rem 0 rgba(14, 17, 8, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
 
-button[disabled]:hover {
+.btn[disabled]:hover {
   cursor: not-allowed;
   box-shadow: none;
   transform: none;
 }
-
 
 
 /*COMBOBOX*/

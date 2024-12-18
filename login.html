@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login - PA PPL QUIZ</title>
     <style>
-      /* Stili esistenti */
       :root {
         font-size: 75%; /* Aumento la base per tutto */
       }
@@ -47,7 +46,7 @@
 
       /* UTILITIES */
       html, body {
-        height: 100%;
+       height: 100%;
         margin: 0;
         padding: 0;
         display: flex;
@@ -57,7 +56,7 @@
       }
 
       .container {
-        display: flex;
+       display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -66,17 +65,18 @@
         padding: 3rem;
         background-color: #ffffff; /* Sfondo bianco per il contenitore */
         border-radius: 12px;
-        box-shadow: 0 0.5rem 1.5rem rgba(14, 17, 8, 0.1); /* Aggiungi una leggera ombra */
+        box-shadow: 0 0.5rem 1.5rem rgba(14, 17, 8, 0.1); /* Aggiungi una leggera ombra *
       }
 
-      .form-container {
+        .form-container {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
       }
 
-      /* Form Labels */
+
+ /* Form Labels */
       label {
         font-size: 2rem;
         font-weight: 500;
@@ -126,6 +126,81 @@
         font-size: 1.6rem;
         margin-bottom: 1rem;
       }
+        
+      .flex-column {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .flex-center {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .justify-center {
+        justify-content: center;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+     
+
+      /* COMBOBOX */
+      .option {
+        font-size: 2.4rem; /* Aumento font size */
+        padding: 1.5rem 0;
+        width: 18rem; /* Più largo */
+        text-align: center;
+        border: 0.2rem solid rgb(176, 198, 134, 0.25);
+        margin-bottom: 1.5rem;
+        text-decoration: none;
+        color: #819c49;
+        background-color: #f4f7ee;
+      }
+
+      /* LABELS */
+      .lab {
+        font-size: 2rem; /* Aumento dimensione font */
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+        color: #475729;
+      }
+
+      /* FORMS */
+      form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      input {
+        margin-bottom: 1.5rem;
+        width: 100%;
+        max-width: 24rem;
+        padding: 1rem;
+        font-size: 1.8rem;
+        border: 1px solid #819c49;
+        border-radius: 8px;
+        box-shadow: 0 0.5rem 1.5rem 0 rgba(14, 17, 8, 0.2);
+      }
+
+      input::placeholder {
+        color: #aaa;
+      }
+
+      .error {
+        color: red;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+      }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
   </head>
@@ -137,18 +212,24 @@
       <input type="text" id="username" placeholder="Username" />
       <input type="password" id="password" placeholder="Password" />
       <button class="btn" onclick="login()">Login</button>
-      <!-- Pulsante di registrazione -->
+        <!-- Pulsante di registrazione -->
       <button class="btn" onclick="goToRegister()">Create an Account</button>
     </div>
 
-    <script>
+  
+    
+    
+    
+    
+    
+ <script>
       function login() {
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
         const errorMessage = document.getElementById("error-message");
 
         // URL del Google Sheet in formato CSV
-        const sheetUrl = 'https://docs.google.com/spreadsheets/d/1S4jCJnMbVwrRn7DxWWUsmdVGD6vJwaUm6OCFdHkwJrw/edit?gid=0#gid=0';
+        const sheetUrl = 'https://docs.google.com/spreadsheets/d/1S4jCJnMbVwrRn7DxWWUsmdVGD6vJwaUm6OCFdHkwJrw/gviz/tq?tqx=out:csv&gid=0';
 
         // Ottieni i dati dal Google Sheets
         fetch(sheetUrl)
@@ -164,25 +245,18 @@
                   const row = results.data[i];
                   const sheetUsername = row[0]; // La prima colonna (Username)
                   const sheetPassword = row[1]; // La seconda colonna (Password)
-                  const name = row[2]; // La terza colonna (Name) --> Aggiunto
-                  const surname = row[3]; // La quarta colonna (Surname) --> Aggiunto
                   const approved = row[5]; // La colonna "approved" (6° colonna, indice 5)
 
                   // Controlla se username, password e approved = YES
                   if (sheetUsername === username && sheetPassword === password && approved === "YES") {
                     found = true;
-
-                    // **Memorizza il nome e il cognome in localStorage**
-                    localStorage.setItem("name", name); // Aggiunto
-                    localStorage.setItem("surname", surname); // Aggiunto
-                    localStorage.setItem("isLoggedIn", "true");
-
                     break;
                   }
                 }
 
                 if (found) {
-                  // Redirigi alla pagina principale
+                  // Salva il login e redirigi
+                  localStorage.setItem("isLoggedIn", "true");
                   window.location.href = "index.html";
                 } else {
                   // Mostra il messaggio di errore
@@ -201,7 +275,7 @@
           });
       }
 
-      // Funzione per andare alla pagina di registrazione
+    // Funzione per andare alla pagina di registrazione
       function goToRegister() {
         window.location.href = "register.html";
       }

@@ -170,9 +170,11 @@ function generatePDF() {
             const maxY = 280;
             let yOffset = 20;
 
-            // Recupera nome e cognome dal localStorage
+            // Recupera nome, cognome e materia dal localStorage
             const name = localStorage.getItem("name") || "Nome non fornito";
             const surname = localStorage.getItem("surname") || "Cognome non fornito";
+              const subject = localStorage.getItem("secValue") || "Materia non selezionata";
+
 
 
             // Imposta il carattere più piccolo
@@ -187,14 +189,14 @@ function generatePDF() {
  // Prendere il punteggio dal testo dello score
             const finalScore = scoreText.innerText;  // Ora viene definito correttamente
 
-            // Aggiungi un'intestazione con il punteggio
+             // Aggiungi un'intestazione con la materia, il punteggio, nome e cognome
             doc.setFontSize(12);
-            doc.text(`Quiz Results - Final Score: ${finalScore}%`, margin, yOffset);
-            yOffset += 10; // Spazio sotto l'intestazione
-
-  // Aggiungi nome e cognome all'intestazione
-            doc.text(`Candidate: ${name} ${surname}`, margin, yOffset);
-            yOffset += 20; // Spazio sotto l'intestazione del nome e cognome
+            doc.text(`Subject: ${subject}`, margin, yOffset); // Materia selezionata
+            yOffset += 10;
+            doc.text(`Quiz Results - Final Score: ${finalScore}%`, margin, yOffset); // Punteggio finale
+            yOffset += 10;
+            doc.text(`Candidate: ${name} ${surname}`, margin, yOffset); // Nome e cognome del candidato
+            yOffset += 20;
             
 
             // Ripristina la dimensione del carattere più piccola

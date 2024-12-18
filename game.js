@@ -171,8 +171,8 @@ function generatePDF() {
             let yOffset = 20;
 
             // Recupera nome e cognome dal localStorage
-            const nome = localStorage.getItem("nome") || "Nome non fornito";
-            const cognome = localStorage.getItem("cognome") || "Cognome non fornito";
+            const name = localStorage.getItem("nome") || "Nome non fornito";
+            const surname = localStorage.getItem("cognome") || "Cognome non fornito";
 
 
             // Imposta il carattere più piccolo

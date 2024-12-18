@@ -246,10 +246,23 @@
                   const sheetUsername = row[0]; // La prima colonna (Username)
                   const sheetPassword = row[1]; // La seconda colonna (Password)
                   const approved = row[5]; // La colonna "approved" (6° colonna, indice 5)
+// nuove variabili
+                  const name = row[2]; // La terza colonna (Name)
+const surname = row[3]; // La quarta colonna (Surname)
 
                   // Controlla se username, password e approved = YES
                   if (sheetUsername === username && sheetPassword === password && approved === "YES") {
                     found = true;
+
+
+
+// **Memorizza il nome e il cognome in localStorage**
+                    localStorage.setItem("name", name); // Aggiunto
+                    localStorage.setItem("surname", surname); // Aggiunto
+                    localStorage.setItem("isLoggedIn", "true");
+
+
+                    
                     break;
                   }
                 }

@@ -170,6 +170,11 @@ function generatePDF() {
             const maxY = 280;
             let yOffset = 20;
 
+            // Recupera nome e cognome dal localStorage
+            const nome = localStorage.getItem("nome") || "Nome non fornito";
+            const cognome = localStorage.getItem("cognome") || "Cognome non fornito";
+
+
             // Imposta il carattere più piccolo
             doc.setFontSize(8);
 
@@ -187,7 +192,9 @@ function generatePDF() {
             doc.text(`Quiz Results - Final Score: ${finalScore}%`, margin, yOffset);
             yOffset += 10; // Spazio sotto l'intestazione
 
-
+  // Aggiungi nome e cognome all'intestazione
+            doc.text(`Candidate: ${nome} ${cognome}`, margin, yOffset);
+            yOffset += 20; // Spazio sotto l'intestazione del nome e cognome
             
 
             // Ripristina la dimensione del carattere più piccola

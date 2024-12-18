@@ -127,7 +127,7 @@
         margin-bottom: 1rem;
       }
     </style>
-    <script src="https://script.google.com/macros/s/AKfycbxAmuudp_O7bLNUP-FOZVAaIqINRoI5ltWftJGxK-TZEGPxb1dS8fHkJJUdPGdRDAihpg/exec"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
   </head>
   
   <body>
@@ -148,7 +148,7 @@
         const errorMessage = document.getElementById("error-message");
 
         // URL del Google Sheet in formato CSV
-        const sheetUrl = 'https://docs.google.com/spreadsheets/d/1S4jCJnMbVwrRn7DxWWUsmdVGD6vJwaUm6OCFdHkwJrw/gviz/tq?tqx=out:csv&gid=0';
+        const sheetUrl = 'https://script.google.com/macros/s/AKfycbxAmuudp_O7bLNUP-FOZVAaIqINRoI5ltWftJGxK-TZEGPxb1dS8fHkJJUdPGdRDAihpg/exec';
 
         // Ottieni i dati dal Google Sheets
         fetch(sheetUrl)

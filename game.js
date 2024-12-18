@@ -175,6 +175,9 @@ function generatePDF() {
             const surname = localStorage.getItem("surname") || "Cognome non fornito";
               const subject = localStorage.getItem("secValue") || "Materia non selezionata";
 
+  // Ottieni la data corrente
+            const today = new Date();
+            const formattedDate = today.toLocaleDateString(); // Formato predefinito, può essere personalizzato
 
 
             // Imposta il carattere più piccolo
@@ -189,15 +192,15 @@ function generatePDF() {
  // Prendere il punteggio dal testo dello score
             const finalScore = scoreText.innerText;  // Ora viene definito correttamente
 
-             // Aggiungi un'intestazione con la materia, il punteggio, nome e cognome
+            // Aggiungi un'intestazione con la materia, il punteggio, nome, cognome e data
             doc.setFontSize(12);
             doc.text(`Subject: ${subject}`, margin, yOffset); // Materia selezionata
             yOffset += 10;
             doc.text(`Quiz Results - Final Score: ${finalScore}%`, margin, yOffset); // Punteggio finale
             yOffset += 10;
-            doc.text(`Candidate: ${name} ${surname}`, margin, yOffset); // Nome e cognome del candidato
+            doc.text(`Candidate: ${name} ${surname} - Date: ${formattedDate}`, margin, yOffset); // Nome, cognome e data
             yOffset += 20;
-            
+
 
             // Ripristina la dimensione del carattere più piccola
             doc.setFontSize(8);

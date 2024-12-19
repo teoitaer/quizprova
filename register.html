@@ -151,8 +151,11 @@
         // Ottieni i dati dal modulo
         const formData = new FormData(event.target);
 
-        fetch("https://script.google.com/macros/s/AKfycbxo5TLqd8IZv_CL2p8LDt6ABr1kvc5V7ybS-j_8JLJBAYLY2UwXghHlDlmTB_zAKKhNng/exec", {
-          method: "POST",
+     //   fetch("https://script.google.com/macros/s/AKfycbxo5TLqd8IZv_CL2p8LDt6ABr1kvc5V7ybS-j_8JLJBAYLY2UwXghHlDlmTB_zAKKhNng/exec", {
+       
+         fetch("https://script.google.com/macros/s/AKfycbzuH5V1yNEUxjsakQK2EVVQLxd1LaCFcyRJtwSUAeIlJLBDWFvRZdmXWhmmwtwlWBEbEA/exec", {
+        
+        method: "POST",
           body: formData
         })
         .then(response => response.json())

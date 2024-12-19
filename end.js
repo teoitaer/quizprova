@@ -7,7 +7,9 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 const MAX_HIGH_SCORES = 10;
 
-finalScore.innerText = mostRecentScore;
+// Aggiungi il simbolo di percentuale al punteggio finale
+finalScore.innerText = mostRecentScore + '%';
+//finalScore.innerText = mostRecentScore;
 
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;

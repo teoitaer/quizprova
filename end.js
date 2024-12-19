@@ -3,6 +3,16 @@ const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 
+// Recupera nome, cognome e materia dal localStorage
+const selectedSubject = localStorage.getItem('secValue');
+//const studentFirstName = localStorage.getItem('studentFirstName');
+//const studentLastName = localStorage.getItem('studentLastName');
+
+// Mostra il nome completo dello studente e la materia selezionata
+document.getElementById('studentName').innerText = studentFirstName + ' ' + studentLastName;
+document.getElementById('subjectName').innerText = selectedSubject;
+
+
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 const MAX_HIGH_SCORES = 10;

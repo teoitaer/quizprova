@@ -10,7 +10,7 @@ const selectedSubject = localStorage.getItem('secValue');
 
 // Mostra il nome completo dello studente e la materia selezionata
 document.getElementById('studentName').innerText = studentFirstName + ' ' + studentLastName;
-document.getElementById('subjectName').innerText = selectedSubject;
+document.getElementById('secValue').innerText = selectedSubject;
 
 
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];

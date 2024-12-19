@@ -206,22 +206,18 @@
       }
     </style>
 
-
-
-    
-<!--     <link rel="stylesheet" href="app.css" />   nuovo -->
   </head>
   <body>
     <div class="container">
       <div id="home" class="flex-center flex-column">
-        <h1>PA PPL QUIZ TEST</h1>
+        <h1>PA PPL QUIZ TEST!</h1>
 
 
 
 
 <label class="lab" for="subject-selection">SELECT SUBJECT:</label>
 <select class="option" name="optionlist" id="subjectsel" onChange="combo(this, 'subject')">
-<!--    <option value="">--Select subject--</option>     -->
+
 <option>AL ENG</option>
 <option>AGK ENG</option>
 <option>POF ENG</option>
@@ -236,7 +232,7 @@
 
 <label class="lab" for="number-selection">SELECT NUMBER OF QUESTIONS:</label>
 <select class="option" name="optionlist" id="numsel" onChange="combo(this, 'number')">
-<!--  <option value="">--Select Number--</option>   -->
+
 <option>10</option>
 <option>20</option>
 <option>30</option>
@@ -276,14 +272,10 @@ if (val) mySel.value=val; // set the dropdown
 mySel.onchange();  
 </script>
 
-
-
-<!-- nuovo -->
+        
 </select>
-
 <label class="lab" for="random selection">RANDOM QUESTIONS:</label>
 <select class="option" name="optionlist" id="random" onChange="combo(this, 'random')">
-<!--  <option value="">--RANDOM QUESTIONS--</option>    -->
 <option>YES</option>
 <option>NO</option>
 </select>
@@ -301,10 +293,6 @@ if (val3) mySel3.value=val3; // set the dropdown
 // trigger the change in case there are other events on the select 
 mySel3.onchange();  
 </script>
-
-<!-- fine nuovo -->
-
-
 
         <a class="btn" href="game.html">Start Quiz</a>
         <a class="btn" href="highscores.html">Last Scores</a>

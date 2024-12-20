@@ -6,8 +6,15 @@ const mostRecentScore = localStorage.getItem('mostRecentScore');
 // Recupera il valore della materia selezionata dal localStorage
 const selectedSubject = localStorage.getItem('secValue');
 
+// Recupera il nome e il cognome dell'allievo dal localStorage
+const studentName = localStorage.getItem('name');
+const studentSurname = localStorage.getItem('surname');
+
 // Mostra il nome della materia sulla pagina
 document.getElementById('subjectName').innerText = selectedSubject;
+
+// Mostra il nome completo dell'allievo sulla pagina
+document.getElementById('studentName').innerText = `Student: ${studentName} ${studentSurname}`;
 
 
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];

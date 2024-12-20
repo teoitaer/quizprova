@@ -3,10 +3,8 @@ const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 
-// Recupera il valore della materia selezionata dal localStorage
+// Recupera il valore della materia selezionata nome e il cognome dell'allievo dal localStorage
 const selectedSubject = localStorage.getItem('secValue');
-
-// Recupera il nome e il cognome dell'allievo dal localStorage
 const studentName = localStorage.getItem('name');
 const studentSurname = localStorage.getItem('surname');
 
@@ -14,7 +12,7 @@ const studentSurname = localStorage.getItem('surname');
 document.getElementById('subjectName').innerText = selectedSubject;
 
 // Mostra il nome completo dell'allievo sulla pagina
-document.getElementById('studentName').innerText = `Student: ${studentName} ${studentSurname}`;
+document.getElementById('studentName').innerText = `${studentName} ${studentSurname}`;
 
 
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];

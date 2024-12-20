@@ -8,20 +8,17 @@ const selectedSubject = localStorage.getItem('secValue');
 const studentName = localStorage.getItem('name');
 const studentSurname = localStorage.getItem('surname');
 
-// Mostra il nome della materia sulla pagina
+// Mostra il nome della materia e il nome dell'allievo sulla pagina
 document.getElementById('subjectName').innerText = selectedSubject;
-
-// Mostra il nome completo dell'allievo sulla pagina
 document.getElementById('studentName').innerText = `${studentName} ${studentSurname}`;
 
 
-const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+//const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-const MAX_HIGH_SCORES = 10;
+//const MAX_HIGH_SCORES = 10;
 
 // Aggiungi il simbolo di percentuale al punteggio finale
 finalScore.innerText = mostRecentScore + '%';
-//finalScore.innerText = mostRecentScore;
 
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
